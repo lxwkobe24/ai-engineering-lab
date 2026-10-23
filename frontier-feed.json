@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T06:43:31+00:00",
+  "generatedAt": "2026-10-23T06:47:51+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -15,7 +15,7 @@
       "count": 45
     },
     "opensource": {
-      "status": "stale",
+      "status": "snapshot",
       "count": 15
     }
   },
@@ -318,12 +318,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI trims valuation target after pitching higher price",
-      "desc": "技术社区讨论 · 5 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 6 赞同 · 1 条评论。",
       "date": 1792710944000,
       "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
       "metric": "",
       "titleZh": "OpenAI 在提高价格后下调估值目标",
-      "descZh": "技术社区讨论 · 5 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 6 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -331,12 +331,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "desc": "技术社区讨论 · 273 赞同 · 148 条评论。",
+      "desc": "技术社区讨论 · 275 赞同 · 151 条评论。",
       "date": 1792709683000,
       "url": "https://www.anthropic.com/research/formal-verification",
       "metric": "",
       "titleZh": "法学硕士正在使正式软件验证在更大范围内变得可行",
-      "descZh": "技术社区讨论 · 273 赞同 · 148 条评论。",
+      "descZh": "技术社区讨论 · 275 赞同 · 151 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -435,12 +435,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "desc": "技术社区讨论 · 76 赞同 · 79 条评论。",
+      "desc": "技术社区讨论 · 78 赞同 · 81 条评论。",
       "date": 1792703035000,
       "url": "https://news.ycombinator.com/item?id=50200997",
       "metric": "",
       "titleZh": "问 HN：如果模型这么好，OpenAI 为什么不直接创办 100 家公司呢？",
-      "descZh": "技术社区讨论 · 76 赞同 · 79 条评论。",
+      "descZh": "技术社区讨论 · 78 赞同 · 81 条评论。",
       "translationStatus": "ready"
     },
     {
