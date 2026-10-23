@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T04:43:18+00:00",
+  "generatedAt": "2026-10-23T06:38:56+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
-      "count": 70
+      "count": 69
     },
     "models": {
       "status": "snapshot",
@@ -21,11 +21,31 @@
   },
   "items": [
     {
+      "id": "hn-50205201",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "First PCB manufacturer with MCP support",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792737444000,
+      "url": "https://community.aisler.net/t/integrate-aisler-with-your-ai-agent-mcp-server/5989",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204971",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: An automated news site Distribute Software",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792735280000,
+      "url": "https://distribute.software/",
+      "metric": ""
+    },
+    {
       "id": "hn-50204541",
       "type": "news",
       "source": "Hacker News",
       "title": "Breakthrough vaccine for the deadliest skin cancer cut risk by almost half",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "date": 1792729959000,
       "url": "https://www.washingtonpost.com/health/2026/10/22/breakthrough-vaccine-deadliest-skin-cancer-cut-risk-by-almost-half/",
       "metric": ""
@@ -35,7 +55,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Lima- Linux VMs with automatic file sharing and port forwarding(similar to WSL2)",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792728072000,
       "url": "https://lima-vm.io/",
       "metric": ""
@@ -65,7 +85,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "The Customer Is the Builder: how AI coding agents change software economics",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792725864000,
       "url": "https://arxiv.org/abs/2610.30307",
       "metric": ""
@@ -75,7 +95,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "date": 1792725272000,
       "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
       "metric": ""
@@ -145,7 +165,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Home Prices Are Starting to Fall in Some Pockets of the U.S.",
-      "desc": "技术社区讨论 · 14 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 17 赞同 · 3 条评论。",
       "date": 1792717565000,
       "url": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
       "metric": ""
@@ -195,7 +215,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
-      "desc": "技术社区讨论 · 9 赞同 · 3 条评论。",
+      "desc": "技术社区讨论 · 10 赞同 · 3 条评论。",
       "date": 1792714454000,
       "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
       "metric": ""
@@ -215,7 +235,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "UN says breaching 1.5C warming limit is 'imminent and unavoidable'",
-      "desc": "技术社区讨论 · 30 赞同 · 20 条评论。",
+      "desc": "技术社区讨论 · 36 赞同 · 22 条评论。",
       "date": 1792712270000,
       "url": "https://www.cnn.com/2026/10/21/climate/cop31-un-climate-report-emissions-gap",
       "metric": ""
@@ -235,7 +255,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "desc": "技术社区讨论 · 209 赞同 · 117 条评论。",
+      "desc": "技术社区讨论 · 266 赞同 · 147 条评论。",
       "date": 1792709683000,
       "url": "https://www.anthropic.com/research/formal-verification",
       "metric": ""
@@ -315,7 +335,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "desc": "技术社区讨论 · 64 赞同 · 67 条评论。",
+      "desc": "技术社区讨论 · 76 赞同 · 76 条评论。",
       "date": 1792703035000,
       "url": "https://news.ycombinator.com/item?id=50200997",
       "metric": ""
@@ -421,16 +441,6 @@
       "metric": ""
     },
     {
-      "id": "hn-50199581",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Mnemolith – AI coding memory that goes stale when your code changes",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792695590000,
-      "url": "https://github.com/anishchugh05/mnemolith",
-      "metric": ""
-    },
-    {
       "id": "hn-50199148",
       "type": "news",
       "source": "Hacker News",
@@ -438,16 +448,6 @@
       "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792693318000,
       "url": "https://github.com/matrixswarm/hornet",
-      "metric": ""
-    },
-    {
-      "id": "hn-50199036",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Tell HN: Claude resets expire at an arbitrary time during deadline day",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792692743000,
-      "url": "https://news.ycombinator.com/item?id=50199036",
       "metric": ""
     },
     {
@@ -628,6 +628,16 @@
       "desc": "技术社区讨论 · 8 赞同 · 0 条评论。",
       "date": 1792630242000,
       "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31623",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+      "desc": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliabi",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31623",
       "metric": ""
     },
     {
@@ -851,26 +861,6 @@
       "metric": ""
     },
     {
-      "id": "paper-2610.29722",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Retrieval Augmented Generation Compositionality",
-      "desc": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their is",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.29722",
-      "metric": ""
-    },
-    {
-      "id": "paper-2610.29560",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-      "desc": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interact",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.29560",
-      "metric": ""
-    },
-    {
       "id": "hn-50171054",
       "type": "news",
       "source": "Hacker News",
@@ -915,19 +905,9 @@
       "type": "news",
       "source": "Hacker News",
       "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "desc": "技术社区讨论 · 2333 赞同 · 888 条评论。",
+      "desc": "技术社区讨论 · 2333 赞同 · 889 条评论。",
       "date": 1792487334000,
       "url": "https://github.com/deepseek-ai/DeepInfer",
-      "metric": ""
-    },
-    {
-      "id": "hn-50162634",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: A practical framework for evaluating agentic AI systems",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792482313000,
-      "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
       "metric": ""
     },
     {
@@ -938,6 +918,16 @@
       "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
       "date": 1792460265000,
       "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.27712",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
+      "desc": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its practicality, recent budget-controllable FF3DGS methods allow the number of Gaussians to be adjusted at",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.27712",
       "metric": ""
     },
     {
@@ -1021,26 +1011,6 @@
       "metric": ""
     },
     {
-      "id": "paper-2610.28027",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
-      "desc": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users. We measure how often this happens. We trace seven open-source frameworks for RL post-training through their commit histories and link th",
-      "date": 1792440000000,
-      "url": "https://huggingface.co/papers/2610.28027",
-      "metric": ""
-    },
-    {
-      "id": "paper-2610.28827",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-      "desc": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed decision model emits structured decisio",
-      "date": 1792440000000,
-      "url": "https://huggingface.co/papers/2610.28827",
-      "metric": ""
-    },
-    {
       "id": "gh-huggingface/transformers-417566864",
       "type": "opensource",
       "source": "GitHub Releases",
@@ -1079,6 +1049,26 @@
       "date": 1792378519000,
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
       "metric": "v0.5.22"
+    },
+    {
+      "id": "paper-2610.19705",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
+      "desc": "LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits adaptation to different q",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.19705",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.26233",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
+      "desc": "Tool-using voice agents often leave users waiting after speech ends, even when actionable information arrives earlier in the request. Speculative approaches begin work during speech, but chunk-bounded or interrupt-on-update generation can truncate a tool call before its arguments are complete. This couples computation ",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.26233",
+      "metric": ""
     },
     {
       "id": "paper-2610.26252",
@@ -1131,16 +1121,6 @@
       "metric": ""
     },
     {
-      "id": "paper-2610.26659",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-      "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce Spat",
-      "date": 1792353600000,
-      "url": "https://huggingface.co/papers/2610.26659",
-      "metric": ""
-    },
-    {
       "id": "gh-vllm-project/vllm-416285351",
       "type": "opensource",
       "source": "GitHub Releases",
@@ -1149,6 +1129,16 @@
       "date": 1792306248000,
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
       "metric": "v0.32.0"
+    },
+    {
+      "id": "paper-2610.25376",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
+      "desc": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation. To transfer these capabilities from pretrained EFMs to ",
+      "date": 1792267200000,
+      "url": "https://huggingface.co/papers/2610.25376",
+      "metric": ""
     },
     {
       "id": "paper-2610.25100",
@@ -1189,6 +1179,16 @@
       "date": 1792188541000,
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
       "metric": "sdk==0.4.8"
+    },
+    {
+      "id": "paper-2610.24738",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+      "desc": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction",
+      "date": 1792180800000,
+      "url": "https://huggingface.co/papers/2610.24738",
+      "metric": ""
     },
     {
       "id": "paper-2610.24771",
@@ -1258,16 +1258,6 @@
       "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
       "date": 1791521401000,
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-      "metric": ""
-    },
-    {
-      "id": "paper-2610.13177",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
-      "desc": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures. While recent feedforward approaches leverage generalizable 3D Gaussian Splatting (3DGS) for scene generation, they typically assign one or multiple Gaussia",
-      "date": 1791489600000,
-      "url": "https://huggingface.co/papers/2610.13177",
       "metric": ""
     },
     {
