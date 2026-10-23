@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T04:40:12+00:00",
+  "generatedAt": "2026-10-23T04:42:53+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -145,7 +145,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Home Prices Are Starting to Fall in Some Pockets of the U.S.",
-      "desc": "技术社区讨论 · 12 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 14 赞同 · 2 条评论。",
       "date": 1792717565000,
       "url": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
       "metric": ""
@@ -235,7 +235,7 @@
       "type": "news",
       "source": "Hacker News",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "desc": "技术社区讨论 · 207 赞同 · 115 条评论。",
+      "desc": "技术社区讨论 · 209 赞同 · 117 条评论。",
       "date": 1792709683000,
       "url": "https://www.anthropic.com/research/formal-verification",
       "metric": ""
@@ -771,6 +771,16 @@
       "metric": ""
     },
     {
+      "id": "paper-2610.30320",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Self-Distilling Future Video Representations for World Action Models",
+      "desc": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extra",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.30320",
+      "metric": ""
+    },
+    {
       "id": "paper-2610.29677",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1258,16 +1268,6 @@
       "desc": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures. While recent feedforward approaches leverage generalizable 3D Gaussian Splatting (3DGS) for scene generation, they typically assign one or multiple Gaussia",
       "date": 1791489600000,
       "url": "https://huggingface.co/papers/2610.13177",
-      "metric": ""
-    },
-    {
-      "id": "paper-2610.11942",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
-      "desc": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition r",
-      "date": 1791403200000,
-      "url": "https://huggingface.co/papers/2610.11942",
       "metric": ""
     },
     {
