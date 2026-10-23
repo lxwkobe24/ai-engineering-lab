@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:56:54+00:00",
+  "generatedAt": "2026-10-23T23:07:44+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
-      "count": 70
+      "count": 71
     },
     "models": {
       "status": "snapshot",
@@ -21,36 +21,179 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "complete",
+    "status": "partial",
     "ready": 180,
-    "pending": 0,
+    "pending": 1,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50216187",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Codex quota tracker Garmin watch face",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792794187000,
+      "url": "https://github.com/greg76/token-quota/tree/main",
+      "metric": "",
+      "titleZh": "显示 HN：Codex 配额跟踪器 Garmin 表盘",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216167",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "12 Angry Agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792794063000,
+      "url": "https://news.ycombinator.com/item?id=50216167",
+      "metric": "",
+      "titleZh": "12 愤怒的特工",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216138",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Narrative Deck – AI Agent skill for creating interactive web stories",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792793919000,
+      "url": "https://aakatheeri.github.io/narrative-deck/",
+      "metric": "",
+      "titleZh": "Narrative Deck – 用于创建交互式网络故事的 AI 代理技能",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215934",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Why have coding agents not brought easter-egg utopia?",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1792792707000,
+      "url": "https://rallywith.ai/blog/bring-back-easter-eggs/",
+      "metric": "",
+      "titleZh": "为什么编码特工没有带来复活节彩蛋乌托邦？",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215690",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "TechTwitter – For when you want to keep up, but don't like Elon",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792791242000,
+      "url": "https://techtwitter-lime.vercel.app/",
+      "metric": "",
+      "titleZh": "TechTwitter – 当您想跟上但不喜欢 Elon 时",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215552",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Distributed, deterministically secure agentic swarm runtime. Enclawed",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792790613000,
+      "url": "https://zenodo.org/records/23602948",
+      "metric": "",
+      "titleZh": "Show HN：分布式、确定性安全的代理群运行时。被爪子缠住",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215349",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "UC Berkeley math community left at crossroads in wake of Navier-Stokes proof",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792789710000,
+      "url": "https://www.dailycal.org/news/campus/academics/uc-berkeley-math-community-left-at-crossroads-in-wake-of-openai-navier-stokes-proof/article_2253ca6c-39c0-45be-947a-f0fd5b48bd6c.html",
+      "metric": "",
+      "titleZh": "纳维-斯托克斯证明之后，加州大学伯克利分校数学界处于十字路口",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215039",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The one time we break the LLM cache on purpose",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792788118000,
+      "url": "https://www.induction.ai/blog/benchmark-cache-isolation",
+      "metric": "",
+      "titleZh": "有一次我们故意破坏 LLM 缓存",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50215024",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Firecrawl vs. Tavily vs. Exa vs. DeepSeek",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792788025000,
+      "url": "https://techstackups.com/comparisons/firecrawl-vs-tavily-vs-exa-vs-deepseek/",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50214606",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AI Coding Agent Security Benchmark",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792786129000,
+      "url": "https://www.endorlabs.com/research/ai-code-security-benchmark",
+      "metric": "",
+      "titleZh": "AI 编码代理安全基准",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50214578",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Dánwò – Open-source E2E testing with emulators and fault injection",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792785992000,
+      "url": "https://github.com/carbonmeai/danwo",
+      "metric": "",
+      "titleZh": "Show HN：Dánwò – 使用模拟器和故障注入进行开源 E2E 测试",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
     {
       "id": "hn-50214466",
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Sillage, a small contemplative game drawn after Haeckel's plates",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792785358000,
       "url": "https://sillage.denzen.online",
       "metric": "",
       "titleZh": "Show HN：Sillage，一个根据海克尔的盘子绘制的小型沉思游戏",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
       "id": "hn-50214416",
       "type": "news",
       "source": "Hacker News",
-      "title": "OpenAI: Securing our frontier model training environment",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "title": "Securing our frontier model training environment",
+      "desc": "技术社区讨论 · 52 赞同 · 61 条评论。",
       "date": 1792785056000,
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "metric": "",
-      "titleZh": "OpenAI：保护我们的前沿模型训练环境",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "titleZh": "确保我们的前沿模型训练环境的安全",
+      "descZh": "技术社区讨论 · 52 赞同 · 61 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -80,29 +223,16 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50214055",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Volodymyr Zelenskyy: The speed limits on Starlink and Starshield are still there",
-      "desc": "技术社区讨论 · 12 赞同 · 3 条评论。",
-      "date": 1792783300000,
-      "url": "https://twitter.com/ZelenskyyUa/status/2113677048354947180",
-      "metric": "",
-      "titleZh": "弗拉基米尔·泽连斯基：星链和星盾的速度限制仍然存在",
-      "descZh": "技术社区讨论 · 12 赞同 · 3 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50213960",
       "type": "news",
       "source": "Hacker News",
       "title": "LLM-d v1.0.0 is out",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792782797000,
       "url": "https://github.com/llm-d/llm-d/releases/tag/v1.0.0",
       "metric": "",
       "titleZh": "LLM-d v1.0.0 已发布",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -136,25 +266,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Private LLM Inference with Homomorphic Encryption [pdf]",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792777665000,
       "url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
       "metric": "",
       "titleZh": "使用同态加密的私人 LLM 推理 [pdf]",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50212712",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792777373000,
-      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-      "metric": "",
-      "titleZh": "Warhound 筹集了 2 亿美元来设计战犬并为它们配备 Anduril 装备",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -535,58 +652,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50209477",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "The lifelong orgasm gap: exploring age's impact on orgasm rates",
-      "desc": "技术社区讨论 · 21 赞同 · 6 条评论。",
-      "date": 1792765050000,
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11217024/",
-      "metric": "",
-      "titleZh": "终生性高潮差距：探索年龄对性高潮率的影响",
-      "descZh": "技术社区讨论 · 21 赞同 · 6 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50209455",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Vericto – Check AI agents' SQL before Postgres or MySQL runs it",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1792764986000,
-      "url": "https://github.com/vericto/vericto-proxy",
-      "metric": "",
-      "titleZh": "Show HN: Vericto – 在 Postgres 或 MySQL 运行之前检查 AI 代理的 SQL",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50209385",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "New previously unseen videos from Tiananmen Square",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1792764792000,
-      "url": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html",
-      "metric": "",
-      "titleZh": "来自天安门广场的新的前所未见的视频",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50209346",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Popular AI Agent Skills Every Developer Should Know",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1792764663000,
-      "url": "https://jsdev.space/30-agent-skills/",
-      "metric": "",
-      "titleZh": "每个开发人员都应该了解的流行 AI 代理技能",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50209300",
       "type": "news",
       "source": "Hacker News",
@@ -597,32 +662,6 @@
       "metric": "",
       "titleZh": "Show HN: Loudwalk – 在散步时大声回顾你的 Anki 套牌",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50208974",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "I turned my spare computers into a network for AI coding agents",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792763452000,
-      "url": "https://www.sidefleet.xyz/",
-      "metric": "",
-      "titleZh": "我把闲置的电脑变成了人工智能编码代理的网络",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50208666",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: PlugVet, hygiene grades for AI agent plugins with the evidence shown",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792762083000,
-      "url": "https://plugvet.com/",
-      "metric": "",
-      "titleZh": "显示 HN：PlugVet，AI 代理插件的卫生等级并显示证据",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -756,19 +795,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50201089",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Paste an OpenAPI spec, get duplicate-charge replay tests",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792703422000,
-      "url": "https://idempotency-harness-checker.theartofservice.com/",
-      "metric": "",
-      "titleZh": "显示 HN：粘贴 OpenAPI 规范，进行重复充电重放测试",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50198605",
       "type": "news",
       "source": "Hacker News",
@@ -883,6 +909,19 @@
       "metric": "",
       "titleZh": "华为与DeepSeek的共生",
       "descZh": "技术社区讨论 · 8 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.31198",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show tha",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31198",
+      "metric": "",
+      "titleZh": "不同的任务，不同的时间步长：扩散语言模型的时间任务感知量化",
+      "descZh": "扩散语言模型 (DLM) 由于其迭代去噪过程而带来了独特的量化挑战。在这项工作中，我们揭示了量化灵敏度既依赖于任务又依赖于时间，不同的下游任务在去噪步骤中表现出不同的精度要求。我们进一步表明",
       "translationStatus": "ready"
     },
     {
@@ -1276,19 +1315,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50163472",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "China's DeepSeek deep-sixed at all US federal civilian agencies",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1792488684000,
-      "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
-      "metric": "",
-      "titleZh": "中国DeepSeek深入美国所有联邦民事机构",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "paper-2610.28950",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1328,32 +1354,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.27598",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
-      "desc": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in the",
-      "date": 1792440000000,
-      "url": "https://huggingface.co/papers/2610.27598",
-      "metric": "",
-      "titleZh": "Meta Expert：跨层专家共享，实现高效存储和检索的 MoE",
-      "descZh": "随着模型参数的扩大，稀疏激活的专家混合 (MoE) 方法对于模型扩展变得至关重要。然而，目前主流模型采用分层架构，不同层的专家虽然在拓扑上独立，但在结构上表现出很大的相似性和冗余性。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.28416",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-      "desc": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing cod",
-      "date": 1792440000000,
-      "url": "https://huggingface.co/papers/2610.28416",
-      "metric": "",
-      "titleZh": "Code2Video-Compass：跨 T2V、I2V 和 V2V 的通用基于代码的视频生成的综合基准",
-      "descZh": "与直接视频生成相比，基于代码的视频生成提供细粒度控制、有针对性的编辑和组件重用。这种方法需要多模式大语言模型 (MLLM) 将视觉和时间要求转换为生成完整视频的可执行程序。然而，现有的鳕鱼",
-      "translationStatus": "ready"
-    },
-    {
       "id": "gh-huggingface/transformers-417566864",
       "type": "opensource",
       "source": "GitHub Releases",
@@ -1390,6 +1390,19 @@
       "metric": "v0.5.22",
       "titleZh": "版本发布：sglang · v0.5.22",
       "descZh": "sgl-project/sglang · 正式 Release，点击查看版本说明。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.25835",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "desc": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find",
+      "date": 1792374478000,
+      "url": "https://huggingface.co/papers/2610.25835",
+      "metric": "",
+      "titleZh": "扩散语言模型改变任务和语言的速度",
+      "descZh": "扩散语言模型可以在一次前向传递中写入多个标记，并且它们在生成过程中决定要花费多少次传递。因此，具有相同令牌长度的两个输出的成本可能相差很大。为了了解这种成本变化的根本因素，我们分析了 10 个任务的两个扩散模型。我们发现",
       "translationStatus": "ready"
     },
     {
