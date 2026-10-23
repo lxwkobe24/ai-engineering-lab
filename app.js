@@ -43,8 +43,8 @@
     const n = data.notes.find(n => n.featured) || data.notes[0];
     $('#featured-note').innerHTML = `<div class="featured-note-text"><span class="feature-label">✦ EDITOR'S PICK · FEATURED NOTE</span>
       <h3>${esc(n.title)}</h3><p>${esc(n.desc)}</p>
-      <div class="featured-meta"><span>${esc(n.category)}</span><span>·</span><span>${n.read} 分钟阅读</span><span>·</span><span>示例内容</span><button class="feat-link" data-note="${esc(n.slug)}">开始阅读 ↗</button></div></div>
-      <div class="feature-art" aria-hidden="true"><i class="feature-dot one"></i><i class="feature-dot two"></i><i class="feature-dot three"></i><div class="feature-art-center">${svg('network')}<strong>Agent Harness</strong><span>FROM IDEA TO SYSTEM</span></div></div>`;
+      <div class="featured-meta"><span>${esc(n.category)}</span><span>·</span><span>${n.read} 分钟阅读</span><span>·</span><span>${esc(n.status || '示例内容')}</span><button class="feat-link" data-note="${esc(n.slug)}">开始阅读 ↗</button></div></div>
+      <div class="feature-art" aria-hidden="true"><i class="feature-dot one"></i><i class="feature-dot two"></i><i class="feature-dot three"></i><div class="feature-art-center">${svg(n.category==='工程'?'server':'network')}<strong>${n.category==='工程'?'AI Gateway':'Agent Harness'}</strong><span>FROM PRACTICE TO INSIGHT</span></div></div>`;
     $('#featured-note').querySelector('.feature-art').addEventListener('click', () => openContent('note', n.slug));
   }
 
@@ -127,9 +127,9 @@
     const isNote = kind === 'note';
     const obj = (isNote ? data.notes : data.projects).find(x => (isNote ? x.slug : x.id) === slug);
     if (!obj) return;
-    $('#reader-content').innerHTML = `<div class="reader-meta"><span class="reader-tag">${isNote ? esc(obj.category) : esc(obj.type)}</span><span>${isNote ? esc(obj.status || '示例笔记 · 可自行编辑') : '研究项目 · 展示性摘要'}</span><span>${isNote ? `${obj.read} 分钟阅读` : esc(obj.status)}</span></div>
+    $('#reader-content').innerHTML = `<div class="reader-meta"><span class="reader-tag">${isNote ? esc(obj.category) : esc(obj.type)}</span><span>${isNote ? esc(obj.status || '示例笔记 · 可自行编辑') : '实践经历 · 概括性介绍'}</span><span>${isNote ? `${obj.read} 分钟阅读` : esc(obj.status)}</span></div>
       <h1 id="reader-title">${esc(obj.title)}</h1><p class="reader-lead">${esc(obj.desc)}</p><div class="reader-divider"></div><div class="reader-article">${renderMarkdown(isNote ? obj.body : obj.detail)}</div>
-      <div class="reader-note">${isNote ? obj.status === '学习指南' ? '学习指南 · 根据公开资料整理。文中的练习为建议任务；公式示例不代表个人实测结果。请结合所用版本核对原始资料。' : '专题示例稿 · 用于组织学习问题，尚未标注为个人实测文章。' : '研究方向摘要 · 用于说明目标与方案，尚未标注为已交付项目。'}</div>`;
+      <div class="reader-note">${isNote ? obj.status === '学习指南' ? '学习指南 · 文中的练习为建议任务；公式示例不代表个人实测结果。请结合所用版本核对原始资料。' : '专题示例稿 · 用于组织学习问题，尚未标注为个人实测文章。' : '实践概述 · 仅整理通用技术范围与复习问题，未公开内部实现、客户资料、生产指标或项目源代码。建议实验与过往成果分别标注。'}</div>`;
     enhanceReader(isNote ? obj : null);
     $('#reader-brand').setAttribute('href', '#top');
     const wasHidden = $('#content-modal').hidden;
@@ -189,6 +189,7 @@
   }
 
   function bindEvents() {
+    bindReview();
     $('#resource-filters').addEventListener('click', e => {
       const button = e.target.closest('[data-resource-type]');
       if (button) renderResources(button.dataset.resourceType);
@@ -328,11 +329,82 @@
     }
   }
 
+  const REVIEW_KEY = 'lab-review-v1';
+  let reviewMemory = null;
+  let reviewTopic = '全部';
+  const scoreLabels = ['待复习','能讲清','有验证'];
+  function readReview() {
+    if(reviewMemory) return reviewMemory;
+    let saved;
+    try {saved=JSON.parse(getStored(REVIEW_KEY,'{}'));} catch {saved={};}
+    if(!saved || typeof saved!=='object' || Array.isArray(saved)) saved={};
+    const tasks={}, scores={};
+    for(const week of data.review.weeks) for(const [id] of week.tasks) tasks[id]=saved.tasks?.[id]===true;
+    for(const q of data.review.questions) scores[q.id]=[0,1,2].includes(saved.scores?.[q.id])?saved.scores[q.id]:0;
+    return {tasks,scores};
+  }
+  function updateReviewSummary() {
+    const saved=readReview();
+    const done=Object.values(saved.tasks).filter(Boolean).length;
+    const ready=Object.values(saved.scores).filter(n=>n>0).length;
+    $('#review-progress').textContent=`清单完成 ${done} / ${Object.keys(saved.tasks).length} · 自评能讲清 ${ready} / ${data.review.questions.length}`;
+  }
+  function renderReviewQuestions() {
+    const saved=readReview();
+    const topics=['全部',...new Set(data.review.questions.map(q=>q.topic))];
+    $('#review-topic-filters').innerHTML=topics.map(topic=>`<button type="button" class="filter-button${reviewTopic===topic?' active':''}" data-review-topic="${esc(topic)}" aria-pressed="${reviewTopic===topic}">${esc(topic)}</button>`).join('');
+    $('#review-question-list').innerHTML=data.review.questions.filter(q=>reviewTopic==='全部'||q.topic===reviewTopic).map(q=>`<details class="review-question" data-question="${q.id}"><summary><span>${esc(q.topic)}</span><strong>${esc(q.q)}</strong><small class="review-score-label">自评：${scoreLabels[saved.scores[q.id]]}</small></summary><div class="review-answer"><p><strong>回答线索</strong> ${esc(q.hint)}</p><button class="text-link text-button" type="button" data-note="${q.note}">回到相关指南 ↗</button><div class="review-score-buttons" role="group" aria-label="${esc(q.q)}的自评">${scoreLabels.map((label,score)=>`<button class="filter-button${saved.scores[q.id]===score?' active':''}" type="button" data-review-score="${score}" data-question-id="${q.id}" aria-pressed="${saved.scores[q.id]===score}">${label}</button>`).join('')}</div></div></details>`).join('');
+  }
+  function renderReview() {
+    const saved=readReview();
+    $('#review-plan').innerHTML=data.review.weeks.map(week=>`<article class="review-week"><div class="section-kicker">REVIEW / ${week.id.toUpperCase()}</div><h3>${esc(week.title)}</h3><p>${esc(week.goal)}</p><div>${week.tasks.map(([id,title,note])=>`<div class="review-task"><label><input type="checkbox" data-review-task="${id}" ${saved.tasks[id]?'checked':''}/><span>${esc(title)}</span></label><button class="text-button text-link" type="button" data-note="${note}" aria-label="阅读${esc(title)}的相关指南">导读 ↗</button></div>`).join('')}</div></article>`).join('');
+    renderReviewQuestions();updateReviewSummary();
+  }
+  function bindReview() {
+    document.querySelectorAll('[data-review-view]').forEach(button=>button.addEventListener('click',()=>{
+      const plan=button.dataset.reviewView==='plan';
+      $('#review-plan').hidden=!plan;$('#review-questions').hidden=plan;
+      document.querySelectorAll('[data-review-view]').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
+    }));
+    $('#review-plan').addEventListener('change',e=>{
+      const input=e.target.closest('[data-review-task]');if(!input)return;
+      const saved=readReview();if(!(input.dataset.reviewTask in saved.tasks))return;
+      saved.tasks[input.dataset.reviewTask]=input.checked;
+      reviewMemory=saved;
+      if(!setStored(REVIEW_KEY,JSON.stringify(saved)))toast('无法保存到本机，请导出复习记录备份');
+      updateReviewSummary();
+    });
+    $('#review-topic-filters').addEventListener('click',e=>{
+      const button=e.target.closest('[data-review-topic]');if(!button)return;
+      reviewTopic=button.dataset.reviewTopic;renderReviewQuestions();
+      [...$('#review-topic-filters').querySelectorAll('button')].find(b=>b.dataset.reviewTopic===reviewTopic)?.focus();
+    });
+    $('#review-question-list').addEventListener('click',e=>{
+      const button=e.target.closest('[data-review-score]');if(!button)return;
+      const saved=readReview(),id=button.dataset.questionId,score=Number(button.dataset.reviewScore);
+      if(!(id in saved.scores)||![0,1,2].includes(score))return;
+      saved.scores[id]=score;
+      reviewMemory=saved;
+      if(!setStored(REVIEW_KEY,JSON.stringify(saved)))toast('无法保存到本机，请导出复习记录备份');
+      const card=button.closest('details');
+      card.querySelector('.review-score-label').textContent=`自评：${scoreLabels[readReview().scores[id]]}`;
+      card.querySelectorAll('[data-review-score]').forEach(b=>{const active=Number(b.dataset.reviewScore)===readReview().scores[id];b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
+      updateReviewSummary();
+    });
+    $('#review-export').addEventListener('click',()=>{
+      const saved=readReview(),lines=['# AI Engineering Lab · 复习记录','','> 本浏览器的清单与自评记录；自评不等于能力认证。',''];
+      for(const week of data.review.weeks){lines.push(`## ${week.title}`,'');for(const [id,title] of week.tasks)lines.push(`- [${saved.tasks[id]?'x':' '}] ${title}`);lines.push('');}
+      lines.push('## 技术自测','');for(const q of data.review.questions)lines.push(`- ${q.q} — ${scoreLabels[saved.scores[q.id]]}`);
+      const url=URL.createObjectURL(new Blob([lines.join('\n')+'\n'],{type:'text/markdown;charset=utf-8'}));
+      const link=document.createElement('a');link.href=url;link.download='ai-lab-review.md';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    });
+  }
+
   function init(){
     const theme = getStored('lab-theme', window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     document.documentElement.dataset.theme = theme === 'dark' ? 'dark' : 'light';
     $('#current-year').textContent=new Date().getFullYear();
-    renderKnowledge();renderFeatured();renderNotes();renderProjects();renderRoadmap();renderLearning();bindEvents();handleInitialHash();
+    renderKnowledge();renderFeatured();renderNotes();renderProjects();renderRoadmap();renderLearning();renderReview();bindEvents();handleInitialHash();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
 })();
