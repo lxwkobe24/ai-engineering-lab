@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T06:47:51+00:00",
+  "generatedAt": "2026-10-23T07:18:25+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -21,23 +21,36 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "complete",
-    "ready": 179,
-    "pending": 0,
+    "status": "partial",
+    "ready": 176,
+    "pending": 3,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50205320",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Swurf – Swipe through the real web",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792738492000,
+      "url": "https://swurf.org/",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
     {
       "id": "hn-50205201",
       "type": "news",
       "source": "Hacker News",
       "title": "First PCB manufacturer with MCP support",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792737444000,
       "url": "https://community.aisler.net/t/integrate-aisler-with-your-ai-agent-mcp-server/5989",
       "metric": "",
       "titleZh": "首家支持 MCP 的 PCB 制造商",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -214,12 +227,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Home Prices Are Starting to Fall in Some Pockets of the U.S.",
-      "desc": "技术社区讨论 · 18 赞同 · 3 条评论。",
+      "desc": "技术社区讨论 · 19 赞同 · 3 条评论。",
       "date": 1792717565000,
       "url": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
       "metric": "",
       "titleZh": "美国部分地区的房价开始下跌",
-      "descZh": "技术社区讨论 · 18 赞同 · 3 条评论。",
+      "descZh": "技术社区讨论 · 19 赞同 · 3 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -253,12 +266,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Bloom – an org-mode compatible Android app for managing notes and tasks",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792714951000,
       "url": "https://github.com/rrajath/bloom",
       "metric": "",
       "titleZh": "Show HN：Bloom – 一款与组织模式兼容的 Android 应用程序，用于管理笔记和任务",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -331,12 +344,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "desc": "技术社区讨论 · 275 赞同 · 151 条评论。",
+      "desc": "技术社区讨论 · 295 赞同 · 164 条评论。",
       "date": 1792709683000,
       "url": "https://www.anthropic.com/research/formal-verification",
       "metric": "",
       "titleZh": "法学硕士正在使正式软件验证在更大范围内变得可行",
-      "descZh": "技术社区讨论 · 275 赞同 · 151 条评论。",
+      "descZh": "技术社区讨论 · 295 赞同 · 164 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -344,12 +357,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
-      "desc": "技术社区讨论 · 7 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 7 赞同 · 2 条评论。",
       "date": 1792707520000,
       "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
       "metric": "",
       "titleZh": "显示 HN：CATT 0.2.1：在 CI 中针对类似 Muse/Instinct 的测试代理/服务",
-      "descZh": "技术社区讨论 · 7 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 7 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -383,12 +396,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "US banks are blocking third-party AI agents access to customer accounts",
-      "desc": "技术社区讨论 · 9 赞同 · 4 条评论。",
+      "desc": "技术社区讨论 · 10 赞同 · 4 条评论。",
       "date": 1792705426000,
       "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
       "metric": "",
       "titleZh": "美国银行正在阻止第三方人工智能代理访问客户账户",
-      "descZh": "技术社区讨论 · 9 赞同 · 4 条评论。",
+      "descZh": "技术社区讨论 · 10 赞同 · 4 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -396,12 +409,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Hannah Fry: How OpenAI has caused an existential crisis in mathematics",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
       "date": 1792704298000,
       "url": "https://www.newscientist.com/article/2593249-hannah-fry-how-openai-has-caused-an-existential-crisis-in-mathematics/",
       "metric": "",
       "titleZh": "Hannah Fry：OpenAI 如何引发数学领域的生存危机",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -435,12 +448,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "desc": "技术社区讨论 · 78 赞同 · 81 条评论。",
+      "desc": "技术社区讨论 · 89 赞同 · 85 条评论。",
       "date": 1792703035000,
       "url": "https://news.ycombinator.com/item?id=50200997",
       "metric": "",
       "titleZh": "问 HN：如果模型这么好，OpenAI 为什么不直接创办 100 家公司呢？",
-      "descZh": "技术社区讨论 · 78 赞同 · 81 条评论。",
+      "descZh": "技术社区讨论 · 89 赞同 · 85 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -574,19 +587,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50199148",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Hornet: Building Durable Workflows for Local LLMs",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1792693318000,
-      "url": "https://github.com/matrixswarm/hornet",
-      "metric": "",
-      "titleZh": "Hornet：为当地法学硕士构建持久的工作流程",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50198769",
       "type": "news",
       "source": "Hacker News",
@@ -617,12 +617,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: I made new search engine with DeepSeek's search API",
-      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 3 条评论。",
       "date": 1792690645000,
       "url": "https://seekpeek.pages.dev",
       "metric": "",
       "titleZh": "Show HN：我用 DeepSeek 的搜索 API 制作了新的搜索引擎",
-      "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 3 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -819,6 +819,19 @@
       "titleZh": "华为与DeepSeek的共生",
       "descZh": "技术社区讨论 · 8 赞同 · 0 条评论。",
       "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.31576",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+      "desc": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a de",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31576",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "",
+      "translationStatus": "pending"
     },
     {
       "id": "paper-2610.31623",
@@ -1104,19 +1117,6 @@
       "metric": "",
       "titleZh": "Quant-Arena：量化交易研究 LLM 代理的基准测试",
       "descZh": "定量研究是一个迭代循环：研究人员提出市场假设，将其作为可执行信号实施，在历史数据上进行测试，并决定保留什么。现有的基准对公式、代码或个人交易决策进行评分，而大型语言模型 (LLM) 是否可以完成任务仍悬而未决。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.29934",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-      "desc": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.29934",
-      "metric": "",
-      "titleZh": "ToM2Vec：用于多代理协调的连续心理理论令牌",
-      "descZh": "形成准确的心理理论 (ToM) 是多智能体协作成功的关键，并且需要在不确定性下进行推理以捕获多个可能的合作伙伴状态。这在大型语言模型 (LLM) 代理本机的文本表示空间中很难做到，因为大型语言模型代理更容易描述单个合作伙伴状态",
       "translationStatus": "ready"
     },
     {
@@ -1549,19 +1549,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.24771",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Design Anything, Design at Scale",
-      "desc": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons. Designers follow briefs specifying goals, constraints, and deliverables, with later work building on earlier decisions. Recent work reuses design experience across tasks, yet alignme",
-      "date": 1792180800000,
-      "url": "https://huggingface.co/papers/2610.24771",
-      "metric": "",
-      "titleZh": "设计任何东西，大规模设计",
-      "descZh": "随着多模式资源转化为媒体输出，代理人工智能有望在长期内与设计意图保持一致。设计师遵循指定目标、约束和可交付成果的简报，随后的工作建立在早期决策的基础上。最近的工作跨任务重用设计经验，但对齐我",
-      "translationStatus": "ready"
-    },
-    {
       "id": "gh-huggingface/transformers-414950292",
       "type": "opensource",
       "source": "GitHub Releases",
@@ -1612,6 +1599,19 @@
       "titleZh": "探索合成数据的实证隐私景观",
       "descZh": "针对敏感数据训练语言模型的方法的不同之处在于如何平衡能力增益与泄露私人信息的风险。在本文中，我们提出了数据级别和培训级别干预措施的受控比较，以引导合成医疗记录的能力与隐私权衡",
       "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.23987",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+      "desc": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to",
+      "date": 1791921600000,
+      "url": "https://huggingface.co/papers/2610.23987",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "",
+      "translationStatus": "pending"
     },
     {
       "id": "paper-2610.20459",
