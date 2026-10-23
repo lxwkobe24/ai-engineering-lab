@@ -1,0 +1,1824 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T04:40:12+00:00",
+  "sources": {
+    "news": {
+      "status": "snapshot",
+      "count": 70
+    },
+    "models": {
+      "status": "snapshot",
+      "count": 50
+    },
+    "papers": {
+      "status": "snapshot",
+      "count": 45
+    },
+    "opensource": {
+      "status": "snapshot",
+      "count": 15
+    }
+  },
+  "items": [
+    {
+      "id": "hn-50204541",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Breakthrough vaccine for the deadliest skin cancer cut risk by almost half",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792729959000,
+      "url": "https://www.washingtonpost.com/health/2026/10/22/breakthrough-vaccine-deadliest-skin-cancer-cut-risk-by-almost-half/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204384",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Lima- Linux VMs with automatic file sharing and port forwarding(similar to WSL2)",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792728072000,
+      "url": "https://lima-vm.io/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204300",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AI Agents Kinda Broke the Internet",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792727335000,
+      "url": "https://jacobg.co/ai-agents/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204153",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: What LLM fits my GPU? – VRAM measured on real hardware for 117 models",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792725946000,
+      "url": "https://quantized.uk/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204149",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The Customer Is the Builder: how AI coding agents change software economics",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792725864000,
+      "url": "https://arxiv.org/abs/2610.30307",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204095",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792725272000,
+      "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
+      "metric": ""
+    },
+    {
+      "id": "hn-50204084",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Agent Compute Engine deep dive",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792725177000,
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203988",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: TenseMem – deterministic memory for AI agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792724236000,
+      "url": "https://github.com/tensemem/tensemem",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203753",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Building Laminar: Ramp's Managed Agents Platform",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792721941000,
+      "url": "https://builders.ramp.com/post/building-laminar",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203547",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Humming: Fast, Flexible Kernels for Quantized Inference",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792719744000,
+      "url": "https://vllm.ai/blog/2026-10-21-humming",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203538",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792719690000,
+      "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203268",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "1Password launches a way for AI to log in for you without seeing your password",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792717729000,
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203248",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Home Prices Are Starting to Fall in Some Pockets of the U.S.",
+      "desc": "技术社区讨论 · 12 赞同 · 2 条评论。",
+      "date": 1792717565000,
+      "url": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
+      "metric": ""
+    },
+    {
+      "id": "hn-50203105",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Selling GPU Credits",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792716160000,
+      "url": "https://news.ycombinator.com/item?id=50203105",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202990",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Livestream GLM-5.3 playing Minecraft",
+      "desc": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "date": 1792715267000,
+      "url": "https://twitch.sailresearch.com/watch.html",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202957",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Bloom – an org-mode compatible Android app for managing notes and tasks",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792714951000,
+      "url": "https://github.com/rrajath/bloom",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202933",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "What FDE Means at OpenAI",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792714740000,
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202891",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "desc": "技术社区讨论 · 9 赞同 · 3 条评论。",
+      "date": 1792714454000,
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202831",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Scoop: Unvetted AI agents are accessing U.S. bank accounts",
+      "desc": "技术社区讨论 · 3 赞同 · 3 条评论。",
+      "date": 1792714010000,
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202609",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "UN says breaching 1.5C warming limit is 'imminent and unavoidable'",
+      "desc": "技术社区讨论 · 30 赞同 · 20 条评论。",
+      "date": 1792712270000,
+      "url": "https://www.cnn.com/2026/10/21/climate/cop31-un-climate-report-emissions-gap",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202402",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI trims valuation target after pitching higher price",
+      "desc": "技术社区讨论 · 5 赞同 · 1 条评论。",
+      "date": 1792710944000,
+      "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
+      "metric": ""
+    },
+    {
+      "id": "hn-50202217",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "desc": "技术社区讨论 · 207 赞同 · 115 条评论。",
+      "date": 1792709683000,
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201860",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+      "desc": "技术社区讨论 · 7 赞同 · 1 条评论。",
+      "date": 1792707520000,
+      "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201770",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The $300k Competition to Hijack AI Agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792706998000,
+      "url": "https://www.aiengineering.report/p/inside-the-300k-competition-to-hijack",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201717",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: CNET – Complex-valued neural networks from scratch in C++/CUDA",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792706720000,
+      "url": "https://github.com/crasmarum/CNet",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201469",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "US banks are blocking third-party AI agents access to customer accounts",
+      "desc": "技术社区讨论 · 9 赞同 · 4 条评论。",
+      "date": 1792705426000,
+      "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201261",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Hannah Fry: How OpenAI has caused an existential crisis in mathematics",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "date": 1792704298000,
+      "url": "https://www.newscientist.com/article/2593249-hannah-fry-how-openai-has-caused-an-existential-crisis-in-mathematics/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201231",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "1Password adds browser login feature for AI agents",
+      "desc": "技术社区讨论 · 1 赞同 · 3 条评论。",
+      "date": 1792704115000,
+      "url": "https://1password.com/personal-ai-agent-integrations",
+      "metric": ""
+    },
+    {
+      "id": "hn-50201089",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Paste an OpenAPI spec, get duplicate-charge replay tests",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792703422000,
+      "url": "https://idempotency-harness-checker.theartofservice.com/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200997",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "desc": "技术社区讨论 · 64 赞同 · 67 条评论。",
+      "date": 1792703035000,
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200810",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Murmur, open-source push-to-talk dictation for Mac (BYO OpenAI key)",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792702028000,
+      "url": "https://github.com/leochaddad/murmur",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200555",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "UPDATE: Anthropic's non-existant customer support",
+      "desc": "技术社区讨论 · 2 赞同 · 3 条评论。",
+      "date": 1792700870000,
+      "url": "https://news.ycombinator.com/item?id=50200555",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200480",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: OpenPanopticon, a Geographic OSINT Viewer",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792700503000,
+      "url": "https://github.com/hexadec-0/OpenPanopticon",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200396",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Secure your AI agents on Mac",
+      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "date": 1792700137000,
+      "url": "https://installplango.com/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50200161",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Google Analytics Alternative",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792698834000,
+      "url": "https://lomenanalytics.com/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199995",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Messaging for AI Agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792697893000,
+      "url": "https://trycrabmail.com/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199846",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Banks Are Struggling to Protect Customers from Their Own AI Agents",
+      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
+      "date": 1792697024000,
+      "url": "https://www.motherjones.com/politics/2026/10/banks-ai-axios-agents-rogue-financial-decisions-security/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199840",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "US Banks Blocking AI Agents in Accounts",
+      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
+      "date": 1792696943000,
+      "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199793",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Forked – Git for AI agent state",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792696632000,
+      "url": "https://github.com/clibequilibrium/forked",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199748",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Why AI Agents Need Shared Experience, Not Just Better Models",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792696401000,
+      "url": "https://project507.substack.com/p/the-five-senses-of-artificial-intelligence",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199581",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Mnemolith – AI coding memory that goes stale when your code changes",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792695590000,
+      "url": "https://github.com/anishchugh05/mnemolith",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199148",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Hornet: Building Durable Workflows for Local LLMs",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792693318000,
+      "url": "https://github.com/matrixswarm/hornet",
+      "metric": ""
+    },
+    {
+      "id": "hn-50199036",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Tell HN: Claude resets expire at an arbitrary time during deadline day",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792692743000,
+      "url": "https://news.ycombinator.com/item?id=50199036",
+      "metric": ""
+    },
+    {
+      "id": "hn-50198769",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Podium, presentation rehearsal with coaching",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792691419000,
+      "url": "https://news.ycombinator.com/item?id=50198769",
+      "metric": ""
+    },
+    {
+      "id": "hn-50198605",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek v4.1 Flash 1017 Scores on ARC-AGI-1/2",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792690803000,
+      "url": "https://arcprize.org/results/deepseek-v4-1-flash-1017",
+      "metric": ""
+    },
+    {
+      "id": "hn-50198572",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: I made new search engine with DeepSeek's search API",
+      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "date": 1792690645000,
+      "url": "https://seekpeek.pages.dev",
+      "metric": ""
+    },
+    {
+      "id": "hn-50198323",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Vim for OpenAPI/MCP Inspection",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792689643000,
+      "url": "https://hookfish.dev",
+      "metric": ""
+    },
+    {
+      "id": "hn-50197685",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Ternlux – Free, local-first, bring-your-own-key AI pipeline builder",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792686838000,
+      "url": "https://www.ternlux.com/online-demo/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50197535",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Open AI vs. frontier models: the hidden cost of your data (2026)",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792686165000,
+      "url": "https://lucasaguiar.xyz/posts/modelos-ia-abertos-vs-fronteira-dados-2026/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50197171",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek Raised Another 15B",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792684639000,
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-raises-15-billion-challenge-leading-us-labs-bloomberg-news-reports-2026-10-22/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50196629",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI Private Intelligence: what it promises, and what you can verify today",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792682423000,
+      "url": "https://www.privatemode.ai/blog/openai-private-intelligence",
+      "metric": ""
+    },
+    {
+      "id": "hn-50195990",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ads in ChatGPT Free and Go Plans",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792679721000,
+      "url": "https://news.ycombinator.com/item?id=50195990",
+      "metric": ""
+    },
+    {
+      "id": "hn-50195956",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek just raised $15 billion to take on OpenAI and Anthropic",
+      "desc": "技术社区讨论 · 8 赞同 · 0 条评论。",
+      "date": 1792679549000,
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+      "metric": ""
+    },
+    {
+      "id": "hn-50195822",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Zilla – Use the OpenAI SDK to Call Claude and Gemini",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792679025000,
+      "url": "https://github.com/aklivity/zilla-demos/blob/main/llm.gateway/README.md",
+      "metric": ""
+    },
+    {
+      "id": "hn-50195228",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Caudra – An open-source terminal coding agent in one native binary",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792676638000,
+      "url": "https://github.com/caudra/caudra",
+      "metric": ""
+    },
+    {
+      "id": "hn-50194932",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI says its AI agents disabled their own safety monitors",
+      "desc": "技术社区讨论 · 1 赞同 · 3 条评论。",
+      "date": 1792675180000,
+      "url": "https://techxplore.com/news/2026-10-openai-ai-agents-disabled-safety.html",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31574",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Rethinking Sequence Compression with Test-time Regression",
+      "desc": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a",
+      "date": 1792674878000,
+      "url": "https://huggingface.co/papers/2610.31574",
+      "metric": ""
+    },
+    {
+      "id": "hn-50192356",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "A framework for evaluating agentic AI systems",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792654371000,
+      "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30926",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "desc": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not autom",
+      "date": 1792644228000,
+      "url": "https://huggingface.co/papers/2610.30926",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30882",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+      "desc": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a model inherits from its training data. We trace the word through open models' training histories, r",
+      "date": 1792641787000,
+      "url": "https://huggingface.co/papers/2610.30882",
+      "metric": ""
+    },
+    {
+      "id": "hn-50189696",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The Huawei-DeepSeek Symbiosis",
+      "desc": "技术社区讨论 · 8 赞同 · 0 条评论。",
+      "date": 1792630242000,
+      "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31466",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+      "desc": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality visuals with characters, mot",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31466",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30866",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+      "desc": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to recognize subtle artifacts or ",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.30866",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31305",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+      "desc": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between recons",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31305",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31494",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+      "desc": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging ",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31494",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30755",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+      "desc": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw histo",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.30755",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31474",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+      "desc": "Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their co",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31474",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31158",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+      "desc": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, an",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31158",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31062",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+      "desc": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher ac",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31062",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.31668",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "desc": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
+      "date": 1792612800000,
+      "url": "https://huggingface.co/papers/2610.31668",
+      "metric": ""
+    },
+    {
+      "id": "hn-50179680",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AI Testing vs. Software Testing",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792585222000,
+      "url": "https://deepsense.ai/blog/ai-testing-vs-software-testing-how-to-build-reliable-production-ai-systems/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50176351",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%",
+      "desc": "技术社区讨论 · 25 赞同 · 27 条评论。",
+      "date": 1792559835000,
+      "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
+      "metric": ""
+    },
+    {
+      "id": "hn-50176129",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
+      "desc": "技术社区讨论 · 15 赞同 · 4 条评论。",
+      "date": 1792557438000,
+      "url": "https://github.com/xamrayev/nexus-cli",
+      "metric": ""
+    },
+    {
+      "id": "hn-50175874",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek Unveils Open-Source Tool to Help Cut AI Operating Costs",
+      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
+      "date": 1792554630000,
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/deepseek-unveils-open-source-tool-to-help-cut-ai-operating-costs",
+      "metric": ""
+    },
+    {
+      "id": "hn-50172376",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "US bans DeepSeek from federal agencies, prompting angry response from China",
+      "desc": "技术社区讨论 · 6 赞同 · 2 条评论。",
+      "date": 1792528831000,
+      "url": "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.29677",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Toward Recursive Self-Improvement in Physical AI",
+      "desc": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from pa",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.29677",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30340",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+      "desc": "We introduce Foundation4D, a unified feed-forward model for geometry estimation, 3D detection, semantic occupancy, and Gaussian reconstruction from multi-camera driving video. A shared backbone uses factorized spatiotemporal attention to efficiently combine observations across cameras and time. Our video inference pipe",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.30340",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.27851",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "desc": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.27851",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.29932",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "FrontierCS 2: A Benchmark for Computer Science R&D",
+      "desc": "Can LLM agents make contributions to frontier computer science R&D? We introduce FrontierCS 2, a benchmark of 48 open-ended tasks. We take a paper and the code its authors released and delete the paper's contribution. The deleted code becomes the human reference that sets the bar. Earlier open-ended benchmarks give eac",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.29932",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30066",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Looped Uniform Diffusion Language Models",
+      "desc": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised. During training, UDLMs must denoise from a context that may itself be unreliable, whereas masked diffusion language models (MDLMs) always cond",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.30066",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30113",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "desc": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete t",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.30113",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.29934",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "desc": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.29934",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.29722",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Retrieval Augmented Generation Compositionality",
+      "desc": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their is",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.29722",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.29560",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "desc": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interact",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.29560",
+      "metric": ""
+    },
+    {
+      "id": "hn-50171054",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Latest open artifacts (#25): DeepSeek v4.1 Flash 1017, American-made models",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792522874000,
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "metric": ""
+    },
+    {
+      "id": "hn-50169100",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The DHS DeepSeek removal order, transcribed: scope, exceptions, open weights",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792514628000,
+      "url": "https://theainewsreport.com/2026-10-20-dhs-deepseek-removal-order-explained.html",
+      "metric": ""
+    },
+    {
+      "id": "hn-50163812",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepInfer, our in-house inference framework, now open source",
+      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "date": 1792491166000,
+      "url": "https://twitter.com/deepseek_ai/status/2112476496283775135",
+      "metric": ""
+    },
+    {
+      "id": "hn-50163472",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "China's DeepSeek deep-sixed at all US federal civilian agencies",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
+      "date": 1792488684000,
+      "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+      "metric": ""
+    },
+    {
+      "id": "hn-50163277",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "desc": "技术社区讨论 · 2333 赞同 · 888 条评论。",
+      "date": 1792487334000,
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "metric": ""
+    },
+    {
+      "id": "hn-50160306",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "US banning Chinese AI DeepSeek from government agency IT systems",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792460265000,
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "metric": ""
+    },
+    {
+      "id": "hn-50159597",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
+      "date": 1792454314000,
+      "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28889",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+      "desc": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these ch",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28889",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.27598",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+      "desc": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in the",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.27598",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28416",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+      "desc": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing cod",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28416",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28441",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
+      "desc": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic retrieval, which captures high-scoring toke",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28441",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28940",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
+      "desc": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but remained limited in two ways: approximately",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28940",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.27861",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
+      "desc": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks. We introduce RoboCasa-Shift, a diagnostic robustness benchmark built on RoboCasa365 that combines controlle",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.27861",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28905",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+      "desc": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and, crucially, whether ",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28905",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28909",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+      "desc": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, a",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28909",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28027",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
+      "desc": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users. We measure how often this happens. We trace seven open-source frameworks for RL post-training through their commit histories and link th",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28027",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28827",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+      "desc": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed decision model emits structured decisio",
+      "date": 1792440000000,
+      "url": "https://huggingface.co/papers/2610.28827",
+      "metric": ""
+    },
+    {
+      "id": "gh-huggingface/transformers-417566864",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "transformers · Patch release v5.20.2",
+      "desc": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "date": 1792431937000,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+      "metric": "v5.20.2"
+    },
+    {
+      "id": "gh-langchain-ai/langgraph-417366010",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "langgraph · langgraph-cli==0.4.37",
+      "desc": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
+      "date": 1792418782000,
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
+      "metric": "cli==0.4.37"
+    },
+    {
+      "id": "paper-2610.26397",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Bridged Self-Distillation for On-Policy Learning",
+      "desc": "On-policy distillation can transfer the reasoning capabilities of a strong teacher to a smaller student. However, distillation from a stronger teacher model faces two mismatches: its solutions may be difficult for a smaller student to imitate, and its token-level probabilities may be incompatible with, or even unavaila",
+      "date": 1792402850000,
+      "url": "https://huggingface.co/papers/2610.26397",
+      "metric": ""
+    },
+    {
+      "id": "gh-sgl-project/sglang-416857951",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "sglang · v0.5.22",
+      "desc": "sgl-project/sglang · 正式 Release，点击查看版本说明。",
+      "date": 1792378519000,
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
+      "metric": "v0.5.22"
+    },
+    {
+      "id": "paper-2610.26252",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
+      "desc": "Expanding the vocabulary of conditional text-to-speech (TTS) models typically requires extensive fine-tuning with paired audio, creating a major bottleneck for low-resource and cross-lingual adaptation. To address this, we introduce SEAM, a zero-audio initialization method that constructs embeddings for unseen tokens f",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.26252",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.30181",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Deep Search in Real-World Web Environments",
+      "desc": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often i",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.30181",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.27233",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows",
+      "desc": "Medical workflows often require multiple interdependent analyses, but existing specialist and generalist AI models are not designed to coordinate them. We introduce MMedAgent-Plus, a multimodal medical tool-use agent that combines a vision-language planner with 18 leading specialist models spanning 12 tasks and 8 modal",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.27233",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.26836",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "desc": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geochemistry simulator f",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.26836",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.28679",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+      "desc": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training data. We study verifier generation: from the instruction and environment available for solving a task, an agent writes an executable verifier that must accept every valid solution and reject invalid one",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.28679",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.26659",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce Spat",
+      "date": 1792353600000,
+      "url": "https://huggingface.co/papers/2610.26659",
+      "metric": ""
+    },
+    {
+      "id": "gh-vllm-project/vllm-416285351",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "vllm · v0.32.0",
+      "desc": "vllm-project/vllm · 正式 Release，点击查看版本说明。",
+      "date": 1792306248000,
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "metric": "v0.32.0"
+    },
+    {
+      "id": "paper-2610.25100",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+      "desc": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training",
+      "date": 1792267200000,
+      "url": "https://huggingface.co/papers/2610.25100",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1792204838000,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "metric": ""
+    },
+    {
+      "id": "gh-langchain-ai/langgraph-415421744",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "langgraph · langgraph==1.2.16",
+      "desc": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
+      "date": 1792188688000,
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
+      "metric": "1.2.16"
+    },
+    {
+      "id": "gh-langchain-ai/langgraph-415420363",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "langgraph · langgraph-sdk==0.4.8",
+      "desc": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
+      "date": 1792188541000,
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
+      "metric": "sdk==0.4.8"
+    },
+    {
+      "id": "paper-2610.24771",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Design Anything, Design at Scale",
+      "desc": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons. Designers follow briefs specifying goals, constraints, and deliverables, with later work building on earlier decisions. Recent work reuses design experience across tasks, yet alignme",
+      "date": 1792180800000,
+      "url": "https://huggingface.co/papers/2610.24771",
+      "metric": ""
+    },
+    {
+      "id": "gh-huggingface/transformers-414950292",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "transformers · Release v5.20.1",
+      "desc": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "date": 1792155749000,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "metric": "v5.20.1"
+    },
+    {
+      "id": "paper-2610.23344",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Language Models Learn to Improve Language Models",
+      "desc": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, t",
+      "date": 1792094400000,
+      "url": "https://huggingface.co/papers/2610.23344",
+      "metric": ""
+    },
+    {
+      "id": "gh-huggingface/transformers-414095490",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "transformers · Release v5.20.0",
+      "desc": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "date": 1792087536000,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+      "metric": "v5.20.0"
+    },
+    {
+      "id": "paper-2610.22659",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
+      "desc": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information. In this paper, we present a controlled comparison of data-level and training-level interventions for navigating the capability-privacy tradeoff on synthetic medical records",
+      "date": 1792008000000,
+      "url": "https://huggingface.co/papers/2610.22659",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.20459",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "MolLean: A Process-Verifiable Language for Chemical Reasoning",
+      "desc": "Chemical chain-of-thought can contain hallucinated structural and property claims. We thereby introduce MolLean, a process-verifiable language that grounds chemical reasoning in an explicit molecular state. A layered Lean-based kernel checks state transitions and assertions over molecular readouts, from primitive graph",
+      "date": 1791921600000,
+      "url": "https://huggingface.co/papers/2610.20459",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen-Image-2.1-Turbo",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen-Image-2.1-Turbo",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1791521401000,
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.13177",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
+      "desc": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures. While recent feedforward approaches leverage generalizable 3D Gaussian Splatting (3DGS) for scene generation, they typically assign one or multiple Gaussia",
+      "date": 1791489600000,
+      "url": "https://huggingface.co/papers/2610.13177",
+      "metric": ""
+    },
+    {
+      "id": "paper-2610.11942",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "desc": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition r",
+      "date": 1791403200000,
+      "url": "https://huggingface.co/papers/2610.11942",
+      "metric": ""
+    },
+    {
+      "id": "gh-vllm-project/vllm-403435729",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "vllm · v0.31.0",
+      "desc": "vllm-project/vllm · 正式 Release，点击查看版本说明。",
+      "date": 1791182695000,
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "metric": "v0.31.0"
+    },
+    {
+      "id": "gh-sgl-project/sglang-401467591",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "sglang · v0.5.21",
+      "desc": "sgl-project/sglang · 正式 Release，点击查看版本说明。",
+      "date": 1790903344000,
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+      "metric": "v0.5.21"
+    },
+    {
+      "id": "gh-vllm-project/vllm-393467280",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "vllm · v0.30.0",
+      "desc": "vllm-project/vllm · 正式 Release，点击查看版本说明。",
+      "date": 1790054454000,
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "metric": "v0.30.0"
+    },
+    {
+      "id": "hf-Qwen/Qwen-Image-2.1-PE-I2I",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen-Image-2.1-PE-I2I",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1789894007000,
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen-Image-2.1-PE-T2I",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen-Image-2.1-PE-T2I",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1789893929000,
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I",
+      "metric": ""
+    },
+    {
+      "id": "gh-sgl-project/sglang-391825082",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "sglang · v0.5.20",
+      "desc": "sgl-project/sglang · 正式 Release，点击查看版本说明。",
+      "date": 1789771293000,
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
+      "metric": "v0.5.20"
+    },
+    {
+      "id": "hf-google/embeddinggemma-2",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/embeddinggemma-2",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1789397622000,
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen-Image-2.1",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen-Image-2.1",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1789357646000,
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/DeepSeek-V4.1-Flash",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1789006678000,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/gnm-v3",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/gnm-v3",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1788282210000,
+      "url": "https://huggingface.co/google/gnm-v3",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1788156978000,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen-Drive-1.0-4B",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen-Drive-1.0-4B",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787818467000,
+      "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.3-Flash-BF16",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.3-Flash-BF16",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787640305000,
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash-BF16",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.3-BF16",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.3-BF16",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787640235000,
+      "url": "https://huggingface.co/zai-org/GLM-5.3-BF16",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.3-Flash",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.3-Flash",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787640194000,
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.3",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.3",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787640170000,
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/timesfm-3.0-pytorch",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/timesfm-3.0-pytorch",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787609151000,
+      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen3.8-Flash-Next-FP8",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen3.8-Flash-Next-FP8",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787559923000,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen3.8-Flash-Next",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen3.8-Flash-Next",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787559899000,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-g14-lowres",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-g14-lowres",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787157681000,
+      "url": "https://huggingface.co/google/tipsv1-g14-lowres",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-g14",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-g14",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787157635000,
+      "url": "https://huggingface.co/google/tipsv1-g14",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-so400m14",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-so400m14",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787151748000,
+      "url": "https://huggingface.co/google/tipsv1-so400m14",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-l14",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-l14",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787151371000,
+      "url": "https://huggingface.co/google/tipsv1-l14",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-b14",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-b14",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787150927000,
+      "url": "https://huggingface.co/google/tipsv1-b14",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tipsv1-s14",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tipsv1-s14",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1787150629000,
+      "url": "https://huggingface.co/google/tipsv1-s14",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen3.8-27B-FP8",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen3.8-27B-FP8",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1786608118000,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/DeepSeek-V4-Pro-0813",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1786590306000,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen3.8-2.4T-A95B",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen3.8-2.4T-A95B",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1786153852000,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "metric": ""
+    },
+    {
+      "id": "hf-Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1786153789000,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "metric": ""
+    },
+    {
+      "id": "hf-google/tabfm-1.1.0-pytorch",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "google/tabfm-1.1.0-pytorch",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1785514905000,
+      "url": "https://huggingface.co/google/tabfm-1.1.0-pytorch",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/DeepSeek-V4-Flash-0731",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1785483024000,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/eagle3_gemma4_12b_ttt7",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/eagle3_gemma4_12b_ttt7",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1782650237000,
+      "url": "https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/eagle3_qwen3_14b_ttt7",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/eagle3_qwen3_14b_ttt7",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1782650180000,
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_14b_ttt7",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/eagle3_qwen3_8b_ttt7",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/eagle3_qwen3_8b_ttt7",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1782650129000,
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_8b_ttt7",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/eagle3_qwen3_4b_ttt7",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/eagle3_qwen3_4b_ttt7",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1782650099000,
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_4b_ttt7",
+      "metric": ""
+    },
+    {
+      "id": "hf-deepseek-ai/dflash_gemma4_12b_block7",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "deepseek-ai/dflash_gemma4_12b_block7",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1782650004000,
+      "url": "https://huggingface.co/deepseek-ai/dflash_gemma4_12b_block7",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.2",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.2",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1781595560000,
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.2-FP8",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.2-FP8",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1781594433000,
+      "url": "https://huggingface.co/zai-org/GLM-5.2-FP8",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/SCAIL-2",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/SCAIL-2",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1780989507000,
+      "url": "https://huggingface.co/zai-org/SCAIL-2",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.1-FP8",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.1-FP8",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1775208544000,
+      "url": "https://huggingface.co/zai-org/GLM-5.1-FP8",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5.1",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5.1",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1775208527000,
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "metric": ""
+    },
+    {
+      "id": "hf-zai-org/GLM-5",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "zai-org/GLM-5",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1770785746000,
+      "url": "https://huggingface.co/zai-org/GLM-5",
+      "metric": ""
+    },
+    {
+      "id": "gh-microsoft/autogen-251006347",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "autogen · python-v0.7.5",
+      "desc": "microsoft/autogen · 正式 Release，点击查看版本说明。",
+      "date": 1759213106000,
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.5",
+      "metric": "python-v0.7.5"
+    },
+    {
+      "id": "gh-microsoft/autogen-240989776",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "autogen · python-v0.7.4",
+      "desc": "microsoft/autogen · 正式 Release，点击查看版本说明。",
+      "date": 1755629449000,
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.4",
+      "metric": "python-v0.7.4"
+    },
+    {
+      "id": "gh-microsoft/autogen-240809513",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "autogen · python-v0.7.3",
+      "desc": "microsoft/autogen · 正式 Release，点击查看版本说明。",
+      "date": 1755590875000,
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.3",
+      "metric": "python-v0.7.3"
+    },
+    {
+      "id": "hf-meta-llama/Llama-Prompt-Guard-2-86M",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-Prompt-Guard-2-86M",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1745824595000,
+      "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-Prompt-Guard-2-22M",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-Prompt-Guard-2-22M",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1745824558000,
+      "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-Guard-4-12B",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-Guard-4-12B",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1745407825000,
+      "url": "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743761023000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743753745000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Maverick-17B-128E-Original",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Maverick-17B-128E-Original",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743695473000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Original",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Scout-17B-16E-Instruct-Original",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Scout-17B-16E-Instruct-Original",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743694792000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct-Original",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Scout-17B-16E-Original",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Scout-17B-16E-Original",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743692768000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Maverick-17B-128E",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Maverick-17B-128E",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743615327000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E",
+      "metric": ""
+    },
+    {
+      "id": "hf-meta-llama/Llama-4-Scout-17B-16E",
+      "type": "models",
+      "source": "Hugging Face",
+      "title": "meta-llama/Llama-4-Scout-17B-16E",
+      "desc": "模型仓库创建记录 · 发布日期不等于模型正式发布日期，请以 Model Card 为准。",
+      "date": 1743613407000,
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E",
+      "metric": ""
+    }
+  ]
+}
