@@ -1,0 +1,15 @@
+# Private machine-specific content and build outputs
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Preview images are deliberately not included in the public repo.
+preview-*.png

@@ -1,0 +1,70 @@
+name: Refresh and deploy AI frontier
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # UTC; runs are best effort and may be delayed.
+    - cron: '17 */4 * * *'
+  workflow_dispatch:
+
+# Push a public data snapshot AND deploy Pages in the same run. A GITHUB_TOKEN
+# commit alone does not trigger a GitHub Pages branch build.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-ai-frontier
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # When external APIs are down, still deploy the site. The frontend will
+      # report the failure and attempt a direct browser fetch.
+      - name: Fetch AI public data
+        id: fetch
+        continue-on-error: true
+        run: python scripts/update_frontier.py
+      - name: Commit snapshot (including first new file)
+        run: |
+          if [ ! -f frontier-feed.json ]; then
+            echo "No new snapshot available; deploy site without faking live data."
+            exit 0
+          fi
+          git add frontier-feed.json
+          if git diff --cached --quiet; then
+            echo "Feed unchanged."
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'data: refresh AI frontier feed'
+            git push
+          fi
+      - name: Prepare only public website assets
+        run: |
+          mkdir -p _site
+          cp index.html styles.css radar.css data.js app.js radar.js favicon.svg _site/
+          if [ -f frontier-feed.json ]; then cp frontier-feed.json _site/; fi
+          touch _site/.nojekyll
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
