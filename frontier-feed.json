@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T07:18:25+00:00",
+  "generatedAt": "2026-10-23T07:24:03+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -21,9 +21,9 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "complete",
-    "ready": 179,
-    "pending": 0,
+    "status": "partial",
+    "ready": 178,
+    "pending": 1,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
@@ -344,12 +344,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "desc": "技术社区讨论 · 295 赞同 · 164 条评论。",
+      "desc": "技术社区讨论 · 299 赞同 · 164 条评论。",
       "date": 1792709683000,
       "url": "https://www.anthropic.com/research/formal-verification",
       "metric": "",
       "titleZh": "法学硕士正在使正式软件验证在更大范围内变得可行",
-      "descZh": "技术社区讨论 · 295 赞同 · 164 条评论。",
+      "descZh": "技术社区讨论 · 299 赞同 · 164 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -448,12 +448,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "desc": "技术社区讨论 · 89 赞同 · 85 条评论。",
+      "desc": "技术社区讨论 · 89 赞同 · 86 条评论。",
       "date": 1792703035000,
       "url": "https://news.ycombinator.com/item?id=50200997",
       "metric": "",
       "titleZh": "问 HN：如果模型这么好，OpenAI 为什么不直接创办 100 家公司呢？",
-      "descZh": "技术社区讨论 · 89 赞同 · 85 条评论。",
+      "descZh": "技术社区讨论 · 89 赞同 · 86 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -1185,17 +1185,17 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50162634",
+      "id": "hn-50160306",
       "type": "news",
       "source": "Hacker News",
-      "title": "Show HN: A practical framework for evaluating agentic AI systems",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792482313000,
-      "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
+      "title": "US banning Chinese AI DeepSeek from government agency IT systems",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792460265000,
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
       "metric": "",
-      "titleZh": "Show HN：评估代理人工智能系统的实用框架",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "pending"
     },
     {
       "id": "paper-2610.27712",
