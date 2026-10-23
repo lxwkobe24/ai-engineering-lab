@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T04:42:53+00:00",
+  "generatedAt": "2026-10-23T04:43:18+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -921,6 +921,16 @@
       "metric": ""
     },
     {
+      "id": "hn-50162634",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: A practical framework for evaluating agentic AI systems",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792482313000,
+      "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
+      "metric": ""
+    },
+    {
       "id": "hn-50160306",
       "type": "news",
       "source": "Hacker News",
@@ -928,16 +938,6 @@
       "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
       "date": 1792460265000,
       "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "metric": ""
-    },
-    {
-      "id": "hn-50159597",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "US bans DeepSeek AI from government use as tech tension with China continues",
-      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
-      "date": 1792454314000,
-      "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo",
       "metric": ""
     },
     {
