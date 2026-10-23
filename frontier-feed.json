@@ -21,9 +21,9 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "partial",
-    "ready": 176,
-    "pending": 3,
+    "status": "complete",
+    "ready": 179,
+    "pending": 0,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
@@ -36,9 +36,9 @@
       "date": 1792738492000,
       "url": "https://swurf.org/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN: Swurf – 在真实网络中滑动",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50205201",
@@ -829,9 +829,9 @@
       "date": 1792612800000,
       "url": "https://huggingface.co/papers/2610.31576",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "什么是好的揭露政策？扩散语言模型中学习揭露的对照研究",
+      "descZh": "掩码扩散语言模型并行生成令牌，但其效率取决于提交的预测。学习的揭露策略提高了速度与准确性的权衡，但在监督、投入和能力方面存在差异，从而模糊了哪些选择是重要的。我们将监管政策视为蒸馏",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.31623",
@@ -1609,9 +1609,9 @@
       "date": 1791921600000,
       "url": "https://huggingface.co/papers/2610.23987",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "这一代人知道什么：解锁统一多模态模型中的细粒度理解",
+      "descZh": "细粒度的视觉理解需要区分局部属性和空间关系的细微差异，但这对于现有的视觉语言模型仍然具有挑战性。统一多模态模型（UMM）通过生成路径提供了新的机会，保留了丰富的视觉信息，与",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.20459",
