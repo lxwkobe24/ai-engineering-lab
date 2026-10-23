@@ -28,6 +28,9 @@ jobs:
     steps:
       - name: Checkout website
         uses: actions/checkout@v4
+        with:
+          # Queued runs must include snapshots committed by the preceding run.
+          ref: main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
