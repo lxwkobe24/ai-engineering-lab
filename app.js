@@ -34,7 +34,7 @@
       return `<button type="button" class="knowledge-card" data-topic="${esc(c.topic)}" aria-label="浏览${esc(c.name)}专题笔记">
         <div class="knowledge-top"><div class="knowledge-icon">${svg(c.icon)}</div><span class="knowledge-index">${c.number} / 09</span></div>
         <h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p>
-        <div class="knowledge-card-bottom"><span>${count ? `${count} 篇示例笔记` : '持续整理中'}</span><b>↗</b></div>
+        <div class="knowledge-card-bottom"><span>${count ? `${count} 篇笔记与指南` : '持续整理中'}</span><b>↗</b></div>
       </button>`;
     }).join('');
   }
@@ -52,7 +52,7 @@
     $('#note-filters').innerHTML = filters.map(f => `<button type="button" class="filter-button${state.filter === f ? ' active' : ''}" data-filter="${esc(f)}" aria-pressed="${state.filter === f}">${esc(f)}</button>`).join('');
     const all = data.notes.filter(n => !n.featured && (state.filter === '全部' || n.category === state.filter));
     const subset = all.slice(0, state.limit);
-    $('#notes-grid').innerHTML = subset.map(n => `<article class="note-card" data-note="${esc(n.slug)}" tabindex="0" role="button" aria-label="阅读文章：${esc(n.title)}"><div class="note-top"><span class="note-tag">${esc(n.category)}</span><span class="note-date">${esc(n.date)}</span></div><h3>${esc(n.title)}</h3><p>${esc(n.desc)}</p><div class="note-bottom"><span>${n.read} min read · 示例笔记</span><span class="arrow">↗</span></div></article>`).join('') || `<div class="empty-notes">这个专题的笔记正在整理中。可以先浏览其他方向。</div>`;
+    $('#notes-grid').innerHTML = subset.map(n => `<article class="note-card" data-note="${esc(n.slug)}" tabindex="0" role="button" aria-label="阅读文章：${esc(n.title)}"><div class="note-top"><span class="note-tag">${esc(n.category)}</span><span class="note-date">${esc(n.date)}</span></div><h3>${esc(n.title)}</h3><p>${esc(n.desc)}</p><div class="note-bottom"><span>${n.read} min read · ${esc(n.status || '示例笔记')}</span><span class="arrow">↗</span></div></article>`).join('') || `<div class="empty-notes">这个专题的笔记正在整理中。可以先浏览其他方向。</div>`;
     $('#notes-count').textContent = `${all.length} 篇笔记`;
     $('#show-more-notes').hidden = all.length <= state.limit;
   }
@@ -127,9 +127,10 @@
     const isNote = kind === 'note';
     const obj = (isNote ? data.notes : data.projects).find(x => (isNote ? x.slug : x.id) === slug);
     if (!obj) return;
-    $('#reader-content').innerHTML = `<div class="reader-meta"><span class="reader-tag">${isNote ? esc(obj.category) : esc(obj.type)}</span><span>${isNote ? '示例笔记 · 可自行编辑' : '研究项目 · 展示性摘要'}</span><span>${isNote ? `${obj.read} 分钟阅读` : esc(obj.status)}</span></div>
+    $('#reader-content').innerHTML = `<div class="reader-meta"><span class="reader-tag">${isNote ? esc(obj.category) : esc(obj.type)}</span><span>${isNote ? esc(obj.status || '示例笔记 · 可自行编辑') : '研究项目 · 展示性摘要'}</span><span>${isNote ? `${obj.read} 分钟阅读` : esc(obj.status)}</span></div>
       <h1 id="reader-title">${esc(obj.title)}</h1><p class="reader-lead">${esc(obj.desc)}</p><div class="reader-divider"></div><div class="reader-article">${renderMarkdown(isNote ? obj.body : obj.detail)}</div>
-      <div class="reader-note">${isNote ? '说明：这是一篇为网站初版准备的专题示例稿，并不代表已完成的正式个人研究文章。请在 data.js 中修改、扩充并标注自己的实验数据和参考文献。' : '说明：此处仅展示不含企业敏感信息的研究方向和架构思考；公开发布前请检查项目授权和保密要求。'}</div>`;
+      <div class="reader-note">${isNote ? obj.status === '学习指南' ? '学习指南 · 根据公开资料整理。文中的练习为建议任务；公式示例不代表个人实测结果。请结合所用版本核对原始资料。' : '专题示例稿 · 用于组织学习问题，尚未标注为个人实测文章。' : '研究方向摘要 · 用于说明目标与方案，尚未标注为已交付项目。'}</div>`;
+    enhanceReader(isNote ? obj : null);
     $('#reader-brand').setAttribute('href', '#top');
     const wasHidden = $('#content-modal').hidden;
     if (wasHidden) openModal('content-modal');
@@ -188,6 +189,19 @@
   }
 
   function bindEvents() {
+    $('#resource-filters').addEventListener('click', e => {
+      const button = e.target.closest('[data-resource-type]');
+      if (button) renderResources(button.dataset.resourceType);
+    });
+    $('#kv-context').addEventListener('input', updateKV);
+    $('#reader-content').addEventListener('click', e => {
+      const button = e.target.closest('[data-reader-heading]');
+      if (button) {
+        const heading = document.getElementById(button.dataset.readerHeading);
+        heading?.scrollIntoView({behavior:'smooth', block:'start'});
+        heading?.focus({preventScroll:true});
+      }
+    });
     $('#theme-toggle').addEventListener('click',()=>{
       const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
       document.documentElement.dataset.theme=next;setStored('lab-theme',next);
@@ -266,11 +280,59 @@
     }
   }
 
+  function renderLearning() {
+    $('#learning-paths').innerHTML = data.paths.map(path => `<article class="learning-path"><div class="section-kicker">${esc(path.label)}</div><h3>${esc(path.title)}</h3><p>${esc(path.desc)}</p><ol>${path.slugs.map(slug => {
+      const note = data.notes.find(n => n.slug === slug);
+      return note ? `<li><button type="button" data-note="${esc(slug)}">${esc(note.title)}<span>${note.read} 分钟 ↗</span></button></li>` : '';
+    }).join('')}</ol><div class="path-outcome">${esc(path.outcome)}</div></article>`).join('');
+    renderResources('全部');
+    updateKV();
+  }
+
+  function renderResources(type) {
+    const types = ['全部', ...new Set(data.resources.map(r => r.type))];
+    $('#resource-filters').innerHTML = types.map(t => `<button type="button" class="filter-button${t === type ? ' active' : ''}" data-resource-type="${esc(t)}" aria-pressed="${t === type}">${esc(t)}</button>`).join('');
+    const resources = data.resources.filter(r => type === '全部' || r.type === type);
+    $('#resource-count').textContent = `${resources.length} 份精选资料 · 链接核对于 2026-10-23 · 外部资料可能更新`;
+    $('#resource-grid').innerHTML = resources.map(r => `<article class="resource-card"><div class="resource-meta"><span>${esc(r.type)}</span><span>${esc(r.author)}</span></div><h3><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)} <span aria-hidden="true">↗</span></a></h3><p>${esc(r.why)}</p><div class="resource-task"><strong>读完试试</strong><span>${esc(r.task)}</span></div></article>`).join('');
+  }
+
+  function updateKV() {
+    const tokens = Number($('#kv-context').value);
+    const gib = 2 * 32 * tokens * 8 * 128 * 2 / 1024 ** 3;
+    $('#kv-tokens').textContent = `${tokens.toLocaleString('en-US')} tokens`;
+    $('#kv-result').textContent = `${gib.toFixed(2)} GiB`;
+    $('#kv-fill').style.width = `${tokens / 32768 * 100}%`;
+  }
+
+  function enhanceReader(note) {
+    const article = $('#reader-content .reader-article');
+    const headings = [...article.querySelectorAll('h2, h3')];
+    if (headings.length > 1) {
+      headings.forEach((heading, index) => {heading.id = `reader-section-${index}`;heading.tabIndex = -1;});
+      const toc = document.createElement('nav');
+      toc.className = 'reader-toc';
+      toc.setAttribute('aria-label', '文章目录');
+      toc.innerHTML = `<strong>本文目录</strong><ol>${headings.map(h => `<li><button type="button" data-reader-heading="${h.id}">${esc(h.textContent)}</button></li>`).join('')}</ol>`;
+      article.before(toc);
+    }
+    if (!note) return;
+    const path = data.paths.find(p => p.slugs.includes(note.slug));
+    const related = [...new Set([...(path?.slugs || []), ...data.notes.filter(n => n.category === note.category).map(n => n.slug)])]
+      .filter(slug => slug !== note.slug).map(slug => data.notes.find(n => n.slug === slug)).filter(Boolean).slice(0,3);
+    if (related.length) {
+      const section = document.createElement('section');
+      section.className = 'reader-related';
+      section.innerHTML = `<h2>沿着这个问题继续读</h2>${related.map(n => `<button type="button" data-note="${esc(n.slug)}"><span>${esc(n.category)} · ${n.read} 分钟</span><strong>${esc(n.title)} ↗</strong></button>`).join('')}`;
+      article.after(section);
+    }
+  }
+
   function init(){
     const theme = getStored('lab-theme', window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     document.documentElement.dataset.theme = theme === 'dark' ? 'dark' : 'light';
     $('#current-year').textContent=new Date().getFullYear();
-    renderKnowledge();renderFeatured();renderNotes();renderProjects();renderRoadmap();bindEvents();handleInitialHash();
+    renderKnowledge();renderFeatured();renderNotes();renderProjects();renderRoadmap();renderLearning();bindEvents();handleInitialHash();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
 })();
