@@ -22,11 +22,11 @@
     {id:'opensource',name:'GitHub Releases',desc:'技术项目正式发布',url:'https://github.com/'}
   ];
   const storage = (action,key,val) => {try {if(action==='get') return JSON.parse(localStorage.getItem(key) || 'null');localStorage.setItem(key,JSON.stringify(val));return true;}catch{return action==='get' ? null : false;}};
-  const CACHE_KEY='ai-lab-frontier-v3', SAVE_KEY='ai-lab-frontier-saved-v1', WATCH_KEY='ai-lab-frontier-watch-v1';
+  const CACHE_KEY='ai-lab-frontier-v4', SAVE_KEY='ai-lab-frontier-saved-v1', WATCH_KEY='ai-lab-frontier-watch-v1';
   const DEFAULT_WATCH=['Qwen','DeepSeek','Agent','Harness','vLLM','SGLang','RAG','KV Cache','GRPO'];
   const cleanWatch=(val)=>Array.isArray(val)?[...new Set(val.map(x=>str(x,32)).filter(Boolean))].slice(0,16):DEFAULT_WATCH;
   const previous=storage('get',CACHE_KEY);
-  const state={items:[],category:'all',topic:'全部方向',period:30,query:'',limit:7,saved:new Set(storage('get',SAVE_KEY)||[]),watch:cleanWatch(storage('get',WATCH_KEY)),statuses:{},lastUpdate:0,loading:false};
+  const state={items:[],category:'all',topic:'全部方向',period:30,query:'',limit:7,saved:new Set(storage('get',SAVE_KEY)||[]),watch:cleanWatch(storage('get',WATCH_KEY)),statuses:{},lastUpdate:0,loading:false,language:storage('get','ai-lab-frontier-language')==='original'?'original':'zh'};
   let lastRequested=0;
 
   const tagsFor = (text) => {
@@ -41,8 +41,12 @@
   const item = (d) => {
     const title=str(d.title,240),desc=str(d.desc,260),date=safeDate(d.date);
     if(!title || !date || date>Date.now()+86400000 || validLink(d.url)==='#') return null;
-    return {id: String(d.id),type:d.type,source:d.source,title,desc,date,url:validLink(d.url),metric:d.metric||'',tags:tagsFor(`${title} ${desc}`),group:d.group||d.type};
+    return {id: String(d.id),type:d.type,source:d.source,title,desc,titleZh:str(d.titleZh,320),descZh:str(d.descZh,420),date,url:validLink(d.url),metric:d.metric||'',tags:tagsFor(`${title} ${desc}`),group:d.group||d.type};
   };
+  const displayTitle = x => state.language==='original' ? x.title : x.titleZh || (x.type==='models'?`新模型：${x.title}`:x.type==='opensource'?`版本发布：${x.title}`:x.title);
+  const displayDesc = x => state.language==='original' ? x.desc : x.descZh || x.desc;
+  const translationLabel = x => state.language==='original' ? '' : x.titleZh && x.descZh ? `<span class="radar-translation-label">${['models','opensource'].includes(x.type)?'中文说明 · 名称保留':'机器翻译 · 以原文为准'}</span>` : '<span class="radar-translation-label">中文翻译待更新 · 暂示原文</span>';
+  const searchText = x => `${x.title} ${x.desc} ${x.titleZh||''} ${x.descZh||''} ${x.source} ${x.tags.join(' ')}`;
   const fetchJSON = async(url) => {
     const ctrl=new AbortController();const timer=setTimeout(()=>ctrl.abort(),9500);
     try{const r=await fetch(url,{signal:ctrl.signal,headers:{Accept:'application/json'},cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);return await r.json();}
@@ -82,7 +86,7 @@
   function unique(items){const ids=new Set();return items.filter(x=>{if(!x||ids.has(x.id))return false;ids.add(x.id);return true;}).sort((a,b)=>b.date-a.date);}
   function restoreCache(){
     if(previous && Array.isArray(previous.items)){
-      state.items=unique(previous.items.filter(x=>x&&['news','models','papers','opensource'].includes(x.type)&&x.date&&validLink(x.url)!=='#').map(x=>({...x,title:str(x.title),desc:str(x.desc),tags:tagsFor(`${x.title} ${x.desc}`)})));
+      state.items=unique(previous.items.filter(x=>x&&['news','models','papers','opensource'].includes(x.type)).map(item));
       state.lastUpdate=Number(previous.updated)||0;
       for(const source of SOURCES)state.statuses[source.id]={status:'cached',count:state.items.filter(x=>x.type===source.id).length};
     }
@@ -96,7 +100,7 @@
       const good=data.items.map(x=>item(x)).filter(Boolean);
       if(!good.length)return;
       const stale=Date.now()-stamp>72*3600*1000;
-      if(stamp>=state.lastUpdate || !state.items.length){
+      if(stamp>=state.lastUpdate || !state.items.length || good.some(x=>x.titleZh)){
         state.items=unique(good);
         state.lastUpdate=stamp;
         for(const source of SOURCES){
@@ -105,6 +109,8 @@
         }
         render();
       }
+      storage('set',CACHE_KEY,{updated:stamp,items:good});
+      return true;
     }catch { /* No server snapshot on file:// or before first scheduled job. */ }
   }
   function renderPulse(){
@@ -121,7 +127,7 @@
   function exportSaved(){
     const selected=state.items.filter(x=>state.saved.has(x.id));if(!selected.length)return;
     const md=['# AI Engineering Lab · 收藏的前沿动态','','导出时间：'+dateText(Date.now()),'','> 来源数据可能包含缓存，请以原始链接为准。',''];
-    for(const x of selected)md.push(`- [${x.title.replace(/[\[\]]/g,'')}](${x.url}) — ${x.source} · ${new Date(x.date).toISOString().slice(0,10)}`);
+    for(const x of selected)md.push(`- [${displayTitle(x).replace(/[\[\]]/g,'')}](${x.url}) — ${x.source} · ${new Date(x.date).toISOString().slice(0,10)}`);
     const blob=new Blob([md.join('\n')+'\n'],{type:'text/markdown;charset=utf-8'});
     const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='AI-Frontier-Bookmarks.md';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),4000);
   }
@@ -143,22 +149,24 @@
   }
   function matches(x){
     if(state.category==='saved') {if(!state.saved.has(x.id))return false;}
-    else if(state.category==='watching'){if(!state.watch.some(w=>`${x.title} ${x.desc} ${x.tags.join(' ')}`.toLowerCase().includes(w.toLowerCase())))return false;}
+    else if(state.category==='watching'){if(!state.watch.some(w=>searchText(x).toLowerCase().includes(w.toLowerCase())))return false;}
     else if(state.category!=='all' && x.type!==state.category)return false;
     if(state.topic!=='全部方向' && !x.tags.includes(state.topic))return false;
     if(x.date < Date.now()-state.period*86400000)return false;
-    if(state.query){const q=state.query.toLocaleLowerCase();if(!`${x.title} ${x.desc} ${x.source} ${x.tags.join(' ')}`.toLocaleLowerCase().includes(q))return false;}
+    if(state.query){const q=state.query.toLocaleLowerCase();if(!searchText(x).toLocaleLowerCase().includes(q))return false;}
     return true;
   }
-  function counts(){return Object.fromEntries(CATEGORIES.map(([key])=>[key,key==='all'?state.items.length:key==='saved'?state.items.filter(x=>state.saved.has(x.id)).length:key==='watching'?state.items.filter(x=>state.watch.some(w=>`${x.title} ${x.desc} ${x.tags.join(' ')}`.toLowerCase().includes(w.toLowerCase()))).length:state.items.filter(x=>x.type===key).length]));}
+  function counts(){return Object.fromEntries(CATEGORIES.map(([key])=>[key,key==='all'?state.items.length:key==='saved'?state.items.filter(x=>state.saved.has(x.id)).length:key==='watching'?state.items.filter(x=>state.watch.some(w=>searchText(x).toLowerCase().includes(w.toLowerCase()))).length:state.items.filter(x=>x.type===key).length]));}
   function renderTabs(){const all=counts();$('#radar-tabs').innerHTML=CATEGORIES.map(([key,label])=>`<button type="button" class="radar-tab ${state.category===key?'active':''}" data-radar-tab="${key}" aria-pressed="${state.category===key}">${label}<span>${all[key]}</span></button>`).join('');}
   function renderTopics(){$('#radar-topics').innerHTML=TOPICS.map(t=>`<button type="button" class="radar-topic ${state.topic===t?'active':''}" data-radar-topic="${esc(t)}" aria-pressed="${state.topic===t}">${esc(t)}</button>`).join('');}
   const labels={news:'社区快讯',models:'新模型',papers:'研究论文',opensource:'版本发布'};
   function bookmark(x){return `<button type="button" class="radar-bookmark ${state.saved.has(x.id)?'active':''}" data-radar-save="${esc(x.id)}" aria-label="${state.saved.has(x.id)?'取消收藏':'收藏动态'}" title="${state.saved.has(x.id)?'取消收藏':'添加到我的收藏'}">${state.saved.has(x.id)?'★':'☆'}</button>`;}
   const meta=(x)=>`<span class="radar-type ${x.type}">${labels[x.type]}</span><span class="radar-meta-source">${esc(x.source)}</span><time datetime="${new Date(x.date).toISOString()}" title="${dateText(x.date)}">${fromNow(x.date)}</time>`;
-  function mainCard(x){return `<article class="radar-feature-card"><div class="radar-card-meta">${meta(x)}</div><a class="radar-feature-link" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer"><h3>${esc(x.title)} <span aria-hidden="true">↗</span></h3></a><p>${esc(x.desc)}</p><div class="radar-feature-bottom"><div class="radar-tagset">${x.tags.slice(0,2).map(t=>`<span>${esc(t)}</span>`).join('')}</div><div class="radar-item-actions">${bookmark(x)}<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" class="radar-visit-link">阅读原文 ↗</a></div></div></article>`;}
-  function listCard(x){return `<article class="radar-list-card"><div class="radar-card-meta">${meta(x)}</div><div class="radar-list-inner"><div class="radar-list-text"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer"><h3>${esc(x.title)}</h3></a><p>${esc(x.desc)}</p><div class="radar-list-tags">${x.tags.slice(0,2).map(t=>`<span>${esc(t)}</span>`).join('')}</div></div><div class="radar-item-actions">${bookmark(x)}<a class="radar-visit-icon" aria-label="查看${esc(x.title)}原文" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">↗</a></div></div></article>`;}
+  function mainCard(x){return `<article class="radar-feature-card"><div class="radar-card-meta">${meta(x)}</div><a class="radar-feature-link" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer"><h3>${esc(displayTitle(x))} <span aria-hidden="true">↗</span></h3></a><p>${esc(displayDesc(x))}</p>${translationLabel(x)}<div class="radar-feature-bottom"><div class="radar-tagset">${x.tags.slice(0,2).map(t=>`<span>${esc(t)}</span>`).join('')}</div><div class="radar-item-actions">${bookmark(x)}<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" class="radar-visit-link">阅读原文 ↗</a></div></div></article>`;}
+  function listCard(x){return `<article class="radar-list-card"><div class="radar-card-meta">${meta(x)}</div><div class="radar-list-inner"><div class="radar-list-text"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer"><h3>${esc(displayTitle(x))}</h3></a><p>${esc(displayDesc(x))}</p>${translationLabel(x)}<div class="radar-list-tags">${x.tags.slice(0,2).map(t=>`<span>${esc(t)}</span>`).join('')}</div></div><div class="radar-item-actions">${bookmark(x)}<a class="radar-visit-icon" aria-label="查看${esc(displayTitle(x))}原文" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">↗</a></div></div></article>`;}
   function render(){
+    $('#radar-language').textContent=state.language==='zh'?'查看原文':'切换中文';
+    $('#radar-language').setAttribute('aria-pressed',String(state.language==='original'));
     renderTabs();renderTopics();renderPulse();renderWatch();statusHeader();
     const results=state.items.filter(matches);
     const shown=results.slice(0,state.limit);
@@ -176,12 +184,20 @@
     if(state.loading)return;
     if(!force && state.lastUpdate && Date.now()-state.lastUpdate<12*60*1000)return;
     state.loading=true;lastRequested=Date.now();render();
+    // The scheduled snapshot carries Chinese translations. Do not replace it
+    // with untranslated browser API responses after the initial page load.
+    if(await restoreSnapshot()){
+      state.loading=false;render();return;
+    }
     const responses=await Promise.allSettled(Object.entries(FETCHERS).map(async ([type,fetcher])=>({type,items:await fetcher()})));
     const resultItems=[],statuses={};
     for(let i=0;i<responses.length;i++){
       const type=Object.keys(FETCHERS)[i],r=responses[i];
       if(r.status==='fulfilled'){
-        const items=r.value.items;
+        const items=r.value.items.map(x=>{
+          const cached=state.items.find(old=>old.id===x.id);
+          return {...x,titleZh:cached?.title===x.title?cached.titleZh:x.titleZh,descZh:cached?.desc===x.desc?cached.descZh:x.descZh};
+        });
         statuses[type]={status:'live',count:items.length};resultItems.push(...items);
       }else{
         const stale=state.items.filter(x=>x.type===type);
@@ -199,6 +215,7 @@
   }
   function init(){
     restoreCache();$('#radar-period').value=String(state.period);render();
+    $('#radar-language').addEventListener('click',()=>{state.language=state.language==='zh'?'original':'zh';storage('set','ai-lab-frontier-language',state.language);render();});
     $('#radar-tabs').addEventListener('click',e=>{const el=e.target.closest('[data-radar-tab]');if(el){state.category=el.dataset.radarTab;state.limit=7;render();}});
     $('#radar-topics').addEventListener('click',e=>{const el=e.target.closest('[data-radar-topic]');if(el){state.topic=el.dataset.radarTopic;state.limit=7;render();}});
     $('#radar-period').addEventListener('change',e=>{state.period=Number(e.target.value)||30;state.limit=7;render();});
@@ -216,7 +233,7 @@
     $('#radar-watch-add').addEventListener('click',addWatch);
     $('#radar-watch-input').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();addWatch();}});
     $('#radar-export').addEventListener('click',exportSaved);
-    restoreSnapshot().finally(()=>refresh(true));
+    refresh(true);
     setInterval(()=>{if(!document.hidden&&Date.now()-lastRequested>15*60*1000)refresh(true);},15*60*1000);
     document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastRequested>15*60*1000)refresh(true);});
   }

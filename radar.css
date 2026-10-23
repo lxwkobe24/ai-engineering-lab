@@ -30,3 +30,5 @@
 .radar-export{font-size:10px;border:1px solid var(--stroke-strong);border-radius:7px;padding:10px 11px;background:var(--canvas);color:var(--blue-deep);font-weight:740;margin-top:12px;width:100%;cursor:pointer}.radar-export:disabled{opacity:.5;cursor:default}
 @media(max-width:640px){.radar-pulse-stat{padding:14px 11px}.radar-pulse-stat strong{font-size:20px}.radar-pulse-stat span{font-size:9px}.radar-pulse-stat small{font-size:8px}.radar-watch-card{display:block}}
 @media(max-width:385px){.radar-pulse-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-pulse-stat:nth-child(2){border-right:0}.radar-pulse-stat:nth-child(-n+2){border-bottom:1px solid var(--stroke)}}
+.radar-translation-label{display:block;margin-top:8px;font-size:9px;line-height:1.6;color:var(--soft)}.radar-feature-card .radar-translation-label{color:#b2c4e6}.radar-header-right{flex-wrap:wrap}#radar-language{white-space:nowrap}
+@media(max-width:640px){.radar-header-right{gap:8px}.radar-translation-label{font-size:9px}}

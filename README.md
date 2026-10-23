@@ -33,7 +33,7 @@ python -m http.server 8000
 - **AI 前沿情报**：技术社区动态、Hugging Face 新模型 / Daily Papers、GitHub Releases，分类 / 搜索 / 技术方向过滤；按公开来源获取信息。
 - **关注关键词**：自定义 Qwen、DeepSeek、Agent、vLLM、RAG 等关键词，一键筛选相关动态。
 - **收藏与导出**：收藏新闻 / 模型 / 论文 / 发布信息，并导出 Markdown。
-- **每 15 分钟尝试更新**：浏览器前台刷新，失败会显示连接失败、缓存或定时快照状态。
+- **每 15 分钟尝试更新**：浏览器前台检查中文快照，快照不可用时尝试原始接口，明确显示待翻译、缓存或失败状态。
 - **9 个知识主题**：软件工程、深度学习、LLM、RAG、Agent/Harness、评测安全、多模态、推理工程、源码研究。
 - **12 篇示例技术笔记**：文章分类、站内搜索、正文阅读和文章分享链接。
 - **4 个研究项目**：Harness、AI Gateway、Agentic RAG、模型训练与推理。
@@ -72,7 +72,7 @@ window.LAB_DATA = {
 - 更新结构和模块：`index.html`
 - 更新视觉与布局：`styles.css`
 - 更新站内交互：`app.js`
-- 浏览器本地数据：`lab-roadmap-v1`、`lab-capture-v1`、`lab-theme`、`ai-lab-frontier-v3`、`ai-lab-frontier-saved-v1`、`ai-lab-frontier-watch-v1`
+- 浏览器本地数据：`lab-roadmap-v1`、`lab-capture-v1`、`lab-theme`、`ai-lab-frontier-v4`、`ai-lab-frontier-language`、`ai-lab-frontier-saved-v1`、`ai-lab-frontier-watch-v1`
 
 ## 发布上线
 
@@ -110,6 +110,10 @@ python -m http.server 8000
 
 ## AI 前沿来源与更新机制
 
+默认以中文展示动态，提供「查看原文」切换，来源跳转链接保持不变。新闻与论文的标题和摘要由机器翻译生成；模型名称、项目名称与版本号保留原名，阅读时以原始来源为准。
+
+定时脚本通过公开 Google Translate 网页接口尽力翻译公开文字，无需密钥，按完全相同的原文复用已有译文。该接口没有可用性保证：失败字段保留原文并标记「中文翻译待更新」，不会把未翻译内容标为译文。浏览器前台每约 15 分钟检查译文快照；仅当快照不可用时尝试原始接口。
+
 | 频道 | 实际来源 | 技术意义 | 注意 |
 | --- | --- | --- | --- |
 | AI 新闻 | Hacker News Algolia Search | 社区 AI 技术讨论 | 不是核实后的官方新闻 |
@@ -117,7 +121,7 @@ python -m http.server 8000
 | 算法论文 | Hugging Face Daily Papers API | 日常论文推荐 | 不保证覆盖所有最新论文 |
 | 开源更新 | GitHub Releases API | vLLM、SGLang、Transformers 等项目的发布 | 仅展示维护者创建的 Release，可能缺少标签或提交 |
 
-- 页面前台约每 15 分钟尝试从公开接口更新；仅在页面打开且未隐藏时执行，**不等于后台持续刷新**。
+- 页面前台约每 15 分钟检查中文快照，不可用时尝试原始接口；仅在页面打开且未隐藏时执行，**不等于后台持续刷新**。
 - 可选的 GitHub Actions 工作流约每 4 小时生成一次 `frontier-feed.json`；其执行计划不保证精确准点。
 - 时间状态明确区分「已同步」「定时快照」「本地缓存」「旧快照」「连接失败」。遇到网络不可用时不会生成虚假的最新消息。
 - 直接双击 `index.html` 打开，或打开单文件 HTML 时，浏览器对 `file://` 的跨域网络访问限制可能导致数据源不可用。**建议通过 `http://localhost:8000` 或正式静态站点查看实时数据**。

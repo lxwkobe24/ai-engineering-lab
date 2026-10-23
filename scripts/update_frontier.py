@@ -8,8 +8,10 @@ If all sources fail, this script exits nonzero and does not overwrite an older g
 from __future__ import annotations
 
 import datetime as dt
+import concurrent.futures
 import json
 import pathlib
+import re
 import sys
 import time
 import urllib.error
@@ -22,6 +24,56 @@ AGENT = "AI-Engineering-Lab/1.1 (+public-read-only-content)"
 TIMEOUT = 14
 NOW = dt.datetime.now(dt.timezone.utc)
 SOURCES = ("news", "models", "papers", "opensource")
+
+
+def localize_items(items, old_items):
+    """Translate public feed text only; cache by exact original text, retain links."""
+    cached = {}
+    for entry in old_items:
+        for field in ("title", "desc"):
+            if entry.get(field) and entry.get(field + "Zh"):
+                cached[entry[field]] = entry[field + "Zh"]
+
+    def translate(text):
+        if not text or re.search(r"[\u4e00-\u9fff]", text):
+            return text
+        if text in cached:
+            return cached[text]
+        # Public Google Translate web endpoint: best effort, no credentials.
+        url = "https://translate.googleapis.com/translate_a/single?" + urllib.parse.urlencode({
+            "client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": text})
+        for attempt in range(2):
+            try:
+                data = fetch_json(url)
+                translated = "".join(part[0] for part in data[0] if part and part[0]).strip()
+                if translated and re.search(r"[\u4e00-\u9fff]", translated):
+                    return translated
+            except (ValueError, TypeError, IndexError, KeyError, OSError):
+                pass
+            if attempt == 0:
+                time.sleep(1)
+        return None
+
+    texts = set()
+    for entry in items:
+        if entry["type"] not in ("models", "opensource"):
+            texts.add(entry["title"])
+        texts.add(entry["desc"])
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        translations = dict(zip(texts, executor.map(translate, texts)))
+    for entry in items:
+        kind = entry["type"]
+        entry["titleZh"] = (
+            "新模型：" + entry["title"] if kind == "models" else
+            "版本发布：" + entry["title"] if kind == "opensource" else
+            translations.get(entry["title"]) or "")
+        entry["descZh"] = translations.get(entry["desc"]) or ""
+        entry["translationStatus"] = "ready" if entry["titleZh"] and entry["descZh"] else "pending"
+    ready = sum(entry["translationStatus"] == "ready" for entry in items)
+    print(f"Chinese localization: {ready}/{len(items)} entries ready")
+    return {"language": "zh-CN", "status": "complete" if ready == len(items) else "partial",
+            "ready": ready, "pending": len(items) - ready,
+            "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"}
 
 
 def fetch_json(url: str):
@@ -179,8 +231,15 @@ def main():
             pass
     deduped = {item["id"]: item for item in all_items}
     items = sorted(deduped.values(), key=lambda i: i["date"], reverse=True)[:260]
+    old_items = []
+    if OUT.exists():
+        try:
+            old_items = json.loads(OUT.read_text(encoding="utf-8")).get("items", [])
+        except (ValueError, OSError):
+            pass
+    localization = localize_items(items, old_items)
     payload = {"schemaVersion": 1, "generatedAt": NOW.isoformat(timespec="seconds"),
-               "sources": statuses, "items": items}
+               "sources": statuses, "localization": localization, "items": items}
     temp = OUT.with_suffix(".tmp")
     temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temp.replace(OUT)
