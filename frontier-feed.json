@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T23:07:44+00:00",
+  "generatedAt": "2026-10-24T04:33:39+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -27,6 +27,162 @@
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50218278",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Filekin – PDF tools with no signup, no limits and no watermark",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792814704000,
+      "url": "https://filekin.io/",
+      "metric": "",
+      "titleZh": "Filekin – 无需注册、无限制、无水印的 PDF 工具",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50218188",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: A map of outdoor gyms and pull-up bars",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792813322000,
+      "url": "https://openairworkout.com/",
+      "metric": "",
+      "titleZh": "显示 HN：户外健身房和引体向上杆地图",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50217927",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI disables internet access during model training",
+      "desc": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "date": 1792809653000,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+      "metric": "",
+      "titleZh": "OpenAI 在模型训练期间禁用互联网访问",
+      "descZh": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50217630",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek Just Shook the AI Industry Again [video]",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792806164000,
+      "url": "https://www.youtube.com/watch?v=YX6QdIYVSgY",
+      "metric": "",
+      "titleZh": "DeepSeek 再次震撼人工智能行业 [视频]",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50217473",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "I built rooms for AI agents to work together",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792804305000,
+      "url": "https://bellman.sh/r/blog/p001-hello-front-desk",
+      "metric": "",
+      "titleZh": "我为人工智能代理建造了一起工作的房间",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "gh-langchain-ai/langgraph-422436760",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "langgraph · langgraph==1.2.17",
+      "desc": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
+      "date": 1792804085000,
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "metric": "1.2.17",
+      "titleZh": "版本发布：langgraph · langgraph==1.2.17",
+      "descZh": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50217196",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Texas Attorney General Sues OpenAI, CEO Sam Altman over ChatGPT Safety",
+      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "date": 1792801869000,
+      "url": "https://texasscorecard.com/state/paxton-sues-openai-ceo-sam-altman-over-chatgpt-safety/",
+      "metric": "",
+      "titleZh": "德克萨斯州总检察长就 ChatGPT 安全问题起诉 OpenAI 首席执行官 Sam Altman",
+      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50217159",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Algernon – A B2B compliance and security oracle for AI agents on Base via x402",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792801574000,
+      "url": "https://github.com/tobiaslofton/algernon-x402-oracle",
+      "metric": "",
+      "titleZh": "Algernon – 通过 x402 为 Base 上的 AI 代理提供 B2B 合规性和安全预言机",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216917",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI found a critical flaw in Brotli (used by Node.js, Bun and Envoy)",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792799217000,
+      "url": "https://twitter.com/OpenAI/status/2113766354386084338",
+      "metric": "",
+      "titleZh": "OpenAI 在 Brotli（由 Node.js、Bun 和 Envoy 使用）中发现了一个严重缺陷",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216800",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Soma – memory and proofs for AI agents, measured not asserted",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792798305000,
+      "url": "https://github.com/mrpkk/soma-protocol",
+      "metric": "",
+      "titleZh": "Soma – AI 代理的记忆和证明，测量但未断言",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216791",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "desc": "技术社区讨论 · 123 赞同 · 67 条评论。",
+      "date": 1792798217000,
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "metric": "",
+      "titleZh": "不断演变的威胁：http2shell 是 Node、Python 等中的 RCE",
+      "descZh": "技术社区讨论 · 123 赞同 · 67 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50216636",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AgentProbe – test AI agents by making the systems around them fail",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792797048000,
+      "url": "https://sampact.com/",
+      "metric": "",
+      "titleZh": "AgentProbe – 通过使周围的系统失败来测试 AI 代理",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
     {
       "id": "hn-50216187",
       "type": "news",
@@ -145,6 +301,19 @@
       "translationStatus": "pending"
     },
     {
+      "id": "hn-50214803",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Tell HN: The Amount of Irrelevant Content on Here Is Insane",
+      "desc": "技术社区讨论 · 8 赞同 · 11 条评论。",
+      "date": 1792787009000,
+      "url": "https://news.ycombinator.com/item?id=50214803",
+      "metric": "",
+      "titleZh": "告诉 HN：这里不相关的内容数量太疯狂了",
+      "descZh": "技术社区讨论 · 8 赞同 · 11 条评论。",
+      "translationStatus": "ready"
+    },
+    {
       "id": "hn-50214606",
       "type": "news",
       "source": "Hacker News",
@@ -162,12 +331,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Dánwò – Open-source E2E testing with emulators and fault injection",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "date": 1792785992000,
       "url": "https://github.com/carbonmeai/danwo",
       "metric": "",
       "titleZh": "Show HN：Dánwò – 使用模拟器和故障注入进行开源 E2E 测试",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -188,12 +357,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Securing our frontier model training environment",
-      "desc": "技术社区讨论 · 52 赞同 · 61 条评论。",
+      "desc": "技术社区讨论 · 92 赞同 · 99 条评论。",
       "date": 1792785056000,
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "metric": "",
       "titleZh": "确保我们的前沿模型训练环境的安全",
-      "descZh": "技术社区讨论 · 52 赞同 · 61 条评论。",
+      "descZh": "技术社区讨论 · 92 赞同 · 99 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -201,12 +370,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Argus – Run AI agents unattended on a VPS, controlled from Web & Tlgrm",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "date": 1792784010000,
       "url": "https://github.com/rla-labs/argus",
       "metric": "",
       "titleZh": "Show HN：Argus – 在 VPS 上运行无人值守的 AI 代理，由 Web 和 Tlgrm 控制",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -220,6 +389,19 @@
       "metric": "",
       "titleZh": "OpenAI 收购 Orchestra Bio",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50214055",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Volodymyr Zelenskyy: The speed limits on Starlink and Starshield are still there",
+      "desc": "技术社区讨论 · 41 赞同 · 14 条评论。",
+      "date": 1792783300000,
+      "url": "https://twitter.com/ZelenskyyUa/status/2113677048354947180",
+      "metric": "",
+      "titleZh": "弗拉基米尔·泽连斯基：星链和星盾的速度限制仍然存在",
+      "descZh": "技术社区讨论 · 41 赞同 · 14 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -271,6 +453,19 @@
       "url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
       "metric": "",
       "titleZh": "使用同态加密的私人 LLM 推理 [pdf]",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50212712",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792777373000,
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "metric": "",
+      "titleZh": "Warhound 筹集了 2 亿美元来设计战犬并为它们配备 Anduril 装备",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
@@ -370,12 +565,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Open Source Mobile-Use MCP and AI Agent",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "date": 1792772799000,
       "url": "https://github.com/ghorbelhamdi/buddy-android",
       "metric": "",
       "titleZh": "开源移动使用MCP和AI Agent",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -418,19 +613,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50211188",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792771358000,
-      "url": "https://arxiv.org/abs/2610.30769",
-      "metric": "",
-      "titleZh": "LLM 多代理系统容易受到羊群效应和失控级联的影响",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50211080",
       "type": "news",
       "source": "Hacker News",
@@ -444,19 +626,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50211015",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Anyone else frustrated with mermaid diagrams?",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792770747000,
-      "url": "https://github.com/uberblick-ai/ablauf",
-      "metric": "",
-      "titleZh": "Show HN：还有人对美人鱼图感到沮丧吗？",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50210765",
       "type": "news",
       "source": "Hacker News",
@@ -467,19 +636,6 @@
       "metric": "",
       "titleZh": "使用 Decisions API 构建响应速度更快的应用程序",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50210734",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Warhound: Palmer Luckey's war dog startup",
-      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "date": 1792769557000,
-      "url": "https://www.businessinsider.com/palmer-luckey-benn-lamm-warhound-war-dog-startup-seed-funding-2026-10",
-      "metric": "",
-      "titleZh": "Warhound：Palmer Luckey 的战犬初创公司",
-      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -509,81 +665,16 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50210566",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Google Ads AI Automation is a team of 41 AI agents",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792768893000,
-      "url": "https://github.com/aipsyhelp/ai_ads_google",
-      "metric": "",
-      "titleZh": "Google Ads AI 自动化是一个由 41 名 AI 代理组成的团队",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50210502",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Ask HN: How can I grow as an engineer in the AI era",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792768654000,
-      "url": "https://news.ycombinator.com/item?id=50210502",
-      "metric": "",
-      "titleZh": "问 HN：在 AI 时代我如何成长为一名工程师",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50210481",
       "type": "news",
       "source": "Hacker News",
       "title": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "date": 1792768570000,
       "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
       "metric": "",
       "titleZh": "导致 OpenAI 研究人员失业的信号聊天",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50210227",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Ask HN: Secure minimalistic web front-ends to Local LLM's?",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792767713000,
-      "url": "https://news.ycombinator.com/item?id=50210227",
-      "metric": "",
-      "titleZh": "问 HN：保护本地 LLM 的简约 Web 前端吗？",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50210221",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Nvidia Sentry: Secure AI Agents at Runtime",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792767686000,
-      "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
-      "metric": "",
-      "titleZh": "Nvidia Sentry：运行时保护 AI 代理",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50210125",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "I Built an AI Bot to Fact-Check the Midterms. Here's What I've Learned",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1792767315000,
-      "url": "https://agentsofinfluence.substack.com/p/i-built-an-ai-bot-to-fact-check-the",
-      "metric": "",
-      "titleZh": "我构建了一个人工智能机器人来对期中考试进行事实核查。这是我学到的",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -630,25 +721,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI trims valuation target to $1.25T after pitching higher price",
-      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 6 赞同 · 0 条评论。",
       "date": 1792765160000,
       "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
       "metric": "",
       "titleZh": "OpenAI 在提高价格后将估值目标下调至 1.25T 美元",
-      "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50209500",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Kavela – AI Automations that do not fail silently",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "date": 1792765111000,
-      "url": "https://kavela.ai",
-      "metric": "",
-      "titleZh": "Show HN：Kavela – 不会默默失败的人工智能自动化",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 6 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -743,58 +821,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50203538",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792719690000,
-      "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
-      "metric": "",
-      "titleZh": "红队 OpenAI 的内部代理监控系统",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50202933",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "What FDE Means at OpenAI",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "date": 1792714740000,
-      "url": "https://openai.com/index/forward-deployed-engineering-means/",
-      "metric": "",
-      "titleZh": "FDE 在 OpenAI 中意味着什么",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50202402",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI trims valuation target after pitching higher price",
-      "desc": "技术社区讨论 · 6 赞同 · 1 条评论。",
-      "date": 1792710944000,
-      "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
-      "metric": "",
-      "titleZh": "OpenAI 在提高价格后下调估值目标",
-      "descZh": "技术社区讨论 · 6 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50201261",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Hannah Fry: How OpenAI has caused an existential crisis in mathematics",
-      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "date": 1792704298000,
-      "url": "https://www.newscientist.com/article/2593249-hannah-fry-how-openai-has-caused-an-existential-crisis-in-mathematics/",
-      "metric": "",
-      "titleZh": "Hannah Fry：OpenAI 如何引发数学领域的生存危机",
-      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50198605",
       "type": "news",
       "source": "Hacker News",
@@ -870,19 +896,6 @@
       "metric": "",
       "titleZh": "评估代理人工智能系统的框架",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.30926",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
-      "desc": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not autom",
-      "date": 1792644228000,
-      "url": "https://huggingface.co/papers/2610.30926",
-      "metric": "",
-      "titleZh": "让 MLLM 潜伏变得重要：用于电影视频生成的因子感知预测学习",
-      "descZh": "电影视频生成需要从有限的输入（即稀疏而不是逐帧引导）进行时间推断，以及对角色、场景、动作和摄像机进行因子感知控制。多模态大语言模型 (MLLM) 为这两种功能提供了有用的先验，但它们的表示不是自动的",
       "translationStatus": "ready"
     },
     {
@@ -1120,19 +1133,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.31668",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "desc": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
-      "date": 1792612800000,
-      "url": "https://huggingface.co/papers/2610.31668",
-      "metric": "",
-      "titleZh": "通过视频阅读、写作、分享、与世界互动",
-      "descZh": "视频基础模型在理解和生成视觉序列方面取得了快速进展，而视频世界模型则试图捕捉它们所描绘的世界的潜在动态。尽管目标不同，但都关注视频观察与不断发展的世界之间的关系。本次调查采用",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50179680",
       "type": "news",
       "source": "Hacker News",
@@ -1195,6 +1195,19 @@
       "metric": "",
       "titleZh": "美国禁止联邦机构使用 DeepSeek，引发中国愤怒回应",
       "descZh": "技术社区讨论 · 6 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.30043",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "desc": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack ",
+      "date": 1792526400000,
+      "url": "https://huggingface.co/papers/2610.30043",
+      "metric": "",
+      "titleZh": "TARSphere：面向机器人的全栈框架，适用于不断变化的物理和社会环境中的远景体现代理",
+      "descZh": "机器人必须在物理和社会约束下行动，同时适应环境和人类需求的变化。现有的具身代理系统通常专注于特定的目标或抽象执行为象征性的行动，限制了不断发展的世界中的评估。我们推出TARSphere，一个面向机器人的全栈",
       "translationStatus": "ready"
     },
     {
@@ -1263,19 +1276,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.27851",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
-      "desc": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.27851",
-      "metric": "",
-      "titleZh": "LaLa-World：用自然语言动作扩展潜在世界模型",
-      "descZh": "本文表明，JEPA 式的潜在世界模型 (LWM) 可以通过采用视频生成模型的语言条件接口来跨不同领域和数据源进行学习。我们将这种方法作为富有想象力的规划和下游政策微调的有效和高效的基础。对此",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50171054",
       "type": "news",
       "source": "Hacker News",
@@ -1299,19 +1299,6 @@
       "metric": "",
       "titleZh": "DHS DeepSeek 删除命令，转录：范围、例外情况、开放权重",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50163812",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "DeepInfer, our in-house inference framework, now open source",
-      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "date": 1792491166000,
-      "url": "https://twitter.com/deepseek_ai/status/2112476496283775135",
-      "metric": "",
-      "titleZh": "DeepInfer，我们的内部推理框架，现已开源",
-      "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -1364,19 +1351,6 @@
       "metric": "v5.20.2",
       "titleZh": "版本发布：transformers · Patch release v5.20.2",
       "descZh": "huggingface/transformers · 正式 Release，点击查看版本说明。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "gh-langchain-ai/langgraph-417366010",
-      "type": "opensource",
-      "source": "GitHub Releases",
-      "title": "langgraph · langgraph-cli==0.4.37",
-      "desc": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
-      "date": 1792418782000,
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
-      "metric": "cli==0.4.37",
-      "titleZh": "版本发布：langgraph · langgraph-cli==0.4.37",
-      "descZh": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
       "translationStatus": "ready"
     },
     {
@@ -1575,6 +1549,19 @@
       "translationStatus": "ready"
     },
     {
+      "id": "paper-2610.04184",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "desc": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this des",
+      "date": 1792094400000,
+      "url": "https://huggingface.co/papers/2610.04184",
+      "metric": "",
+      "titleZh": "EvalResearchBench：人工智能代理能否建立自己的反馈以实现递归自我改进？",
+      "descZh": "递归自我改进 (RSI) 依靠评估反馈来评估进展并指导进一步的研究，但重复运行复杂的基准测试成本高昂且会减慢迭代速度。人类专家通过选择基准子集或设计紧凑套件来降低成本。我们询问人工智能代理是否可以自动化这一设计",
+      "translationStatus": "ready"
+    },
+    {
       "id": "paper-2610.22951",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1598,6 +1585,19 @@
       "metric": "v5.20.0",
       "titleZh": "版本发布：transformers · Release v5.20.0",
       "descZh": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.22722",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "desc": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We presen",
+      "date": 1792008000000,
+      "url": "https://huggingface.co/papers/2610.22722",
+      "metric": "",
+      "titleZh": "LLM-Attacker：用于分割和分布式 LLM 系统隐私评估的统一红队框架",
+      "descZh": "分割语言模型将输入文本保留在客户端上，但将中间表示发送到服务器。攻击可以从这些消息中重建文本。当攻击者看到不同的消息、了解不同的模型权重或使用不同的数据集和恢复措施时，比较隐私评估就很困难。我们呈现",
       "translationStatus": "ready"
     },
     {
