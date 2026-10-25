@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T19:01:50+00:00",
+  "generatedAt": "2026-10-25T22:32:02+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
@@ -28,16 +28,172 @@
   },
   "items": [
     {
+      "id": "hn-50236627",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Glitchrupt: Glitch your desktop when your AI agent needs your attention",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792966952000,
+      "url": "https://github.com/elbee19/glitchrupt",
+      "metric": "",
+      "titleZh": "Show HN：Glitchrupt：当您的 AI 代理需要您的关注时，您的桌面会出现故障",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50236396",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: I built an AI agent to find customers on Telegram while I sleep",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792965191000,
+      "url": "https://opensparta.com/en",
+      "metric": "",
+      "titleZh": "Show HN：我构建了一个人工智能代理，可以在睡觉时在 Telegram 上寻找客户",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50236250",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: I added stacked subgraphs to Mermaid flowcharts",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792963921000,
+      "url": "https://ramraj07.github.io/ra-mermaid/",
+      "metric": "",
+      "titleZh": "Show HN：我向 Mermaid 流程图添加了堆叠子图",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50236102",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "desc": "技术社区讨论 · 29 赞同 · 35 条评论。",
+      "date": 1792962691000,
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "metric": "",
+      "titleZh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
+      "descZh": "技术社区讨论 · 29 赞同 · 35 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235958",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Raspberry Pi PicoW + LeRobot SO-ARM100 controlled via a webpage/mqtt/openai",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792961554000,
+      "url": "https://github.com/AdrianCX/picohive-robotarm",
+      "metric": "",
+      "titleZh": "通过网页/mqtt/openai控制Raspberry Pi PicoW + LeRobot SO-ARM100",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235909",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792961210000,
+      "url": "https://github.com/SRN0129/Agenttrust",
+      "metric": "",
+      "titleZh": "Show HN：AgentTrust – AI 代理的零信任安全和人工审批",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235819",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: Where is GTAcraft VI?",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792960628000,
+      "url": "https://news.ycombinator.com/item?id=50235819",
+      "metric": "",
+      "titleZh": "问 HN：GTAcraft VI 在哪里？",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235688",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Plan and code review for your agents",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1792959682000,
+      "url": "https://plannotator.ai/",
+      "metric": "",
+      "titleZh": "为您的代理进行计划和代码审查",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235425",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Hycli – reverse-engineer websites into CLI and MCP tools for AI agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1792957905000,
+      "url": "https://github.com/Hybirdss/Hycli",
+      "metric": "",
+      "titleZh": "Show HN：Hycli – 将网站逆向工程为 AI 代理的 CLI 和 MCP 工具",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235357",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "NeuronDump: Open a local LLM as a 3D graph, cut parts, see what breaks",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792957509000,
+      "url": "https://github.com/aymen94/NeuronDump",
+      "metric": "",
+      "titleZh": "NeuronDump：以 3D 图表形式打开本地 LLM，切割零件，看看有什么损坏",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235316",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Eunice is almost here",
+      "desc": "技术社区讨论 · 49 赞同 · 42 条评论。",
+      "date": 1792957227000,
+      "url": "https://armincat.com/articles/eunice-is-almost-here",
+      "metric": "",
+      "titleZh": "尤妮斯快到了",
+      "descZh": "技术社区讨论 · 49 赞同 · 42 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50235230",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Reclaim disk space with an AI agent",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792956668000,
+      "url": "https://github.com/riza/ai-disk-cleanup",
+      "metric": "",
+      "titleZh": "使用 AI 代理回收磁盘空间",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
       "id": "hn-50234861",
       "type": "news",
       "source": "Hacker News",
       "title": "LimonOS new OS no Unix no Linux",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 3 条评论。",
       "date": 1792954581000,
       "url": "https://news.ycombinator.com/item?id=50234861",
       "metric": "",
       "titleZh": "LimonOS 是 Linux 上 Unix 上的新操作系统",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 3 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -45,12 +201,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Human Limits to Growth",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "date": 1792954485000,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6742738",
       "metric": "",
       "titleZh": "人类增长的极限",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -58,12 +214,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "date": 1792953851000,
       "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
       "metric": "",
       "titleZh": "OpenAI 的隔离 AI 代理找到了通过 CPU 缓存相互通信的方法",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -97,12 +253,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: What is the main bottleneck facing Agentic AI today?",
-      "desc": "技术社区讨论 · 5 赞同 · 11 条评论。",
+      "desc": "技术社区讨论 · 7 赞同 · 14 条评论。",
       "date": 1792950748000,
       "url": "https://news.ycombinator.com/item?id=50234108",
       "metric": "",
       "titleZh": "问 HN：Agentic AI 如今面临的主要瓶颈是什么？",
-      "descZh": "技术社区讨论 · 5 赞同 · 11 条评论。",
+      "descZh": "技术社区讨论 · 7 赞同 · 14 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -110,12 +266,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: Mined crypto on Azure when I was 13, after 12y still cannot open account",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "date": 1792950246000,
       "url": "https://news.ycombinator.com/item?id=50234035",
       "metric": "",
       "titleZh": "问 HN：我 13 岁时在 Azure 上开采了加密货币，12 年后仍然无法开设帐户",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -123,12 +279,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "desc": "技术社区讨论 · 145 赞同 · 77 条评论。",
+      "desc": "技术社区讨论 · 340 赞同 · 174 条评论。",
       "date": 1792948538000,
       "url": "https://lynchlab.net/llm-skin-cancer",
       "metric": "",
       "titleZh": "10 年历史的 CNN 在皮肤癌诊断方面优于前沿法学硕士",
-      "descZh": "技术社区讨论 · 145 赞同 · 77 条评论。",
+      "descZh": "技术社区讨论 · 340 赞同 · 174 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -149,12 +305,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "I'm creating my own OS, check it out, LimonOs no Unix no Linux",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "date": 1792947261000,
       "url": "https://news.ycombinator.com/item?id=50233576",
       "metric": "",
       "titleZh": "我正在创建自己的操作系统，检查一下，LimonOs 没有 Unix 没有 Linux",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -201,12 +357,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Jukebox-OS: Deterministic time-travel replay and ACID tool sandbox for AI agents",
-      "desc": "技术社区讨论 · 9 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 10 赞同 · 0 条评论。",
       "date": 1792945786000,
       "url": "https://github.com/socrates6969/jukebox-os",
       "metric": "",
       "titleZh": "Jukebox-OS：用于 AI 代理的确定性时间旅行重放和 ACID 工具沙箱",
-      "descZh": "技术社区讨论 · 9 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 10 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -240,12 +396,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "What Adobe v ArtCraft teaches us",
-      "desc": "技术社区讨论 · 80 赞同 · 75 条评论。",
+      "desc": "技术社区讨论 · 82 赞同 · 93 条评论。",
       "date": 1792942484000,
       "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
       "metric": "",
       "titleZh": "Adobe v ArtCraft 教给我们什么",
-      "descZh": "技术社区讨论 · 80 赞同 · 75 条评论。",
+      "descZh": "技术社区讨论 · 82 赞同 · 93 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -279,12 +435,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "R/open source bans all solo projects and projects using LLMs",
-      "desc": "技术社区讨论 · 73 赞同 · 98 条评论。",
+      "desc": "技术社区讨论 · 76 赞同 · 104 条评论。",
       "date": 1792937103000,
       "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
       "metric": "",
       "titleZh": "R/开源禁止所有个人项目和使用法学硕士的项目",
-      "descZh": "技术社区讨论 · 73 赞同 · 98 条评论。",
+      "descZh": "技术社区讨论 · 76 赞同 · 104 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -327,19 +483,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50229997",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Echoboard where AI agents do science and humans only watch",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792923511000,
-      "url": "https://jevontane.com/echoboard/",
-      "metric": "",
-      "titleZh": "展示 HN：Echoboard，人工智能代理进行科学研究，而人类只能观看",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50229493",
       "type": "news",
       "source": "Hacker News",
@@ -363,19 +506,6 @@
       "metric": "",
       "titleZh": "没有结果就没有原因：从爱因斯坦到兰波特",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50228951",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "TaskWire An MCP-based taskboard for managing AI agent workflows",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1792910693000,
-      "url": "https://taskwire.si",
-      "metric": "",
-      "titleZh": "TaskWire 基于 MCP 的任务板，用于管理 AI 代理工作流程",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -405,84 +535,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50228314",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you",
-      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "date": 1792902360000,
-      "url": "https://independentvet.com/",
-      "metric": "",
-      "titleZh": "Show HN：独立兽医 – 查找您附近的本地兽医（和公司兽医）",
-      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50228301",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Git-ing Over it, learn Git like you'll use it IRL",
-      "desc": "技术社区讨论 · 1 赞同 · 2 条评论。",
-      "date": 1792902191000,
-      "url": "https://git-ing-over-it.vercel.app/",
-      "metric": "",
-      "titleZh": "Show HN：Git-ing 学习 Git，就像在现实生活中使用它一样",
-      "descZh": "技术社区讨论 · 1 赞同 · 2 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50228150",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Kevin Kelly – We don't want the best AI, we want the only AI",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1792900432000,
-      "url": "https://kevinkelly.substack.com/p/most-improbable-agent-of-you",
-      "metric": "",
-      "titleZh": "凯文·凯利 – 我们不想要最好的人工智能，我们想要唯一的人工智能",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50228031",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: AgentSkill – Yara-L-Skill",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792899176000,
-      "url": "https://github.com/ajaynyayapathi/yara-l-skill",
-      "metric": "",
-      "titleZh": "显示 HN：AgentSkill – Yara-L-Skill",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50227985",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Tokens aren't valuable: No more AI",
-      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "date": 1792898718000,
-      "url": "https://www.reddit.com/r/opensource/s/Vmk5Fd1N8H",
-      "metric": "",
-      "titleZh": "代币不再有价值：不再有人工智能",
-      "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50227943",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: An OSS browser and work environment for humans and agents",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1792898199000,
-      "url": "https://github.com/zephium-browser/Zephium",
-      "metric": "",
-      "titleZh": "Show HN：人类和代理的 OSS 浏览器和工作环境",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50227655",
       "type": "news",
       "source": "Hacker News",
@@ -496,42 +548,16 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50227550",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Talking with strangers is surprisingly informative",
-      "desc": "技术社区讨论 · 16 赞同 · 0 条评论。",
-      "date": 1792893897000,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35972959/",
-      "metric": "",
-      "titleZh": "与陌生人交谈可以提供惊人的信息",
-      "descZh": "技术社区讨论 · 16 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50227527",
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: ReVault – new secure archive format",
-      "desc": "技术社区讨论 · 8 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 9 赞同 · 5 条评论。",
       "date": 1792893681000,
       "url": "https://news.ycombinator.com/item?id=50227527",
       "metric": "",
       "titleZh": "显示 HN：ReVault – 新的安全存档格式",
-      "descZh": "技术社区讨论 · 8 赞同 · 2 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50227403",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "\"Musk\" Documentary Pulled from Almost Every One of 472 Theaters After One Week",
-      "desc": "技术社区讨论 · 47 赞同 · 16 条评论。",
-      "date": 1792892401000,
-      "url": "https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films",
-      "metric": "",
-      "titleZh": "《马斯克》纪录片一周后几乎从 472 家影院撤下",
-      "descZh": "技术社区讨论 · 47 赞同 · 16 条评论。",
+      "descZh": "技术社区讨论 · 9 赞同 · 5 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -539,12 +565,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats",
-      "desc": "技术社区讨论 · 8 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 9 赞同 · 1 条评论。",
       "date": 1792890444000,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "metric": "",
       "titleZh": "在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择民主党人",
-      "descZh": "技术社区讨论 · 8 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 9 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -643,12 +669,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
-      "desc": "技术社区讨论 · 50 赞同 · 41 条评论。",
+      "desc": "技术社区讨论 · 51 赞同 · 41 条评论。",
       "date": 1792856117000,
       "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
       "metric": "",
       "titleZh": "Oai-math-revised：用于修改 OpenAI 数学文章的社区中心",
-      "descZh": "技术社区讨论 · 50 赞同 · 41 条评论。",
+      "descZh": "技术社区讨论 · 51 赞同 · 41 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -662,32 +688,6 @@
       "metric": "",
       "titleZh": "快速扩展在线存储以服务超过 1B ChatGPT 用户（第二部分）",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50218188",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: A map of outdoor gyms and pull-up bars",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1792813322000,
-      "url": "https://openairworkout.com/",
-      "metric": "",
-      "titleZh": "显示 HN：户外健身房和引体向上杆地图",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50217927",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI disables internet access during model training",
-      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "date": 1792809653000,
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
-      "metric": "",
-      "titleZh": "OpenAI 在模型训练期间禁用互联网访问",
-      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -844,6 +844,19 @@
       "metric": "",
       "titleZh": "通过测试时间回归重新思考序列压缩",
       "descZh": "序列压缩是高效语言和多模态模型中的基本操作和关键信息瓶颈，但基于池化或学习投影的主流方法仍然表现不佳。我们通过测试时间回归的角度重新审视序列压缩：输入标记定义",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50192356",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "A framework for evaluating agentic AI systems",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1792654371000,
+      "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
+      "metric": "",
+      "titleZh": "评估代理人工智能系统的框架",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -1081,6 +1094,19 @@
       "translationStatus": "ready"
     },
     {
+      "id": "hn-50179680",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AI Testing vs. Software Testing",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1792585222000,
+      "url": "https://deepsense.ai/blog/ai-testing-vs-software-testing-how-to-build-reliable-production-ai-systems/",
+      "metric": "",
+      "titleZh": "人工智能测试与软件测试",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
       "id": "hn-50176351",
       "type": "news",
       "source": "Hacker News",
@@ -1208,32 +1234,6 @@
       "metric": "",
       "titleZh": "Foundation4D：迈向自动驾驶汽车的统一感知和重建模型",
       "descZh": "我们引入了 Foundation4D，这是一个统一的前馈模型，用于几何估计、3D 检测、语义占用和多摄像头驾驶视频的高斯重建。共享主干网使用分解的时空注意力来有效地结合跨摄像机和时间的观察结果。我们的视频推理管道",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50171054",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Latest open artifacts (#25): DeepSeek v4.1 Flash 1017, American-made models",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792522874000,
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "metric": "",
-      "titleZh": "最新开放神器（#25）：DeepSeek v4.1 Flash 1017，美国产型号",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50169100",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "The DHS DeepSeek removal order, transcribed: scope, exceptions, open weights",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1792514628000,
-      "url": "https://theainewsreport.com/2026-10-20-dhs-deepseek-removal-order-explained.html",
-      "metric": "",
-      "titleZh": "DHS DeepSeek 删除命令，转录：范围、例外、开放权重",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
