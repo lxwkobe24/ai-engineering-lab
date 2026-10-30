@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T05:44:32+00:00",
+  "generatedAt": "2026-10-30T15:02:11+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
-      "count": 68
+      "count": 70
     },
     "models": {
       "status": "snapshot",
@@ -21,24 +21,453 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "partial",
-    "ready": 140,
-    "pending": 38,
+    "status": "complete",
+    "ready": 180,
+    "pending": 0,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50304874",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Starck's iconic lemon squeezer broke the mold",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793372407000,
+      "url": "https://www.designboom.com/design/game-philippe-starck-iconic-lemon-squeezer-juicy-salif-alessi/",
+      "metric": "",
+      "titleZh": "斯塔克标志性的柠檬榨汁机打破了陈规",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50304765",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: AI agent needs process to build a commercial application",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793371757000,
+      "url": "https://nomorehappypath.com/",
+      "metric": "",
+      "titleZh": "Show HN：人工智能代理需要流程来构建商业应用程序",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50304646",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Offline Tiny-LMs 25MB for personal goals, career and pitch deck advice",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793371291000,
+      "url": "https://github.com/shanedevane/etiny",
+      "metric": "",
+      "titleZh": "Show HN：离线 Tiny-LM 25MB，提供个人目标、职业和融资建议",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50304435",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "A computer scientist breaks through a limit that stood since 1996",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793370534000,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
+      "metric": "",
+      "titleZh": "一位计算机科学家突破了 1996 年以来的限制",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50304351",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Beolis – Manage your coding AI agents",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "date": 1793370134000,
+      "url": "https://beolis.com",
+      "metric": "",
+      "titleZh": "Show HN：Beolis – 管理您的编码 AI 代理",
+      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50304073",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Local agent with multivendors, free, you own your context",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1793369087000,
+      "url": "https://safata.ai/",
+      "metric": "",
+      "titleZh": "拥有多供应商的本地代理，免费，您拥有自己的环境",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50303883",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Why is the Stripe Codex plugin inserting itself into unrelated procurement tasks",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793368272000,
+      "url": "https://github.com/stripe/ai/blob/867a598/providers/agent-plugins/plugin/skills/stripe-directory/SKILL.md",
+      "metric": "",
+      "titleZh": "为什么 Stripe Codex 插件会将自身插入到不相关的采购任务中",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50303770",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "BC looks into role of OpenAI private info in mass shooting. OpenAI asks to quash",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1793367706000,
+      "url": "https://www.cbc.ca/news/canada/british-columbia/openai-tumbler-ridge-bc-privacy-commissioner-investigation-9.7401870",
+      "metric": "",
+      "titleZh": "BC 调查 OpenAI 私人信息在大规模枪击事件中的作用。 OpenAI 要求撤销",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50303579",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Proof by OpenAI of the Existence of Quantum Yang-Mills Theory [pdf]",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793366856000,
+      "url": "https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf",
+      "metric": "",
+      "titleZh": "OpenAI 证明量子杨-米尔斯理论的存在 [pdf]",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50303475",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Navital Gym – open environments for testing AI agents on Indian tasks",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793366355000,
+      "url": "https://github.com/Navitallabs/navital-gym",
+      "metric": "",
+      "titleZh": "Show HN：Navital Gym – 用于在印度任务上测试 AI 代理的开放环境",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50303157",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: SpecDeck – Bring coding agent decisions back into the spec",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793364468000,
+      "url": "https://specdeck.ai/",
+      "metric": "",
+      "titleZh": "Show HN：SpecDeck – 将编码代理决策带回到规范中",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302895",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Local Inference with LLMs",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793362594000,
+      "url": "https://jacquesmattheij.com/local-inference-with-large-language-models/",
+      "metric": "",
+      "titleZh": "法学硕士的本地推理",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302784",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "GitHub language bar is lying (how to fix it)",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793361891000,
+      "url": "https://mkennedy.codes/posts/your-github-language-bar-is-lying-and-how-to-fix-it/",
+      "metric": "",
+      "titleZh": "GitHub 语言栏撒谎（如何修复）",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302507",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Sikaru: self-improving agents, with the lab built in",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793359610000,
+      "url": "https://www.sikaru.ai/blog/introducing-sikaru",
+      "metric": "",
+      "titleZh": "Sikaru：自我完善的代理人，内置实验室",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302361",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Learn LLM inference system on Apple Silicon",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1793358552000,
+      "url": "https://github.com/skyzh/tiny-llm",
+      "metric": "",
+      "titleZh": "在 Apple Silicon 上学习 LLM 推理系统",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302340",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: What inference engine and KV offload engine do you use and why?",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793358391000,
+      "url": "https://news.ycombinator.com/item?id=50302340",
+      "metric": "",
+      "titleZh": "问 HN：您使用什么推理引擎和 KV 卸载引擎，为什么？",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302199",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "I refuse to pay for business email on every side project",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793357333000,
+      "url": "https://github.com/sums001/OpenInbox",
+      "metric": "",
+      "titleZh": "我拒绝为每个副业项目支付商业电子邮件费用",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302167",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Stripe Made Agentic Payments Possible. Why Your Server Still Blocks the Agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793357070000,
+      "url": "https://thebossmagazine.com/post/agentic-payments-ai-agents-retail-blocking/",
+      "metric": "",
+      "titleZh": "Stripe 使代理支付成为可能。为什么您的服务器仍然阻止代理",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302109",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: What inference engine and KV offload engine do you use and why?",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793356624000,
+      "url": "https://news.ycombinator.com/item?id=50302109",
+      "metric": "",
+      "titleZh": "问 HN：您使用什么推理引擎和 KV 卸载引擎，为什么？",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302093",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793356498000,
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "metric": "",
+      "titleZh": "在计划削减 50% 遭到强烈反对后，OpenAI 将 ChatGPT Pro 使用限制提高了一倍",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50302055",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Antigenic operating system for my AI agents Claude Code, open claw, codex etc.",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793356256000,
+      "url": "https://github.com/Dodaios/Dodaios",
+      "metric": "",
+      "titleZh": "我的 AI 特工 Claude Code、Open Claw、Codex 等的抗原操作系统。",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301961",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Anime Text Datasets for LLMs Training",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
+      "date": 1793355569000,
+      "url": "https://github.com/muqeet-1138/anime-text-dataset",
+      "metric": "",
+      "titleZh": "显示 HN：用于法学硕士培训的动漫文本数据集",
+      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "gh-huggingface/transformers-428853453",
+      "type": "opensource",
+      "source": "GitHub Releases",
+      "title": "transformers · Patch release v5.22.1",
+      "desc": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "date": 1793352963000,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "metric": "v5.22.1",
+      "titleZh": "版本发布：transformers · Patch release v5.22.1",
+      "descZh": "huggingface/transformers · 正式 Release，点击查看版本说明。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301510",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "An attack against an LLM agent is either detected or proven",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793352204000,
+      "url": "https://news.ycombinator.com/item?id=50301510",
+      "metric": "",
+      "titleZh": "检测到或证实针对 LLM 代理的攻击",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301429",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Efficient Streaming Language Models with Attention Sinks",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793351398000,
+      "url": "https://idlemachines.co.uk/essays/streaming-llm-attention-sinks",
+      "metric": "",
+      "titleZh": "具有注意力接收器的高效流式语言模型",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301413",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Last night an AI agent performed surgery on a mouse",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793351267000,
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "metric": "",
+      "titleZh": "昨晚，人工智能特工对老鼠进行了手术",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301267",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "LLMs recognize dropout and Gaussian noise applied to their activations",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793349797000,
+      "url": "https://arxiv.org/abs/2604.17465",
+      "metric": "",
+      "titleZh": "LLM 识别应用于其激活的丢失和高斯噪声",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301153",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Send21 – Crypto pay links an AI agent can create but can't spend",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793348804000,
+      "url": "https://send21.io/demo",
+      "metric": "",
+      "titleZh": "Show HN：Send21 – 人工智能代理可以创建但不能花费的加密支付链接",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50301018",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: AI agents trade privately on BitcoinZ, with proof of delivery",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793347556000,
+      "url": "https://github.com/ZKStamp/AgentWallet",
+      "metric": "",
+      "titleZh": "Show HN：人工智能代理在 BitcoinZ 上私下交易，并附有交付证明",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50300933",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "A software audit skill for solo builders",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793346687000,
+      "url": "https://github.com/luigimorel/software-audit-skill",
+      "metric": "",
+      "titleZh": "独立构建者的软件审核技能",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50300864",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Stochastic Lagrangian Control and Proportional Bias Routing for Moe",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793346208000,
+      "url": "https://github.com/lambda-z-lab/lz-moe-slc",
+      "metric": "",
+      "titleZh": "Show HN：Moe 的随机拉格朗日控制和比例偏差路由",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50300499",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "How we detect frontier model misalignment",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793342048000,
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+      "metric": "",
+      "titleZh": "我们如何检测前沿模型错位",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50300279",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "ChatGPT release notes October 29, 2026",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793339329000,
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "metric": "",
+      "titleZh": "ChatGPT 发行说明 2026 年 10 月 29 日",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
     {
       "id": "hn-50299858",
       "type": "news",
       "source": "Hacker News",
       "title": "Any HN folks with undiagnosed diseases?",
-      "desc": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
       "date": 1793334327000,
       "url": "https://news.ycombinator.com/item?id=50299858",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 2 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "有没有患有未确诊疾病的 HN 人？",
+      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50299847",
@@ -49,21 +478,21 @@
       "date": 1793334239000,
       "url": "https://github.com/orime-org/breatic",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN：Breatic – 与 AI 代理协作的画布和文档",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50299603",
       "type": "news",
       "source": "Hacker News",
       "title": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "date": 1793331434000,
       "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
       "metric": "",
       "titleZh": "一家国防承包商允许他们的人工智能代理访问安全的五角大楼系统",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -71,26 +500,26 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
-      "desc": "技术社区讨论 · 20 赞同 · 3 条评论。",
+      "desc": "技术社区讨论 · 33 赞同 · 19 条评论。",
       "date": 1793325941000,
       "url": "https://github.com/Millillion/lasm",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 20 赞同 · 3 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "Show HN：Lasm – 在精益中为 Node/serverless/edge 编写经过正式验证的 Web 应用程序",
+      "descZh": "技术社区讨论 · 33 赞同 · 19 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50298118",
       "type": "news",
       "source": "Hacker News",
       "title": "Josh Kushner's Thrive and OpenAI to buy home security firm ADT",
-      "desc": "技术社区讨论 · 6 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 7 赞同 · 0 条评论。",
       "date": 1793319009000,
       "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 6 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "乔什·库什纳 (Josh Kushner) 的 Thrive 和 OpenAI 收购家庭安全公司 ADT",
+      "descZh": "技术社区讨论 · 7 赞同 · 0 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50298001",
@@ -101,9 +530,9 @@
       "date": 1793318496000,
       "url": "https://app.ordinate.dev",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "显示 HN：我在纯文本文件中创建了一个电子表格",
       "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50297955",
@@ -114,9 +543,9 @@
       "date": 1793318175000,
       "url": "https://kevinlynagh.com/newsletter/2026_10_29_llm_programming_and_theory_building/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "法学硕士编程和理论构建",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50297928",
@@ -127,9 +556,9 @@
       "date": 1793317940000,
       "url": "https://broutonlab.com/blog/deterministic-ai/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "确定性人工智能：为什么法学硕士不是，以及如何构建产品",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50297636",
@@ -140,61 +569,9 @@
       "date": 1793315941000,
       "url": "https://judgementlabs.app/blog/the-coalition-room",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "人工智能代理的社会界限被打破：5 名法学硕士试图组建政府",
       "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50297601",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Man given first-of-its-kind religious exemption against mandatory AI use at work",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1793315733000,
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/secular-humanist-gets-religious-exemption-from-using-ai-argues-that-offloading-his-thinking-to-llms-violates-his-beliefs-american-humanist-association-says-its-the-first-case-of-its-kind",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50297217",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "LLMs bring new nature of abstraction (2025)",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793313430000,
-      "url": "https://martinfowler.com/articles/2025-nature-abstraction.html",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50296990",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Biltong.ai",
-      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "date": 1793312268000,
-      "url": "https://biltong.ai/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50296877",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Nanbeige4.3-33B – Flagship teacher LLM",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793311718000,
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50296676",
@@ -205,151 +582,34 @@
       "date": 1793310898000,
       "url": "https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "OpenAI 证明量子杨-米尔斯理论的存在 [pdf]",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50296662",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "\"Human Emacs\": Proposal for an Emacs Fork Without LLM Contributions",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1793310843000,
-      "url": "https://lists.gnu.org/archive/html/emacs-devel/2026-10/msg00508.html",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50296620",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Organizing a kidnap using Apple's personal knowledge graph (and an LLM)",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793310644000,
-      "url": "https://8rank.ai/game/apple-intelligence-knowledge-graph-in-the-wrong-hands",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50296486",
       "type": "news",
       "source": "Hacker News",
       "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "desc": "技术社区讨论 · 236 赞同 · 79 条评论。",
+      "desc": "技术社区讨论 · 348 赞同 · 141 条评论。",
       "date": 1793310028000,
       "url": "https://labs.ycombinator.com/projects/games/index.html",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 236 赞同 · 79 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50296432",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Cross-Model LLM Pricing API",
-      "desc": "技术社区讨论 · 5 赞同 · 1 条评论。",
-      "date": 1793309765000,
-      "url": "https://www.metergraph.dev/pricing-api/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 5 赞同 · 1 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "我们在 Minecraft 和 Mindustry 中运行 AI 代理群",
+      "descZh": "技术社区讨论 · 348 赞同 · 141 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50295662",
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: OpenArcanum – An End-to-End Encrypted Alternative to Discord",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
       "date": 1793306793000,
       "url": "https://github.com/hyperkubeorg/openarcanum/",
       "metric": "",
       "titleZh": "Show HN：OpenArcanum – Discord 的端到端加密替代方案",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50295535",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Comments on any web page that your AI agent can read and reply to",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793306251000,
-      "url": "https://www.npmjs.com/package/pipeup",
-      "metric": "",
-      "titleZh": "您的 AI 代理可以阅读和回复的任何网页上的评论",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50295504",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Squishling 0.5.0 – hybrid LLM/Ruby code classes",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793306123000,
-      "url": "https://coolhand-labs.github.io/squishling/",
-      "metric": "",
-      "titleZh": "Squishling 0.5.0 – 混合 LLM/Ruby 代码类",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50295503",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Hermes and REA and GLM 5.3 = Reverse engineering TikTok app for less than $20",
-      "desc": "技术社区讨论 · 19 赞同 · 15 条评论。",
-      "date": 1793306118000,
-      "url": "https://www.scraping.club/p/tiktok-scraping-metadata",
-      "metric": "",
-      "titleZh": "Hermes、REA 和 GLM 5.3 = 逆向工程 TikTok 应用程序，价格不到 20 美元",
-      "descZh": "技术社区讨论 · 19 赞同 · 15 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50294644",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Ask HN: Antrophic tightened usage limits?",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793302687000,
-      "url": "https://news.ycombinator.com/item?id=50294644",
-      "metric": "",
-      "titleZh": "问 HN：萎缩性收紧使用限制？",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50294627",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "AI Memory on Memgraph: Persistent Context Across Session, Team and Organization",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793302617000,
-      "url": "https://memgraph.com/blog/ai-memory-persistent-context",
-      "metric": "",
-      "titleZh": "Memgraph 上的 AI 内存：跨会话、团队和组织的持久上下文",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50294507",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "The importance of communities around software",
-      "desc": "技术社区讨论 · 101 赞同 · 110 条评论。",
-      "date": 1793302067000,
-      "url": "https://lumi.codeberg.page/blog/software-community.html",
-      "metric": "",
-      "titleZh": "软件社区的重要性",
-      "descZh": "技术社区讨论 · 101 赞同 · 110 条评论。",
+      "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -363,84 +623,6 @@
       "metric": "",
       "titleZh": "Show HN：学术血统 – 看看谁教过教过你的人（启动）",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293979",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
-      "desc": "技术社区讨论 · 19 赞同 · 6 条评论。",
-      "date": 1793299676000,
-      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "metric": "",
-      "titleZh": "一家国防承包商允许他们的人工智能代理访问安全的五角大楼系统",
-      "descZh": "技术社区讨论 · 19 赞同 · 6 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293784",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Teaching a 1999 VB6 app to talk to AI agents",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793298735000,
-      "url": "https://www.sql-server-tool.com/blog-vb6-ai-agents.htm",
-      "metric": "",
-      "titleZh": "教 1999 年的 VB6 应用程序与 AI 代理对话",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293643",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Last night an AI agent performed brain surgery on a mouse",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1793298198000,
-      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
-      "metric": "",
-      "titleZh": "昨晚，人工智能特工对老鼠进行了脑部手术",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293361",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
-      "desc": "技术社区讨论 · 11 赞同 · 4 条评论。",
-      "date": 1793297182000,
-      "url": "https://github.com/phpclaw-php/phpclaw-monorepo",
-      "metric": "",
-      "titleZh": "Show HN：phpClaw – PHP 的 AI 代理运行时，带有工具、内存和防护装置",
-      "descZh": "技术社区讨论 · 11 赞同 · 4 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293196",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Five Principles for Generating Readable AI Text in Bulk",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793296414000,
-      "url": "https://fsdatalab.github.io/blog/agent-text-at-scale/",
-      "metric": "",
-      "titleZh": "批量生成可读人工智能文本的五个原则",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50293148",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Sheetgraph, AI agents can understand complex spreadsheets",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793296195000,
-      "url": "https://github.com/asharma327/sheetgraph",
-      "metric": "",
-      "titleZh": "Show HN：Sheetgraph，AI 代理可以理解复杂的电子表格",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -480,71 +662,6 @@
       "metric": "",
       "titleZh": "我们检测前沿模型错位",
       "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50292363",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Apgar – Catch agent regressions without an LLM judge",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "date": 1793293446000,
-      "url": "https://github.com/oimo-ai/apgar",
-      "metric": "",
-      "titleZh": "Show HN：Apgar – 在没有 LLM 法官的情况下捕获代理回归",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50292002",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "We built a blogging platform for AI agents. One sent us useful feedback",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793292346000,
-      "url": "https://blog.slopit.io/ai-agent-sent-us-feedback/",
-      "metric": "",
-      "titleZh": "我们为人工智能代理构建了一个博客平台。其中一位向我们发送了有用的反馈",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50291847",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Anthropomorphize Your AI Agent for Fun and Profit",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "date": 1793291831000,
-      "url": "https://theautomatedoperator.substack.com/p/anthropomorphize-your-ai-agent-for",
-      "metric": "",
-      "titleZh": "将您的人工智能代理拟人化以获得乐趣和利润",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50291733",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Luma – smart launcher for you, and your AI agent",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793291406000,
-      "url": "https://github.com/sakurartro/luma",
-      "metric": "",
-      "titleZh": "Luma – 为您和您的 AI 代理提供的智能启动器",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50291714",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Scaling Reliable AI Agents",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793291366000,
-      "url": "https://productnow.ai/blogs/scaling-reliable-ai-agents",
-      "metric": "",
-      "titleZh": "扩展可靠的人工智能代理",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -643,12 +760,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Open Source or Custom in Enterprise AI Systems?",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "date": 1793271367000,
       "url": "https://deepsense.ai/blog/when-code-gets-cheaper-judgment-gets-more-precious-quality-bottlenecks-in-enterprise-ai-systems/",
       "metric": "",
       "titleZh": "企业人工智能系统开源还是定制？",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -691,58 +808,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50285116",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Concise/readable versions of OpenAI math dump",
-      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "date": 1793254457000,
-      "url": "https://github.com/qpwo/ezmath2",
-      "metric": "",
-      "titleZh": "OpenAI 数学转储的简洁/可读版本",
-      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50284081",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Shown HN: mcp4api for converting OpenAPI to MCP Server",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793242857000,
-      "url": "https://pypi.org/project/mcp4api",
-      "metric": "",
-      "titleZh": "显示 HN：mcp4api，用于将 OpenAPI 转换为 MCP 服务器",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50283918",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI API Credits of 100/200/500 on Pro Plans",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793241379000,
-      "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions#credit-amounts",
-      "metric": "",
-      "titleZh": "专业计划的 OpenAI API 积分为 100/200/500",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50283308",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAMRobot",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793236913000,
-      "url": "https://github.com/openAMRobot",
-      "metric": "",
-      "titleZh": "开放AM机器人",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50282799",
       "type": "news",
       "source": "Hacker News",
@@ -752,32 +817,6 @@
       "url": "https://www.npmjs.com/package/deepseek-search-cli",
       "metric": "",
       "titleZh": "Show HN：用 TypeScript 编写的简单 DeepSeek 网络搜索 CLI（快速/便宜）",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50282619",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI still has a WebRTC Problem",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793231674000,
-      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
-      "metric": "",
-      "titleZh": "OpenAI 仍然存在 WebRTC 问题",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50282443",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Solving Postgres' Count Problem",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793230434000,
-      "url": "https://www.paradedb.com/blog/opening-a-closed-tin-part-2",
-      "metric": "",
-      "titleZh": "解决 Postgres 的计数问题",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
@@ -795,6 +834,136 @@
       "translationStatus": "ready"
     },
     {
+      "id": "paper-2610.39302",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "desc": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a ",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39302",
+      "metric": "",
+      "titleZh": "用 JEPA 证明和改进柏拉图表示假说",
+      "descZh": "在不同模式上训练的模型是否收敛到世界的相同表示是人工智能的核心。柏拉图表示假说 (PRH) 推测它们会按比例缩放，但如果没有证据，它既不能提供保证，也不能提供解决办法。我们将假设转化为定理。首先，我们证明一个",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.39423",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
+      "desc": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision f",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39423",
+      "metric": "",
+      "titleZh": "FDSML：具有参数感知三元组损失的公式驱动的监督度量学习",
+      "descZh": "公式驱动监督学习（FDSL）可以在没有真实图像的情况下进行视觉预训练，但现有方法将预训练视为离散标签上的分类，丢弃了生成过程中的连续性。我们提出公式驱动的监督度量学习（FDSML），它导出关系监督 f",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.39301",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "desc": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for ",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39301",
+      "metric": "",
+      "titleZh": "Youtu-Parsing-Omni：一个编码器，一种模式，所有模式",
+      "descZh": "我们推出了 Youtu-Parsing-Omni，这是一种全模态解析器，可将文档、图像、音频和视频转换为基于空间和时间的结构化记录，为跨模态阅读、定位和引用证据的代理提供感知层。它的设计依赖于每种模式的一个编码器和一种模式",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.39287",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "desc": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional organization remains challenging, as existing systems are often specialized for individual capabili",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39287",
+      "metric": "",
+      "titleZh": "OpenFlyV2：用于空中感知和导航的机载视觉-语言-动作模型",
+      "descZh": "人类认知灵活地利用共享的感知基础来理解环境、关注引用的实体、推理空间关系并采取行动。赋予空中机器人类似的功能组织仍然具有挑战性，因为现有系统通常专门针对个人能力",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.40453",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+      "desc": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bi",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.40453",
+      "metric": "",
+      "titleZh": "PhysInsert：具有几何先验和双向对象场景交互的物理上合理的对象插入",
+      "descZh": "我们提出了 PhysInsert，一个用于物理上合理的基于参考的对象插入的框架，它共同适应对象及其周围的场景。现有的方法通常依赖于屏蔽输入、基于生成的对或具有有限视点变化的训练对，从而留下姿势和照明适应以及双",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.39663",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+      "desc": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades under aggressive spar",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39663",
+      "metric": "",
+      "titleZh": "AB-Attention：用于加速视频扩散变压器的准确块注意力",
+      "descZh": "视频扩散变压器生成高质量视频，但 3D 全注意力的二次成本主导了他们的推论。动态块稀疏注意力通过仅计算从当前激活中选择的键/值块上的精确注意力来降低这种成本。然而，在攻击性的晶石下，其保真度会降低",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.40647",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "desc": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.40647",
+      "metric": "",
+      "titleZh": "读取、分配、路由：像素空间生成变压器的角色耦合标记化",
+      "descZh": "像素空间生成 Transformer 通常每个图像块使用一个令牌，因此捕获更精细的细节需要更多令牌，并使全局注意力变得越来越昂贵。我们观察到，更精细的细节并不一定需要更多的全球交流：低频结构受益于全球交流，而",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.40614",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "desc": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of ",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.40614",
+      "metric": "",
+      "titleZh": "L3G-World：具有潜在 3D 高斯内存的实时无限世界生成",
+      "descZh": "交互式世界模型根据用户操作生成视觉内容，但实时保持长视野探索的空间一致性仍然具有挑战性。现有的方法依赖于时间上下文或显式 3D 记忆，这两种方法的扩展性都很差，因为记忆随着时间的长度而增长。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.39264",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+      "desc": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SFT) or offline reinforcement learning often memorize static trajectories, leading to brittle executio",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.39264",
+      "metric": "",
+      "titleZh": "使用 Planning-Grounding Agent 进行在线密集强化学习，用于 Live IOS 应用程序上的 UI 导航",
+      "descZh": "虽然前沿视觉语言模型在用户界面 (UI) 导航方面表现出强大的功能，但其高推理成本阻碍了日常使用。相反，通过监督微调（SFT）或离线强化学习训练的较小模型通常会记住静态轨迹，从而导致执行脆弱",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.40454",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Glance: The Generator Is Its Own Reranker",
+      "desc": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes b",
+      "date": 1793217600000,
+      "url": "https://huggingface.co/papers/2610.40454",
+      "metric": "",
+      "titleZh": "概览：生成器是它自己的重新排序器",
+      "descZh": "检索增强生成通常为重新排序和回答、复制模型驻留和段落处理提供单独的模型。我们引入了 Glance，它为生成器配备了轻量级决策适配器和指针头，以对共享预填充中的候选段落进行评分。短相关性探针 b",
+      "translationStatus": "ready"
+    },
+    {
       "id": "paper-2610.40362",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -803,9 +972,9 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.40362",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "你的 LR 计划可能没有原则：体重归一化训练中的有效学习率计划",
+      "descZh": "体重归一化（WN）训练正在成为传统体重衰减（WD）的一种引人注目的替代方案，最近的研究报告称，训练前的减重效果显着。我们表明，这些收益主要是由诱导有效学习率（ELR）轨迹驱动的，而不是仅由归一化驱动。匹配",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.40599",
@@ -816,9 +985,9 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.40599",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "HairDeck：来自单个图像的动画风格化发卡",
+      "descZh": "游戏和头像中风格化角色的头发是由发卡构建的：艺术家放置的丝带，其几何形状是可见的头发，由弹簧骨动画。现有的基于图像的方法可以生成逼真的头发或单个融合网格，而 CHARM（唯一的风格化发卡生成器）可以解码发型设计师",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.39633",
@@ -829,9 +998,9 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.39633",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "内在分布匹配",
+      "descZh": "尽管细化的机会有限，一步和几步文本到图像的生成必须准确地呈现提示中指定的细节。分布匹配蒸馏 (DMD) 使用分数差异使生成的分布更接近参考分布。根据之前的工作，我们估计",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.39664",
@@ -842,21 +1011,73 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.39664",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "EditAgent：重新思考代理图像编辑",
+      "descZh": "代理图像编辑器将复杂的请求分解为步骤，但是当步骤失败时，他们大多使用相同的狭窄工具集和直接通过眼睛对每个输出进行评分的判断器进行重试。我们认为，这样的主体受到两个空间的限制：主体可以做什么的行动空间，以及我可以做什么的观察空间。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50279121",
       "type": "news",
       "source": "Hacker News",
       "title": "DeepSeek-v4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 6 赞同 · 0 条评论。",
       "date": 1793214025000,
       "url": "https://arxiv.org/abs/2609.19969",
       "metric": "",
       "titleZh": "DeepSeek-v4.1-Flash：突破 KV 缓存压缩的极限",
-      "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 6 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.38174",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+      "desc": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service. Using an off-the-shelf frontier model with no additional training, it proves 669/672 PutnamBench problems and all six IMO 2026 formalizations",
+      "date": 1793131200000,
+      "url": "https://huggingface.co/papers/2610.38174",
+      "metric": "",
+      "titleZh": "扩展精益定理证明以实现现实世界的代码验证",
+      "descZh": "我们推出了 EasyProver，这是一个由具有隔离上下文、异步搜索、并行策略探测和弹性细化服务的递归代理构建的精益证明系统。使用现成的前沿模型，无需额外训练，即可证明 669/672 PutnamBench 问题和所有六个 IMO 2026 形式化",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.38331",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Multi-Token Prediction Done Right",
+      "desc": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and mult",
+      "date": 1793131200000,
+      "url": "https://huggingface.co/papers/2610.38331",
+      "metric": "",
+      "titleZh": "正确完成多令牌预测",
+      "descZh": "多标记预测 (MTP) 现在是语言模型预训练中的常见成分，因为它提高了下游性能并通过推测解码实现更快的推理。我们发现标准 MTP 训练中的一个缺陷，其中 MTP 梯度的残余分量会干扰 next-token 和 mult",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.38342",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+      "desc": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated against subsequent outcomes. Existing benchmarks assess financial knowledge, research workflows, or forecasting, but evaluating the full research process requires a strictly frozen information set and p",
+      "date": 1793131200000,
+      "url": "https://huggingface.co/papers/2610.38342",
+      "metric": "",
+      "titleZh": "投资者最后的考验：AI代理人看不到未来还能做股权投资吗？",
+      "descZh": "金融代理人必须根据决策时的证据形成预测和投资判断，并根据随后的结果评估预测。现有的基准评估金融知识、研究工作流程或预测，但评估整个研究过程需要严格冻结的信息集和p",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.38568",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+      "desc": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also cons",
+      "date": 1793131200000,
+      "url": "https://huggingface.co/papers/2610.38568",
+      "metric": "",
+      "titleZh": "A-RSI：零数据多模式自我改进的自适应任务刷新",
+      "descZh": "递归的自我改进不仅要求模型获得有用的训练经验，还要决定当前的经验何时不再有用。现有的方法通常关注接下来要产生什么经验，而很少关注何时应该引入新经验。许多也有缺点",
       "translationStatus": "ready"
     },
     {
@@ -868,9 +1089,9 @@
       "date": 1793131200000,
       "url": "https://huggingface.co/papers/2610.38678",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "AskStream：在流媒体视频理解的不确定性下何时主动询问什么",
+      "descZh": "多模态大语言模型的最新进展增加了人们对视频理解交互范式的兴趣。从离线到流媒体和主动交互的演变已经逐渐将模型从被动响应者转变为可以决定何时回答的更主动的代理。然而，存在",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.38352",
@@ -881,9 +1102,9 @@
       "date": 1793131200000,
       "url": "https://huggingface.co/papers/2610.38352",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "WeVisCut：从旁白到长视频的整个编辑室合一",
+      "descZh": "根据旁白制作长视频需要相互依赖的决策，并且在各个镜头之间保持连贯。现有的代理编辑器经常使用由通用模型驱动的多阶段工作流程，使得紧凑的、适应任务的策略的质量成本权衡不明确。我们通过 WeVisCut 解决了这一差距，WeVisCut 是一种长格式 s",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.38425",
@@ -894,9 +1115,9 @@
       "date": 1793131200000,
       "url": "https://huggingface.co/papers/2610.38425",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "IntReal：多模态交错生成的真实数据集和基准",
+      "descZh": "人类通常消费多模式内容，其中文本和视觉信息自然地交织在一起。尽管统一多模态模型 (UMM) 可以联合生成文本和图像，但多模态交错生成在很大程度上仍未得到充分探索。该领域的进展受到两个关键限制的阻碍：(1)",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50263073",
@@ -964,6 +1185,19 @@
       "translationStatus": "ready"
     },
     {
+      "id": "paper-2610.36671",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "desc": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing",
+      "date": 1793044800000,
+      "url": "https://huggingface.co/papers/2610.36671",
+      "metric": "",
+      "titleZh": "仅在需要时查看：用于高效扩散 VLM 的证书引导视觉路由",
+      "descZh": "扩散视觉语言模型 (DVLM) 在每个去噪步骤中处理整个输入。由于在我们研究的基准测试中视觉标记占输入的 89-97%，因此大部分解码计算都花在重复处理同一图像上。视觉令牌修剪方法通过删除部分减轻了这种负担",
+      "translationStatus": "ready"
+    },
+    {
       "id": "paper-2610.36420",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -972,9 +1206,9 @@
       "date": 1793044800000,
       "url": "https://huggingface.co/papers/2610.36420",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "SO-101 长凳：无障碍空间操控",
+      "descZh": "像 SO-101 这样的低成本手臂已经成为机器人学习最常见的切入点，但没有发布的策略可以开箱即用地对其执行空间受限、语言条件的任务，并且现有的 SO-101 基准测试仅在具有简单任务和很少保留对象的物理硬件上运行。我们介绍SO-1",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.37786",
@@ -985,9 +1219,9 @@
       "date": 1793044800000,
       "url": "https://huggingface.co/papers/2610.37786",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "WebAnything：从狂野的网络到可扩展的代理环境",
+      "descZh": "Web 代理需要多样化、可执行且可重置的网站环境来进行可重复的培训和评估。人工辅助镜子需要针对每个站点进行工程设计，而生成式构建可能与指定的真实网站有所不同。捕获和重放保留观察结果，但交互覆盖范围受到限制",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.37161",
@@ -998,9 +1232,9 @@
       "date": 1793044800000,
       "url": "https://huggingface.co/papers/2610.37161",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "WorkFactory：将专业意图转化为可扩展代理培训的可执行工作",
+      "descZh": "扩大对工作人员的监督培训需要多样化的专业任务，以产生可靠的专家演示。然而，任务信息缺失或不一致会阻碍教师的执行并削弱由此产生的监督。我们提出了 WorkFactory，一个可扩展的框架，用于构建连贯且",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.37626",
@@ -1011,47 +1245,8 @@
       "date": 1793044800000,
       "url": "https://huggingface.co/papers/2610.37626",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "paper-2610.37230",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
-      "desc": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in su",
-      "date": 1793044800000,
-      "url": "https://huggingface.co/papers/2610.37230",
-      "metric": "",
-      "titleZh": "TAO：基于 LLM 的代理服务的工具感知联合调度",
-      "descZh": "代理服务在集群 GPU 上的模型推理和分布式 CPU 上的外部工具之间交替。在这种情况下，现有系统（1）忽视服务评估中的工具返回准备情况，浪费有限的资源，以及（2）使用启发式策略来决定 GPU 上的准入​​和放置，从而导致",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2509.05512",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
-      "desc": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates qu",
-      "date": 1793044800000,
-      "url": "https://huggingface.co/papers/2509.05512",
-      "metric": "",
-      "titleZh": "用于增强图像分类和定向目标检测的四元数近似网络",
-      "descZh": "本文介绍了四元数近似网络（QUAN），这是一种新颖的深度学习框架，利用四元数代数进行旋转等变图像分类和对象检测。与尝试完全在四元数域中运行的传统四元数神经网络不同，QUAN 近似 qu",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.37364",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-      "desc": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensur",
-      "date": 1793044800000,
-      "url": "https://huggingface.co/papers/2610.37364",
-      "metric": "",
-      "titleZh": "EmbeddingGemma 2：统一高效的多模态表示",
-      "descZh": "我们提出了 EmbeddingGemma 2，这是一种开放的多模式嵌入模型，它在统一的空间中原生表示文本、图像、音频、视频及其组合。我们的方法引入了改进，例如简化的每层嵌入和具有模式和目标进展的多阶段课程，以确保",
+      "titleZh": "了解，然后绘制：视觉生成的新学习范式",
+      "descZh": "视觉生成既需要高级语义知识又需要细粒度的像素细节。我们提出了一种学习范式，将这些角色分配给用于知识获取的自回归预训练和用于高保真渲染的扩散后训练。在此框架内，我们研究目标、代表",
       "translationStatus": "ready"
     },
     {
@@ -1065,19 +1260,6 @@
       "metric": "sdk==0.4.10",
       "titleZh": "版本发布：langgraph · langgraph-sdk==0.4.10",
       "descZh": "langchain-ai/langgraph · 正式 Release，点击查看版本说明。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "gh-huggingface/transformers-424575205",
-      "type": "opensource",
-      "source": "GitHub Releases",
-      "title": "transformers · Release: v5.21.0",
-      "desc": "huggingface/transformers · 正式 Release，点击查看版本说明。",
-      "date": 1793038662000,
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
-      "metric": "v5.21",
-      "titleZh": "版本发布：transformers · Release: v5.21.0",
-      "descZh": "huggingface/transformers · 正式 Release，点击查看版本说明。",
       "translationStatus": "ready"
     },
     {
@@ -1133,6 +1315,19 @@
       "translationStatus": "ready"
     },
     {
+      "id": "hn-50240825",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "AI Testing: How to Build Reliable Production AI Systems",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793003653000,
+      "url": "https://deepsenseai.substack.com/p/ai-testing-vs-software-testing-how",
+      "metric": "",
+      "titleZh": "人工智能测试：如何构建可靠的生产人工智能系统",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
       "id": "paper-2610.35138",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1141,9 +1336,9 @@
       "date": 1792958400000,
       "url": "https://huggingface.co/papers/2610.35138",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "协同设计平台：代理模型的多模式协同编码评估",
+      "descZh": "评估人类与人工智能的协同设计需要测试编码代理是否可以将真实用户的多模式请求转化为工作应用程序修订版。我们推出了 Co-Design Bench，这是一个无参考基准，包含 273 个任务，这些任务是从 26,314 个真实用户编码会话中的 37,463 个重复数据删除查询中筛选出来的。它的两条轨道，M",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.36095",
@@ -1169,84 +1364,6 @@
       "metric": "",
       "titleZh": "评估 DeepSeek V4.1 Flash-1017 的失控和有害操纵风险",
       "descZh": "随着前沿语言模型的能力和自主性不断增强，独立的第三方评估对于表征其系统安全风险至关重要。虽然闭源版本通常伴随着全面的系统卡，但开放权重模型在前沿风险方面受到的审查较少。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.35684",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
-      "desc": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint ch",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.35684",
-      "metric": "",
-      "titleZh": "OmniShowcase：从多视图图像生成全向主题一致的视频",
-      "descZh": "当相机显示输入中不可见的表面时，从一些参考图像生成特定主题的视频仍然具有挑战性。早期的主题到视频 (S2V) 方法以单个参考图像为条件，因此必须将主题不可见的外观和几何形状推断为视点通道",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.36184",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-      "desc": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio.\n  We present Lipi-Ghor, a large-scale weakly-supervised Bengali speech corpus ",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.36184",
-      "metric": "",
-      "titleZh": "Lipi-Ghor：大规模、分类、多领域孟加拉语音语料库和可扩展的构建流程",
-      "descZh": "孟加拉语的人口超过 2.3 亿，但口语研究的资源仍然严重不足。现有的开放孟加拉语 ASR 语料库仅限于简短的、阅读的或众包的语音，缺乏说话人分类和长格式音频。\n  我们提出了 Lipi-Ghor，一个大规模弱监督孟加拉语语音语料库",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.36192",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
-      "desc": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar but complementary gain",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.36192",
-      "metric": "",
-      "titleZh": "超出估计：维纳信息解码可更轻松地训练像素空间流模型",
-      "descZh": "直接在像素空间中学习速度场既困难又缓慢。我们表明，粗略的二阶图像统计可以简化这项任务：冻结维纳估计可以提高速度学习，其增益超出了它们明确提供的线性预测。此外，我们观察到相似但互补的增益",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.34894",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
-      "desc": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that of the thinking models they started from",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.34894",
-      "metric": "",
-      "titleZh": "RL 购买什么结果：精加工、可靠性、很少达到",
-      "descZh": "结果 RL 在大 k 时提高了 pass@1，但没有提高 pass@k (Yue et al., 2025)。但每一次 pass@1 都是在象征性预算下评分的。每个食谱也都在一个食谱下进行训练。在固定代币预算下的物理和数学问题上，我们将 20 个已发布的 RL 模型（1.5B 到 32B）的 pass@1 与它们最初的思维模型进行了比较",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.36082",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
-      "desc": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own rollouts, but traditional OPD requires a st",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.36082",
-      "metric": "",
-      "titleZh": "提示有多重要？财务推理中事后自我蒸馏的范围条件",
-      "descZh": "在数据驻留限制下运营的金融机构仅限于小到足以在本地托管的开放权重模型，该模型在多步骤定量推理方面落后于前沿系统。政策蒸馏通过监督学生自己的推广来缩小这种差距，但传统的 OPD 需要严格的",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.35013",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-      "desc": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization",
-      "date": 1792958400000,
-      "url": "https://huggingface.co/papers/2610.35013",
-      "metric": "",
-      "titleZh": "长期 LLM 代理的多尺度策略优化",
-      "descZh": "长视野 LLM 代理通过完整的助理轮流与其环境进行交互，同时逐个生成每个操作令牌。我们观察到，评论家的价值主要在不同回合之间有所不同，从而激励以轮次为基础的优化，并在代币之间进行更精细的信用分配。我们提出多尺度政策优化",
       "translationStatus": "ready"
     },
     {
@@ -1276,19 +1393,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50226186",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
-      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "date": 1792881875000,
-      "url": "https://deepsearch.ing/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "translationStatus": "pending"
-    },
-    {
       "id": "paper-2610.34186",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1310,9 +1414,9 @@
       "date": 1792785600000,
       "url": "https://huggingface.co/papers/2610.37695",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "一键视频之后：服务类内容流入、推荐池机制失灵、博乐系统",
+      "descZh": "2026年9月，发布了新的大语言模型。不久之后，一种制作讲解视频的新方式变得非常流行：人们要求模特编写一个程序，然后该程序制作视频。随后“一键视频”内容在多个平台大量出现。从表面上看，这是c的上升",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.33645",
@@ -1323,9 +1427,9 @@
       "date": 1792785600000,
       "url": "https://huggingface.co/papers/2610.33645",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "预览：通过预处理视图和提示增强 GUI 基础",
+      "descZh": "GUI 基础需要在杂乱的屏幕截图中定位小控件，并识别自然语言指令所指的控件。裁剪和放大可以暴露局部细节，但生成的图像仍然可能使预期目标变得模糊。我们提出了 PreView，一个辅助预处理器",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.32411",
@@ -1336,9 +1440,9 @@
       "date": 1792699200000,
       "url": "https://huggingface.co/papers/2610.32411",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "更广泛地了解 MLLM 的检索头",
+      "descZh": "在长输入中定位相关证据是多模态大语言模型的核心能力。先前的研究将这种能力归因于检索头，这是一组稀疏的注意力头，可将信息从上下文传输到输出。然而，这些分析仅限于有限的模式和",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2601.15351",
@@ -1354,45 +1458,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.31670",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-      "desc": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reali",
-      "date": 1792699200000,
-      "url": "https://huggingface.co/papers/2610.31670",
-      "metric": "",
-      "titleZh": "感觉运动协调：具体政策成功的柏拉图式代理",
-      "descZh": "机器人基础模型通常通过成本高昂的闭环部署进行评估，从而激发模型功能的低成本离线代理。柏拉图表征假说 (PRH) 表明，随着表征的改进，视觉和语言等模态会趋向于现实的共享统计模型。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.32749",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
-      "desc": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Secon",
-      "date": 1792699200000,
-      "url": "https://huggingface.co/papers/2610.32749",
-      "metric": "",
-      "titleZh": "针对真实世界声学场景的高效流媒体视听目标说话人提取",
-      "descZh": "流式视听目标说话人提取 (AVTSE) 对于延迟敏感的应用程序至关重要。然而，当前的因果系统面临两个耦合的差距。首先，标准基准将扬声器数量固定为两个，并忽略真实场景的近/远场干扰、混响和突发噪声。塞康",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.33245",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
-      "desc": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards. Agents make process errors such as insufficient exploration, unsound validation, coding bugs, and poor use of a fixed budget (re-running the same exploratory data analysis and baseline mod",
-      "date": 1792699200000,
-      "url": "https://huggingface.co/papers/2610.33245",
-      "metric": "",
-      "titleZh": "AdaPRA：采用数据科学自适应标准的流程奖励代理",
-      "descZh": "数据科学代理可以自动化端到端机器学习工作流程，但它们在人类排行榜上仍远未具有竞争力。代理会犯一些流程错误，例如探索不足、验证不健全、编码错误以及固定预算使用不当（重新运行相同的探索性数据分析和基线模型）",
-      "translationStatus": "ready"
-    },
-    {
       "id": "paper-2610.33106",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1401,21 +1466,8 @@
       "date": 1792612800000,
       "url": "https://huggingface.co/papers/2610.33106",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "paper-2610.31924",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
-      "desc": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a lack of accurate interpretive models. We l",
-      "date": 1792612800000,
-      "url": "https://huggingface.co/papers/2610.31924",
-      "metric": "",
-      "titleZh": "掩埋界面分子态的亚单层跟踪",
-      "descZh": "新兴技术的现象源于埋藏界面处的新分子状态。然而，在大多数情况下，定量解决这些特征是不可能的。共振散射已证明对这些局部状态敏感，但由于缺乏准确的解释模型而受到限制。我们l",
+      "titleZh": "VibeGame：利用 AI 原生引擎和自我进化的对抗代理团队进行游戏开发",
+      "descZh": "大型语言模型代理已经通过自然语言交互实现了软件开发，但将这种范例扩展到端到端游戏开发仍然具有挑战性。构建可玩的游戏需要协调代码、场景、资产、动画、物理和配置，同时允许开发人员",
       "translationStatus": "ready"
     },
     {
@@ -1427,9 +1479,9 @@
       "date": 1792526400000,
       "url": "https://huggingface.co/papers/2610.29927",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "你的基准是对难度的经验衡量",
+      "descZh": "基准测试不仅仅是测试问题的集合；它也是测试问题的集合。它自然会引发对难度的经验衡量。在这项工作中，我们开发了这种基于测量的基准评估视图。这种观点使我们能够识别并形式化两种主要故障模式：测量不匹配，其中基准难度",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.30132",
@@ -1458,32 +1510,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "paper-2610.30435",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
-      "desc": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallu",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.30435",
-      "metric": "",
-      "titleZh": "检索增强大型语言模型中搜索状态意识的自我评估强化学习",
-      "descZh": "搜索代理的最新进展使大型语言模型能够通过检索和合成外部信息来处理复杂的任务。然而，现有的搜索代理通常缺乏搜索状态意识，即识别已获得哪些信息以及仍然缺少哪些信息的能力，从而导致错误",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.29003",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "T-DIG: Text-Conditioned Diversity for Image Generation",
-      "desc": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpretations and choose one that matches their intent. However, T2I models are usually optimized for single-image quality which comes at a cost of multi-image diversity, limiting this exploration. Diversity",
-      "date": 1792526400000,
-      "url": "https://huggingface.co/papers/2610.29003",
-      "metric": "",
-      "titleZh": "T-DIG：用于图像生成的文本调节多样性",
-      "descZh": "文本到图像 (T2I) 平台通常会根据提示返回多个图像，以便用户可以探索不同的视觉解释并选择符合其意图的图像。然而，T2I 模型通常针对单图像质量进行优化，这会以多图像多样性为代价，从而限制了这种探索。多样性",
-      "translationStatus": "ready"
-    },
-    {
       "id": "gh-sgl-project/sglang-416857951",
       "type": "opensource",
       "source": "GitHub Releases",
@@ -1505,9 +1531,9 @@
       "date": 1792353600000,
       "url": "https://huggingface.co/papers/2610.27100",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "LOB-Impact 基准：生成限价订单簿模型中的新兴市场影响",
+      "descZh": "现实的市场影响对于生成限价订单簿 (LOB) 模型作为交易代理的世界模型至关重要。如果模拟器对这种机制定价错误，代理就会学习在模拟器中最优但在真实市场中错误的策略。现有指标纯粹通过分发来评估生成的流",
+      "translationStatus": "ready"
     },
     {
       "id": "gh-vllm-project/vllm-416285351",
@@ -1520,6 +1546,19 @@
       "metric": "v0.32.0",
       "titleZh": "版本发布：vllm · v0.32.0",
       "descZh": "vllm-project/vllm · 正式 Release，点击查看版本说明。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "paper-2610.25276",
+      "type": "papers",
+      "source": "HF Daily Papers",
+      "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+      "desc": "Synthesizing a monocular video from a new camera trajectory requires preserving the observed scene geometry and motion while completing regions that become newly visible. Feed-forward 4D reconstructors recover the structure of the observed scene, whereas video diffusion models provide a generative prior for completing ",
+      "date": 1792267200000,
+      "url": "https://huggingface.co/papers/2610.25276",
+      "metric": "",
+      "titleZh": "Holo4D：整体 4D 重建作为视频扩散的几何控制",
+      "descZh": "从新的相机轨迹合成单目视频需要保留观察到的场景几何形状和运动，同时完成新可见的区域。前馈 4D 重建器恢复观察场景的结构，而视频扩散模型提供生成先验来完成",
       "translationStatus": "ready"
     },
     {
@@ -1544,9 +1583,9 @@
       "date": 1792094400000,
       "url": "https://huggingface.co/papers/2610.22990",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "PersonaCUABench：对服务于不同角色的计算机使用代理进行基准测试",
+      "descZh": "计算机使用代理 (CUA) 通常根据固定任务规范进行评估，但用户可能会忽略要求、添加约束或在采取后续行动之前需要批准。完成基准指令并不能保证为提出要求的人提供服务。我们引入PersonaCUABench，它包含74个任务",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.21143",
@@ -1557,9 +1596,9 @@
       "date": 1792008000000,
       "url": "https://huggingface.co/papers/2610.21143",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "CoSTA：用于高效口语对话模型的压缩语音令牌自适应",
+      "descZh": "口语对话模型 (SDM) 通常共享语音令牌空间来进行生成和合成，从而导致长自回归序列和昂贵的推理。较低速率的语音标记器会缩短序列，但可能会在不破坏这种耦合的情况下引入压缩质量权衡和昂贵的更换。致地址",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.22507",
@@ -1572,19 +1611,6 @@
       "metric": "",
       "titleZh": "RealCLI：对 CLI 代理的人机协作进行统一评估",
       "descZh": "命令行界面 (CLI) 代理越来越多地执行长期任务，但现有基准要么假设用户指令在整个执行过程中保持固定，要么在不捕获运行时协作质量的情况下评估任务结果。在本文中，我们提出了 REACLI，这是一个统一了以下标准的配对基准：",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "paper-2610.22684",
-      "type": "papers",
-      "source": "HF Daily Papers",
-      "title": "AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents",
-      "desc": "Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the learning loop. We intr",
-      "date": 1792008000000,
-      "url": "https://huggingface.co/papers/2610.22684",
-      "metric": "",
-      "titleZh": "AlphaBet：法学硕士事件预测代理的强化学习",
-      "descZh": "预测未解决的事件需要找到相关证据并确定它对每个结果的支持程度。然而，基于结果的大型语言模型（LLM）预测者培训通常从单个预测日期预先收集的证据开始，将证据获取留在学习循环之外。我们介绍",
       "translationStatus": "ready"
     },
     {
