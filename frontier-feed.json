@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T05:37:50+00:00",
+  "generatedAt": "2026-10-31T14:30:42+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
-      "count": 67
+      "count": 66
     },
     "models": {
       "status": "snapshot",
@@ -21,24 +21,375 @@
   },
   "localization": {
     "language": "zh-CN",
-    "status": "partial",
-    "ready": 118,
-    "pending": 59,
+    "status": "complete",
+    "ready": 176,
+    "pending": 0,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50316531",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793456943000,
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "metric": "",
+      "titleZh": "恶意软件利用法学硕士根据受害者的价值对受害者进行排名",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50316479",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The Future of the Firm",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793456531000,
+      "url": "https://openai.com/index/the-future-of-the-firm/",
+      "metric": "",
+      "titleZh": "公司的未来",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50316468",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "An AI Agent Injected Drugs into a Live Mouse's Brain",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793456479000,
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "metric": "",
+      "titleZh": "人工智能代理将药物注射到活老鼠的大脑中",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50316167",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "ChemEZ: LLM Wrapper with Chemistry Processing and Visualization",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793454428000,
+      "url": "https://github.com/researchbyayan/ChemEZ",
+      "metric": "",
+      "titleZh": "ChemEZ：具有化学处理和可视化功能的法学硕士包装器",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50316116",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek open-sources dsh-superagent, a coding agent largely built by agents",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793454071000,
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "metric": "",
+      "titleZh": "DeepSeek 开源 dsh-superagent，一个主要由代理构建的编码代理",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50316065",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Praex The AI coding agent that answers the question",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793453742000,
+      "url": "https://github.com/ailucius/praex-cli",
+      "metric": "",
+      "titleZh": "Praex 回答问题的 AI 编码代理",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315898",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: If AI agents can run 24/7, why is almost nothing shipped overnight?",
+      "desc": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "date": 1793452374000,
+      "url": "https://news.ycombinator.com/item?id=50315898",
+      "metric": "",
+      "titleZh": "问 HN：如果人工智能代理可以 24/7 运行，为什么几乎没有隔夜发货的东西？",
+      "descZh": "技术社区讨论 · 1 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315868",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Prompt caching: same agent, same rules, about a quarter of the bill",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793452192000,
+      "url": "https://blog.getwerk.ai/posts/prompt-caching-a-quarter-of-the-bill",
+      "metric": "",
+      "titleZh": "即时缓存：相同的代理，相同的规则，大约四分之一的费用",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315858",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Beating the compiler at signed 32-bit division",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793452129000,
+      "url": "https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/",
+      "metric": "",
+      "titleZh": "在有符号 32 位除法方面击败编译器",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315665",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Tadpole – an LLM agent built from scratch then post-trained on 4B model",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793450622000,
+      "url": "https://github.com/shakewingo/Tadpole",
+      "metric": "",
+      "titleZh": "Show HN：Tadpole – 从头开始​​构建的 LLM 代理，然后在 4B 模型上进行后训练",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315297",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: Deployed vibecoded apps in prod at scale?",
+      "desc": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "date": 1793448088000,
+      "url": "https://news.ycombinator.com/item?id=50315297",
+      "metric": "",
+      "titleZh": "询问 HN：在产品中大规模部署 vivicoded 应用程序？",
+      "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50315090",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Collaborative AI agents for autonomous experimental research",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793446457000,
+      "url": "https://arxiv.org/abs/2610.40589",
+      "metric": "",
+      "titleZh": "用于自主实验研究的协作人工智能代理",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314746",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Free OCR Cost Calculator – Estimate multi-provider LLM token costs",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "date": 1793443123000,
+      "url": "https://ocrbench.app/blog/llm-ocr-cost-calculator/",
+      "metric": "",
+      "titleZh": "Show HN：免费 OCR 成本计算器 – 估算多提供商 LLM 代币成本",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314699",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "We Took over ChatGPT Accounts",
+      "desc": "技术社区讨论 · 108 赞同 · 48 条评论。",
+      "date": 1793442611000,
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "metric": "",
+      "titleZh": "我们接管了 ChatGPT 帐户",
+      "descZh": "技术社区讨论 · 108 赞同 · 48 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314669",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Lemmings TS",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793442261000,
+      "url": "https://twitter.com/PaulOBrien/status/2116205572236198305",
+      "metric": "",
+      "titleZh": "旅鼠 TS",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314538",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Imza – plan and review focused coding agent",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793440703000,
+      "url": "https://github.com/umutsevdi/imza",
+      "metric": "",
+      "titleZh": "Show HN：Imza – 计划和审查重点编码代理",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314506",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: Does anybody also miss the status for the 5h-limit in Claude?",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1793440173000,
+      "url": "https://news.ycombinator.com/item?id=50314506",
+      "metric": "",
+      "titleZh": "问HN：有人也怀念Claude 5 小时限制的状态吗？",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314324",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "An AI agent read a Shift_JIS page as 208,953 replacement characters",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793437523000,
+      "url": "https://github.com/openclaw/openclaw/pull/188766",
+      "metric": "",
+      "titleZh": "AI 代理将 Shift_JIS 页面读取为 208,953 个替换字符",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314322",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Real-time zero-knowledge LLM identification from physical telemetry",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793437511000,
+      "url": "https://zenodo.org/records/23806637",
+      "metric": "",
+      "titleZh": "来自物理遥测的实时零知识法学硕士识别",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314217",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Why Google, Microsoft, Anthropic and OpenAI need their own AI detection tools",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793435785000,
+      "url": "https://news.ycombinator.com/item?id=50314217",
+      "metric": "",
+      "titleZh": "为什么谷歌、微软、Anthropic 和 OpenAI 需要自己的人工智能检测工具",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314147",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Remixable Software",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793434788000,
+      "url": "https://lamp.dev/#shelf",
+      "metric": "",
+      "titleZh": "可重新混合的软件",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50314132",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Tell HN: Warp.dev Security Incident",
+      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
+      "date": 1793434483000,
+      "url": "https://news.ycombinator.com/item?id=50314132",
+      "metric": "",
+      "titleZh": "告诉 HN：Warp.dev 安全事件",
+      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50313998",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Live benchmark of web scraping APIs and residential proxies (2026)",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793432358000,
+      "url": "https://github.com/tianjun588/llm-web-scraping-benchmark",
+      "metric": "",
+      "titleZh": "网络抓取 API 和住宅代理的实时基准 (2026)",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50313737",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Non-autoregressive NC LLM spits tokens 21x faster than text diffusion",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1793428265000,
+      "url": "https://hazyresearch.stanford.edu/blog/2026-10-12-ncm",
+      "metric": "",
+      "titleZh": "非自回归 NC LLM 吐出标记的速度比文本扩散快 21 倍",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50313661",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Digital Minimalism",
+      "desc": "技术社区讨论 · 131 赞同 · 100 条评论。",
+      "date": 1793427396000,
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "metric": "",
+      "titleZh": "数字极简主义",
+      "descZh": "技术社区讨论 · 131 赞同 · 100 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50313539",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Tell HN: Claude is using my limits even though it's infra is failing",
+      "desc": "技术社区讨论 · 4 赞同 · 5 条评论。",
+      "date": 1793425949000,
+      "url": "https://news.ycombinator.com/item?id=50313539",
+      "metric": "",
+      "titleZh": "告诉 HN：克劳德正在使用我的极限，即使它的基础设施失败了",
+      "descZh": "技术社区讨论 · 4 赞同 · 5 条评论。",
+      "translationStatus": "ready"
+    },
+    {
+      "id": "hn-50313522",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Show HN: Archwhere – work alongside AI coding agents on an architecture map",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1793425590000,
+      "url": "https://github.com/tapaskar/archwhere",
+      "metric": "",
+      "titleZh": "显示 HN：Archwhere – 在架构图上与 AI 编码代理一起工作",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "ready"
+    },
     {
       "id": "hn-50313296",
       "type": "news",
       "source": "Hacker News",
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "date": 1793422187000,
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "人工智能领域的知名人士正在支持一种选择退出抓取的新方式",
+      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50313220",
@@ -49,48 +400,22 @@
       "date": 1793420993000,
       "url": "https://news.ycombinator.com/item?id=50313220",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "显示 HN：最小编辑器–so-far.exe（912 字节）",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50313191",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Lambda.ai Is Down?",
-      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "date": 1793420650000,
-      "url": "https://lambda.ai",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50313084",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "See how AI search reads a page and fix it in one prompt",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793419273000,
-      "url": "https://lumi-geo.pages.dev/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50312922",
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI raises less than half of $30B target",
-      "desc": "技术社区讨论 · 89 赞同 · 50 条评论。",
+      "desc": "技术社区讨论 · 165 赞同 · 155 条评论。",
       "date": 1793416964000,
       "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 89 赞同 · 50 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "OpenAI 筹集的资金不到 $30B 目标的一半",
+      "descZh": "技术社区讨论 · 165 赞同 · 155 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50312687",
@@ -101,74 +426,48 @@
       "date": 1793413860000,
       "url": "https://community.openai.com/t/daybreak-blue-data-use-to-improve-models/1411182",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "即使用户选择退出，OpenAI 也会强制 Daybreak blue 用户共享数据",
       "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50312442",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Qntm – end to end encrypted messaging for agents and humans",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793411009000,
-      "url": "https://qntm.corpo.llc/launch/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50312395",
       "type": "news",
       "source": "Hacker News",
       "title": "Making it easier for websites to express AI training preferences",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "date": 1793410607000,
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50312361",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Anthropomorphize AI, but first learn what 'AI wants' means",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793410309000,
-      "url": "https://blog.kolen.dev/LLM/want",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "让网站更容易表达人工智能训练偏好",
+      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50312174",
       "type": "news",
       "source": "Hacker News",
       "title": "Tell HN: X is opening any tweet link in a webview whether you press it or not",
-      "desc": "技术社区讨论 · 20 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 35 赞同 · 2 条评论。",
       "date": 1793408306000,
       "url": "https://news.ycombinator.com/item?id=50312174",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 20 赞同 · 1 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "告诉 HN：X 正在打开网页视图中的任何推文链接，无论您是否按下它",
+      "descZh": "技术社区讨论 · 35 赞同 · 2 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50312013",
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI slashes funding target by $10B as tech anxieties mount",
-      "desc": "技术社区讨论 · 6 赞同 · 2 条评论。",
+      "desc": "技术社区讨论 · 7 赞同 · 2 条评论。",
       "date": 1793406797000,
       "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 6 赞同 · 2 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "随着技术焦虑加剧，OpenAI 将融资目标削减了 10B 美元",
+      "descZh": "技术社区讨论 · 7 赞同 · 2 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311974",
@@ -179,9 +478,9 @@
       "date": 1793406466000,
       "url": "https://bsvkey-governor-demo.fly.dev/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN：Governor，AI 代理支出和工具调用的防火墙",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311801",
@@ -192,35 +491,35 @@
       "date": 1793405160000,
       "url": "https://judgementlabs.app/blog/the-coalition-room",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "人工智能代理的社会界限被打破：5 名法学硕士试图组建政府",
       "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311585",
       "type": "news",
       "source": "Hacker News",
       "title": "AI agents shape experts' judgment calls",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
       "date": 1793403559000,
       "url": "https://www.anthropic.com/research/agents-judgment-calls",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "人工智能代理塑造专家的判断",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311537",
       "type": "news",
       "source": "Hacker News",
       "title": "Fair Use Benefits Everyone",
-      "desc": "技术社区讨论 · 21 赞同 · 53 条评论。",
+      "desc": "技术社区讨论 · 22 赞同 · 53 条评论。",
       "date": 1793403235000,
       "url": "https://openai.com/index/fair-use-benefits-everyone/",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 21 赞同 · 53 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "合理使用使每个人受益",
+      "descZh": "技术社区讨论 · 22 赞同 · 53 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311101",
@@ -231,9 +530,9 @@
       "date": 1793400485000,
       "url": "https://github.com/mgasparin67-cmd/Agent-verification_Assure",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "确保 – 您的人工智能代理说“完成”。这会检查它是否在撒谎",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50311029",
@@ -244,9 +543,9 @@
       "date": 1793399854000,
       "url": "https://www.fastbrowse.ai/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN：Fastbrowse，使用 System One 模型选择点击的浏览器代理",
       "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "gh-langchain-ai/langgraph-429543802",
@@ -270,9 +569,9 @@
       "date": 1793398747000,
       "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "INTC 和 ORCL 将在 OCI 上围绕 Agentic AI 进行合作",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "gh-langchain-ai/langgraph-429541042",
@@ -301,45 +600,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50310696",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "I built a honeypot for LLMs, will a agent take the bait?",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793397525000,
-      "url": "https://victorribeiro.com/bots/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50310690",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "GEMM Tutorial and UlmBLAS",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "date": 1793397468000,
-      "url": "https://news.ycombinator.com/item?id=50310690",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50310650",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: I'm killing AI slop spam with a simple Google script",
-      "desc": "技术社区讨论 · 4 赞同 · 2 条评论。",
-      "date": 1793397211000,
-      "url": "https://news.ycombinator.com/item?id=50310650",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 2 条评论。",
-      "translationStatus": "pending"
-    },
-    {
       "id": "hn-50310584",
       "type": "news",
       "source": "Hacker News",
@@ -348,35 +608,22 @@
       "date": 1793396851000,
       "url": "https://dotpals.vercel.app/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "为什么我的人工智能代理总是撒谎？我们如何信任？",
       "descZh": "技术社区讨论 · 2 赞同 · 3 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50310370",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Web-MCP-Bridge – Connect browser-based LLMs to MCP servers and tools",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793395624000,
-      "url": "https://github.com/AstraxOf/web-mcp-bridge",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50310311",
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI's latest discoveries spark a backlash and Help My kid hates AI",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
       "date": 1793395284000,
       "url": "https://text.npr.org/nx-s1-6022556",
       "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "titleZh": "OpenAI 的最新发现引发强烈反对并帮助我的孩子讨厌人工智能",
+      "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50310122",
@@ -387,9 +634,9 @@
       "date": 1793394326000,
       "url": "https://openap.org",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "开放代理原语：安全运行企业人工智能代理",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50310053",
@@ -400,9 +647,9 @@
       "date": 1793393897000,
       "url": "https://hn.vinceroyer.ca/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "显示 HN：HackerFlow – 响应式 HN 阅读器",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50310027",
@@ -413,74 +660,9 @@
       "date": 1793393691000,
       "url": "https://github.com/gesposito/mobile-agent",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN：mobile-agent – 让 AI 代理控制 Android 和 iOS 设备",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309904",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "RAM wasted on users PCs.. should be concentrated on datacenters",
-      "desc": "技术社区讨论 · 20 赞同 · 4 条评论。",
-      "date": 1793393104000,
-      "url": "https://noai.duckduckgo.com/?q=rom+a+global+allocation+perspective%2C+actually%2C+it%E2%80%99s+quite+terrible+to+have+everybody+have+a+bunch+of+the+world%E2%80%99s+limited+supply+of+DRAM+sitting+in+their+own+computer+and+being+used+5%25+of+the+time.+You+want+maximum+utilization+in+the+cloud+if+you%E2%80%99re+trying+to+deal+with+this+very+supply-constrained+environment&ia=web",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 20 赞同 · 4 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309730",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Defense Contractor Gave Their Personal AI Agent Access to Secure Pentagon System",
-      "desc": "技术社区讨论 · 15 赞同 · 1 条评论。",
-      "date": 1793392206000,
-      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 15 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309534",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Product Managers aren't safe either",
-      "desc": "技术社区讨论 · 55 赞同 · 76 条评论。",
-      "date": 1793391279000,
-      "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 55 赞同 · 76 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309439",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "PostgreSQL 19 Running Behind Schedule Due to AI/LLM Burden",
-      "desc": "技术社区讨论 · 11 赞同 · 0 条评论。",
-      "date": 1793390772000,
-      "url": "https://www.phoronix.com/news/PostgreSQL-19-Late",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 11 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309306",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "EasyRE-Agent – an AI agent that solves crackmes and checks its own answers",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793390088000,
-      "url": "https://github.com/wojtas99/EasyRE-Agent",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50309175",
@@ -491,22 +673,9 @@
       "date": 1793389350000,
       "url": "https://bsky.app/profile/saewitz.com/post/3mz4jsd57ck23",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "即使您选择退出，OpenAI 现在也将在个人 Daybreak 课程上进行训练",
       "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50309120",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Llmll: A goto-fail body, rejected before the edit lands",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793389061000,
-      "url": "https://machunter.github.io/llmll/demo.html",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50308899",
@@ -517,9 +686,9 @@
       "date": 1793387950000,
       "url": "https://pocketpoems.io",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Show HN：每日诗歌写作难题",
       "descZh": "技术社区讨论 · 3 赞同 · 2 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50308875",
@@ -530,48 +699,9 @@
       "date": 1793387870000,
       "url": "https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "Daybreak Blue 数据使用和 API 访问更新",
       "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50308416",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Language models running locally on hardware that has no business running them",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793385964000,
-      "url": "https://github.com/emrehangorgec/awesome-llm-on-anything",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50308351",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: BeamDisk – High Performance iSCSI Initiator for macOS",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793385651000,
-      "url": "https://beamdisk.app/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50308320",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Claude 20x is now Ultra without the 5-hour limit",
-      "desc": "技术社区讨论 · 8 赞同 · 5 条评论。",
-      "date": 1793385510000,
-      "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 8 赞同 · 5 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50308283",
@@ -582,9 +712,9 @@
       "date": 1793385350000,
       "url": "https://www.speakeasy.com/blog/partnering-with-google",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "开源 OpenAPI SDK 生成器",
       "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "hn-50307781",
@@ -600,97 +730,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50307635",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Altman says 'quite terrible' for your PCs to have RAM",
-      "desc": "技术社区讨论 · 14 赞同 · 1 条评论。",
-      "date": 1793382768000,
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 14 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50307597",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "MecAgent (AI agent for SolidWorks) scans drives for CAD files and uploads them",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793382643000,
-      "url": "https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50307355",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Prism (OpenAI) shutting down January 1, 2027",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793381753000,
-      "url": "https://prism.openai.com/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50307235",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "DoorDash said it's only received 'several hundred' orders from AI agents",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1793381312000,
-      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50307060",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Ask HN: Are you putting off hardware upgrades because of AI coding tools?",
-      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "date": 1793380686000,
-      "url": "https://news.ycombinator.com/item?id=50307060",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50306484",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI Private Intelligence",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "date": 1793378566000,
-      "url": "https://openai.com/business/private-intelligence/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50306361",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "OpenAI CEO Sam Altman Says You Having DRAM Instead of Data Centers Is \"Terrible\"",
-      "desc": "技术社区讨论 · 23 赞同 · 8 条评论。",
-      "date": 1793378088000,
-      "url": "https://www.thegamer.com/openai-ceo-sam-altman-consumers-having-dram-terrible/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 23 赞同 · 8 条评论。",
-      "translationStatus": "pending"
-    },
-    {
       "id": "hn-50305744",
       "type": "news",
       "source": "Hacker News",
@@ -699,48 +738,9 @@
       "date": 1793375711000,
       "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "CrowdStrike：Vapor Panda 使用基于 DeepSeek 的代理进行入侵",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50305692",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Scaling to 50 coding agents without scaling human attention",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1793375535000,
-      "url": "https://centauri-ai.tech/live/scaling-to-50-coding-agents-without-scaling-human-attention.html",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50305263",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "AWS's Hydro team wants the compiler to catch coding agents' mistakes",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1793373997000,
-      "url": "https://thenewstack.io/ai-agents-compiler-guardrails/",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "pending"
-    },
-    {
-      "id": "hn-50305218",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
-      "desc": "技术社区讨论 · 31 赞同 · 9 条评论。",
-      "date": 1793373791000,
-      "url": "https://sketch.wakeshift.ai/games/q5ucru",
-      "metric": "",
-      "titleZh": "",
-      "descZh": "技术社区讨论 · 31 赞同 · 9 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "gh-huggingface/transformers-428853453",
@@ -829,9 +829,9 @@
       "date": 1793271269000,
       "url": "https://deepsense.ai/blog/the-5-control-planes-of-agentic-ai-infrastructure-for-reliable-software-delivery/",
       "metric": "",
-      "titleZh": "",
+      "titleZh": "用于可靠软件交付的代理人工智能基础设施的控制平面",
       "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
-      "translationStatus": "pending"
+      "translationStatus": "ready"
     },
     {
       "id": "gh-huggingface/transformers-427619376",
@@ -881,9 +881,9 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.39293",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "解锁预训练自回归图像模型中的任意阶生成",
+      "descZh": "自回归 (AR) 图像生成器原则上功能强大，但在实践中缺乏灵活性：使用固定光栅扫描顺序进行训练将图像分布的单个因式分解硬编码到模型中，使其无法在推理时进行修复、覆盖或编辑。现有的解决方案，包括现代离散",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.40564",
@@ -894,9 +894,9 @@
       "date": 1793217600000,
       "url": "https://huggingface.co/papers/2610.40564",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "使用单一算法训练基础模型",
+      "descZh": "基础模型通常分阶段进行训练：预训练、训练中期、监督微调 (SFT) 和强化学习 (RL)，同时数据和学习算法都会发生变化。我们证明这种算法分离并不是根本性的。通过导出合适的 RL 目标作为最大似然拟合",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.39302",
@@ -1102,9 +1102,9 @@
       "date": 1793150651000,
       "url": "https://huggingface.co/papers/2610.38293",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "EPSBench：LLM 代理盈利预测的基准测试",
+      "descZh": "季度收益预测要求代理将财务证据与产生公司报告收益的损益表行项目联系起来。我们引入 EPSBench，这是一个研究 86 家美国公司 149 个季度的这种能力的基准。代理人阅读固定的文件集、收益-ca",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.38681",
@@ -1115,9 +1115,9 @@
       "date": 1793131200000,
       "url": "https://huggingface.co/papers/2610.38681",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "从弱到强：大型推理模型的弱化诱导的策略自蒸馏",
+      "descZh": "当没有合适的外部老师时，自我蒸馏提供了一种改进推理模型的方法。然而，常见的方法依赖于特权信息来构建更强大的自学工具，当只有未标记的提示可用时限制了它们的使用。在本文中，我们介绍了弱化引发的 On-Polic",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.38174",
@@ -1354,19 +1354,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50241269",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Deepswapp Browser: browser the browser with another browser",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "date": 1793007294000,
-      "url": "https://deepswapp.com",
-      "metric": "",
-      "titleZh": "Show HN: Deepswapp 浏览器：用另一个浏览器浏览该浏览器",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "paper-2610.35138",
       "type": "papers",
       "source": "HF Daily Papers",
@@ -1414,9 +1401,9 @@
       "date": 1792872000000,
       "url": "https://huggingface.co/papers/2610.34298",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "匹配的功能，不同的行为：语言代理 MCP 和 CLI 接口的对照研究",
+      "descZh": "语言代理越来越多地通过外部工具和交互环境进行操作，使模型及其可执行功能之间的接口成为决策过程的一部分。模型上下文协议 (MCP) 和命令行界面 (CLI) 可以通过明显不同的 mod 公开相同的语义操作",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2609.05881",
@@ -1427,9 +1414,9 @@
       "date": 1792872000000,
       "url": "https://huggingface.co/papers/2609.05881",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "到达时损坏：公共模型注册中心中的非功能性量化 LLM 工件以及如何捕获它们",
+      "descZh": "开发人员从公共注册中心下载量化大型语言模型 (LLM) 以在本地运行。我们检查的所有注册表均未记录其文件的功能测试。我们测试了官方 Ollama 库中 15 个模型系列的所有 305 个符合条件的代码功能 GGUF 标签（llama.cpp 格式），以及 22 个 p",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.37695",
@@ -1570,9 +1557,9 @@
       "date": 1792094400000,
       "url": "https://huggingface.co/papers/2610.23656",
       "metric": "",
-      "titleZh": "",
-      "descZh": "",
-      "translationStatus": "pending"
+      "titleZh": "ABF-Bench：代理区块链取证的可验证基准",
+      "descZh": "区块链取证是对抗性的、开放式的：洗钱者分割、互换和桥接资金，在混合器或托管服务中切断踪迹，并从一个事件到下一个事件改变策略。调查人员必须不断调整追踪方式以做出回应。然而公共账本的不变性保留了每一条记录",
+      "translationStatus": "ready"
     },
     {
       "id": "paper-2610.22990",
