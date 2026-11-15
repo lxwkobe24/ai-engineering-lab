@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T23:54:08+00:00",
+  "generatedAt": "2026-11-15T06:25:30+00:00",
   "sources": {
     "news": {
       "status": "snapshot",
-      "count": 71
+      "count": 70
     },
     "models": {
       "status": "snapshot",
@@ -22,22 +22,165 @@
   "localization": {
     "language": "zh-CN",
     "status": "partial",
-    "ready": 179,
-    "pending": 2,
+    "ready": 167,
+    "pending": 13,
     "notice": "新闻和论文为机器翻译；模型名称、项目名称与版本号保留原名。以原始来源为准。"
   },
   "items": [
+    {
+      "id": "hn-50504473",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek v4.1 Flash",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1794723541000,
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50504343",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "BrowserDo·Embiody – a browser built for AI agents",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1794721656000,
+      "url": "https://embiody.com/blog/embiody-0-9-preview/",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503588",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "desc": "技术社区讨论 · 50 赞同 · 26 条评论。",
+      "date": 1794711954000,
+      "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 50 赞同 · 26 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503531",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Tiny Transmitters Track Monarch Butterflies",
+      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
+      "date": 1794711290000,
+      "url": "https://hackaday.com/2026/11/12/tiny-transmitters-track-monarch-butterflies/",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503435",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Multi-agent AI (LangGraph) to audit AI papers for reproducibility",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1794710118000,
+      "url": "https://github.com/owenpatience2010-cmyk/paperpulse",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503374",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Hardware-Agnostic Models in vLLM",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1794709551000,
+      "url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503266",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Toyota Plans to Sell a Kei Pickup Truck in the U.S.",
+      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "date": 1794708223000,
+      "url": "https://www.nytimes.com/2026/11/10/business/toyota-kei-pickup-truck.html",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50503017",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Ask HN: What AI agent infrastructure are you using in 2026?",
+      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "date": 1794705763000,
+      "url": "https://news.ycombinator.com/item?id=50503017",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50502457",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "Lazarus: Backdooring LLMs by editing ten neurons",
+      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "date": 1794701312000,
+      "url": "https://twitter.com/DimitrisPapail/status/2120245027804705121",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50502453",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek's New LLM Engine Just Made GPUs 3x More Valuable [video]",
+      "desc": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "date": 1794701266000,
+      "url": "https://www.youtube.com/watch?v=2K_Rm8cho1I",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 2 条评论。",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "hn-50502358",
+      "type": "news",
+      "source": "Hacker News",
+      "title": "DeepSeek releases API for its apps along with open source front end",
+      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "date": 1794700532000,
+      "url": "https://twitter.com/deepseek_ai/status/2121247896918253875",
+      "metric": "",
+      "titleZh": "",
+      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "translationStatus": "pending"
+    },
     {
       "id": "hn-50502344",
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: Is post-training make AI models dumber?",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 2 赞同 · 3 条评论。",
       "date": 1794700400000,
       "url": "https://news.ycombinator.com/item?id=50502344",
       "metric": "",
       "titleZh": "问 HN：训练后是否会让 AI 模型变得更笨？",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 2 赞同 · 3 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -149,12 +292,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "A new UMAP release brings major performance, quality, and scaling improvements",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "date": 1794691983000,
       "url": "https://umap-learn.readthedocs.io/en/latest/whats_new_0_6.html",
       "metric": "",
       "titleZh": "新的 UMAP 版本带来了性能、质量和扩展方面的重大改进",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -175,12 +318,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "A Novel Approach Against Male Pattern Hair Loss",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "date": 1794689770000,
       "url": "https://pubmed.ncbi.nlm.nih.gov/40820949/",
       "metric": "",
       "titleZh": "治疗男性型脱发的新方法",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -214,12 +357,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "San Francisco weighs limits on self-checkout stations",
-      "desc": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "date": 1794685430000,
       "url": "https://abc7news.com/post/san-francisco-weighs-limits-checkout-stations/19990668/",
       "metric": "",
       "titleZh": "旧金山考虑限制自助结账站",
-      "descZh": "技术社区讨论 · 2 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -253,12 +396,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "My agent org speedran a company",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 1 条评论。",
       "date": 1794684431000,
       "url": "https://perfloop.ai/blog/my-agent-org-speedran-a-company",
       "metric": "",
       "titleZh": "我的代理组织 speedran 一家公司",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -292,12 +435,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Uber's Rate Limiting System",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "date": 1794681788000,
       "url": "https://www.uber.com/in/en/blog/ubers-rate-limiting-system/",
       "metric": "",
       "titleZh": "Uber 的限速系统",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -340,42 +483,16 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50499172",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "LLMs as Consensus Machines",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1794679047000,
-      "url": "https://hollisrobbinsanecdotal.substack.com/p/thinking-inside-the-box",
-      "metric": "",
-      "titleZh": "法学硕士作为共识机器",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50499150",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Use LLM for direct robot control",
-      "desc": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "date": 1794678904000,
-      "url": "https://arxiv.org/abs/2610.28259",
-      "metric": "",
-      "titleZh": "使用LLM进行直接机器人控制",
-      "descZh": "技术社区讨论 · 1 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50499114",
       "type": "news",
       "source": "Hacker News",
       "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
-      "desc": "技术社区讨论 · 41 赞同 · 61 条评论。",
+      "desc": "技术社区讨论 · 45 赞同 · 63 条评论。",
       "date": 1794678673000,
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
       "metric": "",
       "titleZh": "克劳德要求重新编号页数删除了教授的教学大纲、年份笔记",
-      "descZh": "技术社区讨论 · 41 赞同 · 61 条评论。",
+      "descZh": "技术社区讨论 · 45 赞同 · 63 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -383,12 +500,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "50X: DeepSeek v4.1 Flash from Chile, $0.03M input",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "date": 1794675299000,
       "url": "https://50x.energy/",
       "metric": "",
       "titleZh": "50X：来自智利的 DeepSeek v4.1 Flash，投入 0.03 万美元",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -418,19 +535,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50498314",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Llama.cpp v1.0 on an RTX 3090: up to 55% faster with speculative decoding",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1794673857000,
-      "url": "https://homebrewserver.club/llama-cpp-v1.html",
-      "metric": "",
-      "titleZh": "RTX 3090 上的 Llama.cpp v1.0：推测解码速度提升高达 55%",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50498304",
       "type": "news",
       "source": "Hacker News",
@@ -448,12 +552,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Cowork – Self-hosted task queue and dashboard for Claude, Codex, and AI agents",
-      "desc": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "desc": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "date": 1794673620000,
       "url": "https://github.com/slashman413/cowork",
       "metric": "",
       "titleZh": "Cowork – 用于 Claude、Codex 和 AI 代理的自托管任务队列和仪表板",
-      "descZh": "技术社区讨论 · 3 赞同 · 0 条评论。",
+      "descZh": "技术社区讨论 · 4 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -466,32 +570,6 @@
       "url": "https://hwtn.io/essays/t0013-missing-ring-0-protections-ai",
       "metric": "",
       "titleZh": "AI 代理缺失的 Ring-0 保护",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50498201",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: What HN community recommended learning in 2026",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1794672997000,
-      "url": "https://school-of-hn.pages.dev",
-      "metric": "",
-      "titleZh": "Show HN：HN 社区建议在 2026 年学习什么",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50498118",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "LLMs: Do the Benefits Outweigh the Costs?",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1794672397000,
-      "url": "https://staydecent.ca/blog/on-llms-do-the-benefits-outweigh-the-costs/",
-      "metric": "",
-      "titleZh": "法学硕士：收益大于成本吗？",
       "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
       "translationStatus": "ready"
     },
@@ -509,29 +587,16 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50497748",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: TriusLD – A Small Tokenizer for LLMs with Robust Multilingual Support",
-      "desc": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "date": 1794669783000,
-      "url": "https://trius.canton.graphics/blog/000003.html",
-      "metric": "",
-      "titleZh": "Show HN：TriusLD – 面向法学硕士的小型分词器，具有强大的多语言支持",
-      "descZh": "技术社区讨论 · 1 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50497589",
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "desc": "技术社区讨论 · 142 赞同 · 7 条评论。",
+      "desc": "技术社区讨论 · 214 赞同 · 14 条评论。",
       "date": 1794668655000,
       "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
       "metric": "",
       "titleZh": "以约 200 行纯 Jax 代码显示 HN：DeepSeek V3",
-      "descZh": "技术社区讨论 · 142 赞同 · 7 条评论。",
+      "descZh": "技术社区讨论 · 214 赞同 · 14 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -539,12 +604,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-      "desc": "技术社区讨论 · 125 赞同 · 25 条评论。",
+      "desc": "技术社区讨论 · 152 赞同 · 37 条评论。",
       "date": 1794665154000,
       "url": "https://gitlab.com/snipedbywifi/terminactory",
       "metric": "",
       "titleZh": "Show HN：一款终端原生闲置工厂游戏，用 Rust 和ratatui 编写",
-      "descZh": "技术社区讨论 · 125 赞同 · 25 条评论。",
+      "descZh": "技术社区讨论 · 152 赞同 · 37 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -552,12 +617,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
-      "desc": "技术社区讨论 · 8 赞同 · 1 条评论。",
+      "desc": "技术社区讨论 · 9 赞同 · 1 条评论。",
       "date": 1794661373000,
       "url": "https://www.shotoku.dev/",
       "metric": "",
       "titleZh": "Show HN：Shotoku – 人工智能代理的本地优先行动治理和预算上限",
-      "descZh": "技术社区讨论 · 8 赞同 · 1 条评论。",
+      "descZh": "技术社区讨论 · 9 赞同 · 1 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -587,45 +652,6 @@
       "translationStatus": "ready"
     },
     {
-      "id": "hn-50496396",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Build Your Own AI Coding Agent Harness",
-      "desc": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "date": 1794658186000,
-      "url": "https://vercel.com/academy/build-ai-agent-harness",
-      "metric": "",
-      "titleZh": "构建您自己的 AI 编码代理线束",
-      "descZh": "技术社区讨论 · 2 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50496391",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Amazon's plan to own the product data and fight AI shopping agents",
-      "desc": "技术社区讨论 · 5 赞同 · 0 条评论。",
-      "date": 1794658169000,
-      "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
-      "metric": "",
-      "titleZh": "亚马逊计划拥有产品数据并对抗人工智能代购",
-      "descZh": "技术社区讨论 · 5 赞同 · 0 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50496383",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Do what must be done",
-      "desc": "技术社区讨论 · 7 赞同 · 1 条评论。",
-      "date": 1794658122000,
-      "url": "https://news.ycombinator.com/item?id=50496383",
-      "metric": "",
-      "titleZh": "做必须做的事",
-      "descZh": "技术社区讨论 · 7 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
       "id": "hn-50494668",
       "type": "news",
       "source": "Hacker News",
@@ -643,12 +669,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "Ask HN: OpenAI Astra post-launch slump?",
-      "desc": "技术社区讨论 · 3 赞同 · 4 条评论。",
+      "desc": "技术社区讨论 · 3 赞同 · 6 条评论。",
       "date": 1794626829000,
       "url": "https://news.ycombinator.com/item?id=50493498",
       "metric": "",
       "titleZh": "问 HN：OpenAI Astra 发布后低迷？",
-      "descZh": "技术社区讨论 · 3 赞同 · 4 条评论。",
+      "descZh": "技术社区讨论 · 3 赞同 · 6 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -799,12 +825,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "OpenAI disbands its robotics team as its general models start running robots",
-      "desc": "技术社区讨论 · 174 赞同 · 73 条评论。",
+      "desc": "技术社区讨论 · 176 赞同 · 73 条评论。",
       "date": 1794592523000,
       "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
       "metric": "",
       "titleZh": "随着通用模型开始运行机器人，OpenAI 解散了机器人团队",
-      "descZh": "技术社区讨论 · 174 赞同 · 73 条评论。",
+      "descZh": "技术社区讨论 · 176 赞同 · 73 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -825,12 +851,12 @@
       "type": "news",
       "source": "Hacker News",
       "title": "DeepSeek Ultrafast",
-      "desc": "技术社区讨论 · 69 赞同 · 17 条评论。",
+      "desc": "技术社区讨论 · 70 赞同 · 17 条评论。",
       "date": 1794591543000,
       "url": "https://github.com/basetenlabs/deepseek-ultrafast",
       "metric": "",
       "titleZh": "DeepSeek 超快",
-      "descZh": "技术社区讨论 · 69 赞同 · 17 条评论。",
+      "descZh": "技术社区讨论 · 70 赞同 · 17 条评论。",
       "translationStatus": "ready"
     },
     {
@@ -961,45 +987,6 @@
       "metric": "",
       "titleZh": "问 HN：为什么要使用 Jev/决策模型？",
       "descZh": "技术社区讨论 · 10 赞同 · 8 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50465568",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: Pick your dream LLM H/W setup and simulate its throughput",
-      "desc": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "date": 1794481509000,
-      "url": "https://cro.sh/specmaxx/",
-      "metric": "",
-      "titleZh": "显示 HN：选择您梦想的 LLM 硬件设置并模拟其吞吐量",
-      "descZh": "技术社区讨论 · 3 赞同 · 1 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50465448",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Reasonix Agent Harness Archived",
-      "desc": "技术社区讨论 · 3 赞同 · 3 条评论。",
-      "date": 1794480314000,
-      "url": "https://github.com/esengine/DeepSeek-Reasonix/discussions/15110",
-      "metric": "",
-      "titleZh": "Reasonix 代理线束已存档",
-      "descZh": "技术社区讨论 · 3 赞同 · 3 条评论。",
-      "translationStatus": "ready"
-    },
-    {
-      "id": "hn-50463281",
-      "type": "news",
-      "source": "Hacker News",
-      "title": "Show HN: DeepSeek-Coder-V2-Lite Under 5GB: 65 TPS 100% In-VRAM on 6GB GPU",
-      "desc": "技术社区讨论 · 8 赞同 · 3 条评论。",
-      "date": 1794460063000,
-      "url": "https://huggingface.co/AmSach/DeepSeek-Coder-V2-Lite-Instruct-MAPLE-Sub5GB-GGUF",
-      "metric": "",
-      "titleZh": "显示 HN：5GB 以下的 DeepSeek-Coder-V2-Lite：6GB GPU 上 65 TPS 100% In-VRAM",
-      "descZh": "技术社区讨论 · 8 赞同 · 3 条评论。",
       "translationStatus": "ready"
     },
     {
